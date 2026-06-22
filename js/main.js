@@ -1,5 +1,6 @@
 import { GameState, GAME_PHASES } from './state/GameState.js';
 import { DraftUI } from './ui/DraftUI.js';
+import { SeasonUI } from './ui/SeasonUI.js';
 
 class GameApp {
     constructor() {
@@ -37,12 +38,10 @@ class GameApp {
                 }
                 break;
             case GAME_PHASES.SEASON_INIT:
-                content.innerHTML = `
-                    <h2>Stagione ${state.currentSeason.name}</h2>
-                    <p>La tua squadra è pronta con modulo ${state.userTeam.formation}</p>
-                    <p>Valori Squadra: ATT ${state.userTeam.stats.att} | CC ${state.userTeam.stats.mid} | DIF ${state.userTeam.stats.def} | POR ${state.userTeam.stats.gk}</p>
-                    <button id="btn-start-match" class="btn">Gioca Prossima Partita</button>
-                `;
+                if (!this.seasonUI) {
+                    this.seasonUI = new SeasonUI(state, content);
+                    this.seasonUI.init();
+                }
                 break;
         }
     }

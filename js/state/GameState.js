@@ -23,6 +23,7 @@ export class GameState {
         this.currentSeason = null;
         this.matchday = 1;
         this.schedule = [];
+        this.standings = [];
         this.listeners = [];
     }
 
@@ -82,6 +83,123 @@ export class GameState {
     startSeason(seasonData) {
         this.currentSeason = seasonData;
         this.matchday = 1;
+
+        // 1. Sort teams by real points and remove the worst
+        let teams = [...this.currentSeason.teams];
+        teams.sort((a, b) => a.real_points - b.real_points);
+        teams.shift(); // Remove the lowest team
+
+        // 2. Add user team
+        const userTeamObj = {
+            id: 'user_team',
+            name: 'La Tua Squadra',
+            isUser: true,
+            stats: this.userTeam.stats
+        };
+        teams.push(userTeamObj);
+
+        // 3. Initialize Standings
+        this.standings = teams.map(t => ({
+            id: t.id,
+            name: t.name,
+            isUser: t.isUser || false,
+            points: 0,
+            played: 0,
+            won: 0,
+            drawn: 0,
+            lost: 0,
+            gf: 0,
+            ga: 0,
+            gd: 0,
+            stats: t.stats || t.squad_strength
+        }));
+
+        // 4. Generate Schedule (Round Robin)
+        this.schedule = this.generateRoundRobin(teams);
+
         this.setPhase(GAME_PHASES.SEASON_INIT);
+    }
+
+    generateRoundRobin(teams) {
+        let schedule = [];
+        const n = teams.length;
+        let dummy = null;
+        
+        let teamIds = teams.map(t => t.id);
+
+        for (let round = 0; round < n - 1; round++) {
+            let matchday = [];
+            for (let i = 0; i < n / 2; i++) {
+                let home = teamIds[i];
+                let away = teamIds[n - 1 - i];
+                // Alternate home/away for the first element
+                if (i === 0 && round % 2 === 1) {
+                    [home, away] = [away, home];
+                }
+                matchday.push({ home, away });
+            }
+            schedule.push(matchday);
+            // Rotate array: keep index 0, shift others right
+            teamIds.splice(1, 0, teamIds.pop());
+        }
+
+        // Second half of the season (reverse home/away)
+        let secondHalf = schedule.map(matchday => 
+            matchday.map(match => ({ home: match.away, away: match.home }))
+        );
+
+        return schedule.concat(secondHalf);
+    }
+
+    updateStandings(matchResults) {
+        matchResults.forEach(res => {
+            const homeT = this.standings.find(t => t.id === res.homeId);
+            const awayT = this.standings.find(t => t.id === res.awayId);
+
+            homeT.played++;
+            awayT.played++;
+            homeT.gf += res.homeScore;
+            homeT.ga += res.awayScore;
+            homeT.gd = homeT.gf - homeT.ga;
+
+            awayT.gf += res.awayScore;
+            awayT.ga += res.homeScore;
+            awayT.gd = awayT.gf - awayT.ga;
+
+            if (res.homeScore > res.awayScore) {
+                homeT.won++;
+                homeT.points += 3;
+                awayT.lost++;
+            } else if (res.homeScore < res.awayScore) {
+                awayT.won++;
+                awayT.points += 3;
+                homeT.lost++;
+            } else {
+                homeT.drawn++;
+                awayT.drawn++;
+                homeT.points += 1;
+                awayT.points += 1;
+            }
+        });
+
+        // Sort standings
+        this.standings.sort((a, b) => {
+            if (b.points !== a.points) return b.points - a.points;
+            if (b.gd !== a.gd) return b.gd - a.gd;
+            return b.gf - a.gf;
+        });
+
+        // Update user stats
+        const u = this.standings.find(t => t.isUser);
+        if (u) {
+            this.userTeam.points = u.points;
+            this.userTeam.goalsFor = u.gf;
+            this.userTeam.goalsAgainst = u.ga;
+            this.userTeam.wins = u.won;
+            this.userTeam.draws = u.drawn;
+            this.userTeam.losses = u.lost;
+        }
+
+        this.notifyListeners();
     }
 }
