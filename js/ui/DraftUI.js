@@ -72,24 +72,26 @@ export class DraftUI {
 
     renderFormationSelector() {
         let html = `
-            <div class="draft-setup">
-                <h2>Impostazioni Draft</h2>
+            <div class="draft-setup" style="text-align: center; padding: 2rem;">
+                <h2 style="font-size: 3rem; margin-bottom: 2rem; color: var(--accent); font-family: 'Bebas Neue', sans-serif; letter-spacing: 2px; text-shadow: 0 4px 10px rgba(0,230,255,0.3);">CREA LA TUA LEGGENDA</h2>
                 
-                <div class="settings-panel" style="background: rgba(0,0,0,0.3); padding: 1rem; border-radius: 8px; margin-bottom: 1.5rem;">
-                    <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer; font-size: 1.1rem; font-weight: 600; margin-bottom: 0.5rem;">
-                        <input type="checkbox" id="blind-draft-toggle" style="width: 20px; height: 20px; accent-color: var(--accent);">
-                        Draft al buio (Nascondi Overall)
+                <div class="settings-panel" style="display: flex; flex-direction: column; gap: 1rem; max-width: 500px; margin: 0 auto 2.5rem; background: rgba(15, 23, 42, 0.8); padding: 1.5rem; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+                    <label class="setting-card" style="display: flex; justify-content: space-between; align-items: center; padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 8px; cursor: pointer; transition: all 0.2s;">
+                        <span style="font-size: 1.1rem; font-weight: 600;">Draft al buio (Nascondi Overall)</span>
+                        <input type="checkbox" id="blind-draft-toggle" style="width: 24px; height: 24px; accent-color: var(--accent);">
                     </label>
-                    <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer; font-size: 1.1rem; font-weight: 600;">
-                        <input type="checkbox" id="budget-draft-toggle" style="width: 20px; height: 20px; accent-color: var(--accent);" checked>
-                        Modalità Budget (Tetto Salariale)
+                    <label class="setting-card" style="display: flex; justify-content: space-between; align-items: center; padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 8px; cursor: pointer; transition: all 0.2s;">
+                        <div style="text-align: left;">
+                            <div style="font-size: 1.1rem; font-weight: 600;">Modalità Budget</div>
+                            <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.3rem;">Massimo 250M per 11 titolari</div>
+                        </div>
+                        <input type="checkbox" id="budget-draft-toggle" style="width: 24px; height: 24px; accent-color: var(--accent);" checked>
                     </label>
-                    <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.8rem;">Nella modalità Budget dovrai formare gli 11 titolari senza superare i €150M disponibili!</p>
                 </div>
 
-                <h3>Seleziona il Modulo</h3>
-                <div class="formation-options" style="flex-wrap: wrap;">
-                    ${Object.keys(this.formations).map(f => `<button class="btn formation-btn" data-form="${f}">${f}</button>`).join('')}
+                <h3 style="font-size: 1.5rem; margin-bottom: 1.5rem;">SELEZIONA IL MODULO PER INIZIARE</h3>
+                <div class="formation-options" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 1rem; max-width: 600px; margin: 0 auto;">
+                    ${Object.keys(this.formations).map(f => `<button class="btn formation-btn" data-form="${f}" style="padding: 1rem; font-size: 1.4rem; font-family: 'Bebas Neue', sans-serif;">${f}</button>`).join('')}
                 </div>
             </div>
         `;
@@ -271,18 +273,18 @@ export class DraftUI {
                 <div class="draft-left">
                     <div class="draft-header-info">
                         ${this.budgetMode ? `
-                        <div class="budget-header-wrapper">
-                            <div class="budget-bar-container">
-                                <div class="budget-fill" style="width: ${Math.min((this.budgetSpent / this.budgetMax) * 100, 100)}%; background: ${this.budgetSpent > this.budgetMax ? 'var(--danger-color, #ef4444)' : 'var(--accent)'};"></div>
-                                <div class="budget-text" style="display:flex; justify-content:space-between; padding: 0 15px;">
-                                    <span>BUDGET: €${(this.budgetSpent/1000000).toFixed(1)}M <span style="opacity:0.6; font-weight:normal;">/ €${(this.budgetMax/1000000).toFixed(1)}M</span></span>
-                                    <span>Scelte rimanenti: ${this.picksRemaining}</span>
-                                </div>
+                        <div class="budget-header-wrapper" style="background: none; box-shadow: none; padding: 0; margin-bottom: 15px; margin-top: 0;">
+                            <div class="budget-text" style="display:flex; justify-content:space-between; align-items: flex-end; padding: 0 5px; font-weight: 800; font-size: 1.1rem; margin-bottom: 8px;">
+                                <span>BUDGET: €${(this.budgetSpent/1000000).toFixed(1)}M <span style="opacity:0.6; font-weight:normal; font-size: 0.9rem;">/ €${(this.budgetMax/1000000).toFixed(1)}M</span></span>
+                                <span style="color: var(--accent); font-family: 'Bebas Neue', sans-serif; font-size: 2rem; letter-spacing: 2px; line-height: 1;">${this.picksRemaining}</span>
+                            </div>
+                            <div class="budget-bar-container" style="height: 12px; border-radius: 6px; box-shadow: none; background: rgba(0,0,0,0.5);">
+                                <div class="budget-fill" style="width: ${Math.min((this.budgetSpent / this.budgetMax) * 100, 100)}%; background: ${this.budgetSpent > this.budgetMax ? 'var(--danger-color, #ef4444)' : 'var(--accent)'}; box-shadow: 0 0 10px ${this.budgetSpent > this.budgetMax ? '#ef4444' : 'var(--accent)'};"></div>
                             </div>
                         </div>
                         ` : `
-                        <div style="display: flex; justify-content: flex-end; width: 100%; margin-bottom: 10px;">
-                            <span class="picks-badge">Scelte rimanenti: ${this.picksRemaining}</span>
+                        <div style="display: flex; justify-content: flex-end; width: 100%; margin-bottom: 15px;">
+                            <span style="color: var(--accent); font-family: 'Bebas Neue', sans-serif; font-size: 2.5rem; letter-spacing: 2px; text-shadow: 0 2px 4px rgba(0,0,0,0.5); line-height: 1;">${this.picksRemaining}</span>
                         </div>
                         `}
                     </div>

@@ -1,18 +1,9 @@
 <!DOCTYPE html>
 <html lang="it">
-<head>\n<script>
-    window.onerror = function(msg, url, lineNo, columnNo, error) {
-        alert('Error: ' + msg + '\nURL: ' + url + '\nLine: ' + lineNo + '\nColumn: ' + columnNo + '\nStack: ' + (error ? error.stack : ''));
-        return false;
-    };
-    window.addEventListener('unhandledrejection', function(event) {
-        alert('Promise Error: ' + event.reason);
-    });
-    </script>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yes Passion - Football Manager</title>
-    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&family=Rajdhani:wght@500;700&display=swap" rel="stylesheet">
@@ -25,9 +16,7 @@
                 <span style="color:#008c45">Y</span><span style="color:#f4f9ff">E</span><span style="color:#cd212a">S</span>
                 <span class="logo-passion">Passion</span>
             </h1>
-            <div id="status-bar" class="status-bar">
-                <span id="current-phase">Caricamento...</span>
-            </div>
+
         </header>
 
         <!-- MAIN CONTENT AREA (Dynamic) -->
