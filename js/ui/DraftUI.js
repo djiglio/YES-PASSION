@@ -62,7 +62,7 @@ export class DraftUI {
         this.blindDraft = false;
         
         this.budgetMode = false;
-        this.budgetMax = 500000000; // 500M default
+        this.budgetMax = 150000000; // 150M default
         this.budgetSpent = 0;
     }
 
@@ -191,7 +191,7 @@ export class DraftUI {
                     <div class="slot ${isFilled ? 'filled' : ''} ${isGold ? 'gold-card' : ''}" data-slot-id="${slot.id}">
                         ${isFilled ? `
                             <div class="card-ovr">${displayOvr}</div>
-                            <div class="card-role" style="background: ${this.getRoleColor(p.Ruolo.split(',')[0])}">${p.Ruolo.split(',')[0]}</div>
+                            <div class="card-role" style="color: ${this.getRoleColor(p.Ruolo.split(',')[0])}">${p.Ruolo.split(',')[0]}</div>
                             ${this.budgetMode ? `<div class="budget-tag-pitch ${this.getPriceTierClass(p.ValueNum)}">${p.Value || ''}</div>` : ''}
                             <div class="card-img-placeholder"></div>
                             <div class="card-name">${slot.player.Nome}</div>
@@ -354,7 +354,7 @@ export class DraftUI {
 
         if (this.budgetMode) {
             this.budgetSpent = parseFloat(this.budgetSpent) || 0;
-            this.budgetMax = parseFloat(this.budgetMax) || 500000000;
+            this.budgetMax = parseFloat(this.budgetMax) || 150000000;
             const playerCost = parseFloat(this.selectedPlayer.ValueNum) || 0;
             
             if (this.budgetSpent + playerCost > this.budgetMax) {
