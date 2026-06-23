@@ -62,7 +62,7 @@ export class DraftUI {
         this.blindDraft = false;
         
         this.budgetMode = false;
-        this.budgetMax = 150000000; // 150M default
+        this.budgetMax = 250000000; // 250M default
         this.budgetSpent = 0;
     }
 
@@ -188,16 +188,20 @@ export class DraftUI {
                 const p = slot.player;
                 
                 pitchHtml += `
-                    <div class="slot ${isFilled ? 'filled' : ''} ${isGold ? 'gold-card' : ''}" data-slot-id="${slot.id}">
-                        ${isFilled ? `
-                            <div class="card-ovr">${displayOvr}</div>
-                            <div class="card-role" style="color: ${this.getRoleColor(p.Ruolo.split(',')[0])}">${p.Ruolo.split(',')[0]}</div>
-                            ${this.budgetMode ? `<div class="budget-tag-pitch ${this.getPriceTierClass(p.ValueNum)}">${p.Value || ''}</div>` : ''}
-                            <div class="card-img-placeholder"></div>
-                            <div class="card-name">${slot.player.Nome}</div>
-                        ` : `
-                            <div class="slot-role">${slot.requiredRole}</div>
-                        `}
+                    <div class="slot-wrapper" style="display: flex; flex-direction: column; align-items: center; gap: 4px;">
+                        <div class="slot ${isFilled ? 'filled' : ''} ${isGold ? 'gold-card' : ''}" data-slot-id="${slot.id}">
+                            ${isFilled ? `
+                                <div class="card-top" style="display: flex; flex-direction: column; align-items: center; width: 100%; padding-top: 4px;">
+                                    <div class="card-ovr">${displayOvr}</div>
+                                    <div class="card-role" style="color: ${this.getRoleColor(p.Ruolo.split(',')[0])}">${p.Ruolo.split(',')[0]}</div>
+                                </div>
+                                <div class="card-img-placeholder"></div>
+                                ${this.budgetMode ? `<div class="budget-tag-pitch ${this.getPriceTierClass(p.ValueNum)}">${p.Value || ''}</div>` : ''}
+                            ` : `
+                                <div class="slot-role">${slot.requiredRole}</div>
+                            `}
+                        </div>
+                        ${isFilled ? `<div class="card-name-outside">${slot.player.Nome}</div>` : `<div class="card-name-outside" style="opacity: 0; user-select: none;">-</div>`}
                     </div>
                 `;
             });
@@ -354,7 +358,7 @@ export class DraftUI {
 
         if (this.budgetMode) {
             this.budgetSpent = parseFloat(this.budgetSpent) || 0;
-            this.budgetMax = parseFloat(this.budgetMax) || 150000000;
+            this.budgetMax = parseFloat(this.budgetMax) || 250000000;
             const playerCost = parseFloat(this.selectedPlayer.ValueNum) || 0;
             
             if (this.budgetSpent + playerCost > this.budgetMax) {
