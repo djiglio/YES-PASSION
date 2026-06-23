@@ -72,34 +72,150 @@ export class DraftUI {
 
     renderFormationSelector() {
         let html = `
-            <div class="draft-setup">
-                <h2>Impostazioni Draft</h2>
-                
-                <div class="settings-panel" style="background: rgba(0,0,0,0.3); padding: 1rem; border-radius: 8px; margin-bottom: 1.5rem;">
-                    <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer; font-size: 1.1rem; font-weight: 600; margin-bottom: 0.5rem;">
-                        <input type="checkbox" id="blind-draft-toggle" style="width: 20px; height: 20px; accent-color: var(--accent);">
-                        Draft al buio (Nascondi Overall)
-                    </label>
-                    <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer; font-size: 1.1rem; font-weight: 600;">
-                        <input type="checkbox" id="budget-draft-toggle" style="width: 20px; height: 20px; accent-color: var(--accent);" checked>
-                        Modalità Budget (Tetto Salariale)
-                    </label>
-                    <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.8rem;">Nella modalità Budget dovrai formare gli 11 titolari senza superare i €150M disponibili!</p>
+            <div class="logo-centered">
+                <div class="yes-part"><span style="color:#008c45">Y</span><span style="color:#f4f9ff">E</span><span style="color:#cd212a">S</span></div>
+                <div class="passion-part">PASSION</div>
+            </div>
+
+            <div id="mode-selection" style="max-width: 800px; margin: 0 auto; display: flex; flex-direction: column; gap: 1rem;">
+                <div class="mode-btn" id="mode-classic">
+                    <h3>Classica</h3>
+                    <p>Draft al buio su tutte le stagioni, nessun limite di spesa. Costruisci il tuo dream team affidandoti alla sorte.</p>
+                </div>
+                <div class="mode-btn" id="mode-budget">
+                    <h3>Budget (200M)</h3>
+                    <p>Draft al buio su tutte le stagioni. Crea l'11 perfetto senza sforare il tetto salariale di 200 Milioni.</p>
+                </div>
+                <div class="mode-btn" id="mode-custom">
+                    <h3>Custom</h3>
+                    <p>Personalizza ogni singolo aspetto: budget, punteggi, difficoltà e annata calcistica.</p>
                 </div>
 
-                <h3>Seleziona il Modulo</h3>
-                <div class="formation-options" style="flex-wrap: wrap;">
-                    ${Object.keys(this.formations).map(f => `<button class="btn formation-btn" data-form="${f}">${f}</button>`).join('')}
+                <div id="custom-panel" class="custom-settings" style="display: none;">
+                    <div class="setting-row">
+                        <label>Mostra Punteggi (NO Draft al buio)</label>
+                        <input type="checkbox" id="custom-show-ovr" style="width: 24px; height: 24px;">
+                    </div>
+                    
+                    <div class="setting-row">
+                        <label>Limite Budget</label>
+                        <input type="checkbox" id="custom-budget" style="width: 24px; height: 24px;">
+                    </div>
+                    <div id="custom-budget-slider-container" style="display: none; flex-direction: column; gap: 0.5rem; margin-bottom: 1rem;">
+                        <div style="display:flex; justify-content:space-between; color: var(--accent); font-weight:bold;">
+                            <span>100M</span>
+                            <span id="custom-budget-val">200M</span>
+                            <span>500M</span>
+                        </div>
+                        <input type="range" id="custom-budget-slider" min="100" max="500" step="10" value="200" style="width: 100%;">
+                    </div>
+
+                    <div class="setting-row">
+                        <label>Stagione Singola</label>
+                        <select id="custom-season" class="custom-select">
+                            <option value="all">Tutte (Casuali)</option>
+                            <option value="15">2014-15</option>
+                            <option value="16">2015-16</option>
+                            <option value="17">2016-17</option>
+                            <option value="18">2017-18</option>
+                            <option value="19">2018-19</option>
+                            <option value="20">2019-20</option>
+                            <option value="21">2020-21</option>
+                            <option value="22">2021-22</option>
+                            <option value="23">2022-23</option>
+                        </select>
+                    </div>
+
+                    <div class="setting-row">
+                        <label>Difficoltà (Re-roll massimi)</label>
+                        <select id="custom-reroll" class="custom-select">
+                            <option value="3">Facile (3 Re-roll)</option>
+                            <option value="1" selected>Media (1 Re-roll)</option>
+                            <option value="0">Difficile (Nessun Re-roll)</option>
+                        </select>
+                    </div>
+                    
+                    <button class="btn" id="btn-custom-confirm" style="margin-top: 1rem;">Conferma Personalizzazione</button>
+                </div>
+            </div>
+
+            <div id="formation-selection" style="display: none; text-align: center; margin-top: 2rem;">
+                <h3 style="font-size: 1.5rem; margin-bottom: 1.5rem;">SELEZIONA IL MODULO PER INIZIARE</h3>
+                <div class="formation-options" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 1rem; max-width: 600px; margin: 0 auto;">
+                    ${Object.keys(this.formations).map(f => `<button class="btn formation-btn" data-form="${f}" style="padding: 1rem; font-size: 1.4rem; font-family: 'Bebas Neue', sans-serif;">${f}</button>`).join('')}
                 </div>
             </div>
         `;
         this.container.innerHTML = html;
 
+        const modeSelection = document.getElementById('mode-selection');
+        const formationSelection = document.getElementById('formation-selection');
+        const customPanel = document.getElementById('custom-panel');
+
+        // Setup custom budget slider logic
+        const customBudgetCheck = document.getElementById('custom-budget');
+        const customBudgetSliderContainer = document.getElementById('custom-budget-slider-container');
+        const customBudgetSlider = document.getElementById('custom-budget-slider');
+        const customBudgetVal = document.getElementById('custom-budget-val');
+        
+        customBudgetCheck.addEventListener('change', (e) => {
+            customBudgetSliderContainer.style.display = e.target.checked ? 'flex' : 'none';
+        });
+        customBudgetSlider.addEventListener('input', (e) => {
+            customBudgetVal.textContent = e.target.value + 'M';
+        });
+
+        // Mode: Classic
+        document.getElementById('mode-classic').addEventListener('click', () => {
+            this.blindDraft = true;
+            this.budgetMode = false;
+            this.rerollsLeft = 1;
+            this.customSeason = 'all';
+            
+            modeSelection.style.display = 'none';
+            formationSelection.style.display = 'block';
+        });
+
+        // Mode: Budget
+        document.getElementById('mode-budget').addEventListener('click', () => {
+            this.blindDraft = true;
+            this.budgetMode = true;
+            this.budgetMax = 200000000;
+            this.rerollsLeft = 1;
+            this.customSeason = 'all';
+            
+            modeSelection.style.display = 'none';
+            formationSelection.style.display = 'block';
+        });
+
+        // Mode: Custom Toggle
+        document.getElementById('mode-custom').addEventListener('click', () => {
+            customPanel.style.display = customPanel.style.display === 'none' ? 'flex' : 'none';
+        });
+
+        // Mode: Custom Confirm
+        document.getElementById('btn-custom-confirm').addEventListener('click', () => {
+            this.blindDraft = !document.getElementById('custom-show-ovr').checked;
+            this.budgetMode = customBudgetCheck.checked;
+            this.budgetMax = parseInt(customBudgetSlider.value) * 1000000;
+            this.rerollsLeft = parseInt(document.getElementById('custom-reroll').value);
+            this.customSeason = document.getElementById('custom-season').value;
+            
+            modeSelection.style.display = 'none';
+            formationSelection.style.display = 'block';
+        });
+
         this.container.querySelectorAll('.formation-btn').forEach(btn => {
             btn.addEventListener('click', (e) => {
-                this.blindDraft = document.getElementById('blind-draft-toggle').checked;
-                this.budgetMode = document.getElementById('budget-draft-toggle').checked;
                 this.budgetSpent = 0;
+                
+                // Set available seasons
+                if (this.customSeason && this.customSeason !== 'all') {
+                    this.availableSeasons = [parseInt(this.customSeason)];
+                } else {
+                    this.availableSeasons = [15, 16, 17, 18, 19, 20, 21, 22, 23];
+                }
+
                 this.startDraft(e.target.getAttribute('data-form'));
             });
         });
@@ -236,8 +352,9 @@ export class DraftUI {
             }
 
             teamHtml = `
-                <div class="draft-team-info">
-                    <h3>${this.currentTeam.name} <span class="season-badge">${this.currentSeasonName}</span></h3>
+                <div class="draft-team-info" style="display: flex; justify-content: space-between; align-items: center; padding-right: 0.5rem;">
+                    <h3 style="margin: 0;">${this.currentTeam.name} <span class="season-badge">${this.currentSeasonName}</span></h3>
+                    ${this.rerollsLeft > 0 ? `<button id="btn-reroll-team" class="btn" style="background: var(--danger-color, #ef4444); font-size: 0.8rem; padding: 0.4rem 0.8rem; border-radius: 6px;">Cambia (${this.rerollsLeft})</button>` : ''}
                 </div>
                 <div class="roster-list">
                     ${filteredPlayers.length > 0 ? filteredPlayers.map(item => {
@@ -322,6 +439,16 @@ export class DraftUI {
         if (btnSkip) {
             btnSkip.addEventListener('click', () => {
                 this.rollNextTeam();
+            });
+        }
+
+        const btnReroll = this.container.querySelector('#btn-reroll-team');
+        if (btnReroll) {
+            btnReroll.addEventListener('click', () => {
+                if (this.rerollsLeft > 0) {
+                    this.rerollsLeft--;
+                    this.rollNextTeam();
+                }
             });
         }
 

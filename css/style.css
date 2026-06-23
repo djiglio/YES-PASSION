@@ -19,9 +19,15 @@
 
 body {
     font-family: var(--font-body);
-    background-color: var(--bg-color);
-    background-image: radial-gradient(circle at top right, rgba(0, 230, 255, 0.1), transparent 50%),
-                      radial-gradient(circle at bottom left, rgba(29, 78, 216, 0.1), transparent 50%);
+    background-color: #010a20; /* Deep blue base */
+    /* Champions League inspired background */
+    background-image: 
+        radial-gradient(circle at 15% 50%, rgba(0, 153, 255, 0.15), transparent 25%),
+        radial-gradient(circle at 85% 30%, rgba(0, 230, 255, 0.1), transparent 30%),
+        radial-gradient(circle at 50% 100%, rgba(29, 78, 216, 0.2), transparent 50%),
+        url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M50 5 L61 39 L97 39 L68 60 L79 95 L50 74 L21 95 L32 60 L3 39 L39 39 Z' fill='none' stroke='rgba(0,150,255,0.05)' stroke-width='1'/%3E%3C/svg%3E");
+    background-size: 100% 100%, 100% 100%, 100% 100%, 300px 300px;
+    background-attachment: fixed;
     color: var(--text-main);
     min-height: 100vh;
     display: flex;
@@ -49,8 +55,92 @@ body {
     font-size: 2.5rem;
     font-weight: 900;
     text-transform: uppercase;
+    letter-spacing: -1px;
+}
+.logo-centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    margin-bottom: 2rem;
+}
+.logo-centered .yes-part {
+    font-size: 5rem;
     letter-spacing: 2px;
-    text-shadow: 0 2px 10px rgba(0, 230, 255, 0.3);
+    margin-bottom: -10px;
+}
+.logo-centered .passion-part {
+    font-size: 4rem;
+    color: var(--text-main);
+    letter-spacing: 5px;
+}
+
+.mode-btn {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(0, 230, 255, 0.3);
+    border-radius: 12px;
+    padding: 1.5rem;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.mode-btn:hover {
+    background: rgba(0, 230, 255, 0.1);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+.mode-btn h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    color: var(--accent);
+    letter-spacing: 1px;
+    margin: 0;
+}
+.mode-btn p {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin: 0;
+}
+
+.custom-settings {
+    background: rgba(0,0,0,0.4);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    border: 1px solid rgba(255,255,255,0.1);
+    text-align: left;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.setting-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.setting-row label {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.custom-select {
+    background: rgba(15, 23, 42, 0.8);
+    color: white;
+    border: 1px solid var(--border-color);
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-family: var(--font-body);
+    font-size: 1rem;
+}
+input[type=range] {
+    accent-color: var(--accent);
 }
 
 .logo-passion {
