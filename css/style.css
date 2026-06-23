@@ -655,15 +655,15 @@ input[type=range] {
 .pitch-container {
     width: 100%;
     aspect-ratio: 9 / 16;
-    max-width: 450px;
-    max-height: 800px;
+    max-width: 600px;
+    max-height: 850px;
     margin: 0 auto;
     background-image: url('../assets/images/vertical_pitch.png');
     background-size: cover;
     background-position: center;
     border-radius: 12px;
-    border: 1px solid var(--border-color);
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8);
+    border: none;
+    box-shadow: none;
     overflow: hidden;
     position: relative;
 }
@@ -674,7 +674,7 @@ input[type=range] {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 4.5rem 2rem;
+    padding: 2rem 1rem;
     background: none;
 }
 
@@ -833,8 +833,8 @@ input[type=range] {
     }
     .card-ovr { font-size: 1rem; }
     .card-name-outside { font-size: 0.9rem; width: 65px; }
-    .pitch-container { max-width: 100%; aspect-ratio: auto; height: 350px; margin-bottom: 20px; }
-    .pitch { padding: 1rem 0.5rem; }
+    .pitch-container { max-width: 100%; aspect-ratio: 4/5; height: auto; min-height: 400px; margin-bottom: 20px; }
+    .pitch { padding: 1rem 0.2rem; }
     .roster-grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); }
     .season-left, .season-right { min-width: 100%; }
 }
