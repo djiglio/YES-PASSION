@@ -722,6 +722,7 @@ input[type=range] {
     position: relative;
     transition: transform 0.2s, box-shadow 0.2s;
     cursor: pointer;
+    pointer-events: auto;
 }
 
 /* Empty slot styling - T-Shirt 3D (White and Smaller) */

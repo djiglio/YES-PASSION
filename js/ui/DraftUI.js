@@ -363,7 +363,7 @@ export class DraftUI {
                 const p = slot.player;
                 
                 pitchHtml += `
-                    <div class="slot-wrapper" style="display: flex; flex-direction: column; align-items: center; gap: 4px;">
+                    <div class="slot-wrapper" style="display: flex; flex-direction: column; align-items: center; gap: 4px; z-index: 10; position: relative;">
                         <div class="slot ${isFilled ? 'filled' : ''} ${isGold ? 'gold-card' : ''}" data-slot-id="${slot.id}">
                             ${isFilled ? `
                                 <div class="card-top" style="display: flex; flex-direction: column; align-items: center; width: 100%; padding-top: 4px;">
@@ -452,13 +452,13 @@ export class DraftUI {
                                 <div class="budget-fill" style="width: ${Math.min((this.budgetSpent / this.budgetMax) * 100, 100)}%; background: ${this.budgetSpent > this.budgetMax ? 'var(--danger-color, #ef4444)' : 'var(--accent)'};"></div>
                                 <div class="budget-text" style="display:flex; justify-content:space-between; padding: 0 15px;">
                                     <span>BUDGET: €${(this.budgetSpent/1000000).toFixed(1)}M <span style="opacity:0.6; font-weight:normal;">/ €${(this.budgetMax/1000000).toFixed(1)}M</span></span>
-                                    <span>Scelte rimanenti: ${this.picksRemaining}</span>
+                                    <span>${11 - this.picksRemaining}/11</span>
                                 </div>
                             </div>
                         </div>
                         ` : `
                         <div style="display: flex; justify-content: flex-end; width: 100%; margin-bottom: 10px;">
-                            <span class="picks-badge">Scelte rimanenti: ${this.picksRemaining}</span>
+                            <span class="picks-badge">${11 - this.picksRemaining}/11</span>
                         </div>
                         `}
                     </div>
