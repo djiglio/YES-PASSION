@@ -572,17 +572,13 @@ body {
         flex-direction: column-reverse;
     }
     .slot {
-        width: 45px;
-        height: 65px;
-        border-radius: 4px;
+        width: 60px;
+        height: 90px;
     }
-    .card-ovr { font-size: 0.85rem; margin-top: 1px; }
-    .card-role { font-size: 0.55rem; }
-    .budget-tag-pitch { font-size: 0.45rem; padding: 1px 3px; }
-    .card-name-outside { font-size: 0.75rem; width: 55px; }
-    .pitch-container { max-width: 100%; aspect-ratio: auto; min-height: 400px; height: auto; margin-bottom: 20px; }
-    .pitch { padding: 0.5rem 0.2rem; gap: 0; }
-    .pitch-row { gap: 0; }
+    .card-ovr { font-size: 1rem; }
+    .card-name-outside { font-size: 0.9rem; width: 65px; }
+    .pitch-container { max-width: 100%; aspect-ratio: auto; height: 350px; margin-bottom: 20px; }
+    .pitch { padding: 1rem 0.5rem; }
     .roster-grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); }
     .season-left, .season-right { min-width: 100%; }
 }
