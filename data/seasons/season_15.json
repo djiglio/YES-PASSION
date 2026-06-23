@@ -16,167 +16,266 @@
         {
           "Nome": "C. Tévez",
           "Ruolo": "ATT, AT",
-          "Overall": 85
+          "Overall": 85,
+          "Value": "€21.9M",
+          "ValueNum": 21887500.0,
+          "Age": 31
         },
         {
           "Nome": "A. Vidal",
           "Ruolo": "CC, CDC",
-          "Overall": 85
+          "Overall": 85,
+          "Value": "€25.8M",
+          "ValueNum": 25750000.0,
+          "Age": 28
         },
         {
           "Nome": "A. Pirlo",
           "Ruolo": "CC, CDC",
-          "Overall": 84
+          "Overall": 84,
+          "Value": "€36.3M",
+          "ValueNum": 36256000.00000001,
+          "Age": 20
         },
         {
           "Nome": "G. Chiellini",
           "Ruolo": "DC",
-          "Overall": 84
+          "Overall": 84,
+          "Value": "€18.1M",
+          "ValueNum": 18139000.0,
+          "Age": 31
         },
         {
           "Nome": "A. Barzagli",
           "Ruolo": "DC",
-          "Overall": 83
+          "Overall": 83,
+          "Value": "€15.9M",
+          "ValueNum": 15911999.999999998,
+          "Age": 30
         },
         {
           "Nome": "C. Marchisio",
           "Ruolo": "CC, CDC, COC",
-          "Overall": 83
+          "Overall": 83,
+          "Value": "€18.9M",
+          "ValueNum": 18915000.0,
+          "Age": 25
         },
         {
           "Nome": "P. Pogba",
           "Ruolo": "CC, COC",
-          "Overall": 83
+          "Overall": 83,
+          "Value": "€24.1M",
+          "ValueNum": 24102000.0,
+          "Age": 22
         },
         {
           "Nome": "G. Buffon",
           "Ruolo": "POR",
-          "Overall": 82
+          "Overall": 82,
+          "Value": "€7.1M",
+          "ValueNum": 7072000.000000001,
+          "Age": 37
         },
         {
           "Nome": "Llorente",
           "Ruolo": "ATT",
-          "Overall": 81
+          "Overall": 81,
+          "Value": "€14.9M",
+          "ValueNum": 14935000.0,
+          "Age": 27
         },
         {
           "Nome": "P. Evra",
           "Ruolo": "TS, ES",
-          "Overall": 80
+          "Overall": 80,
+          "Value": "€12.2M",
+          "ValueNum": 12240000.0,
+          "Age": 25
         },
         {
           "Nome": "M. Cáceres",
           "Ruolo": "DC, TD",
-          "Overall": 79
+          "Overall": 79,
+          "Value": "€9.5M",
+          "ValueNum": 9500000.0,
+          "Age": 28
         },
         {
           "Nome": "L. Bonucci",
           "Ruolo": "DC",
-          "Overall": 79
+          "Overall": 79,
+          "Value": "€9.5M",
+          "ValueNum": 9500000.0,
+          "Age": 28
         },
         {
           "Nome": "K. Asamoah",
           "Ruolo": "ES, CC",
-          "Overall": 79
+          "Overall": 79,
+          "Value": "€9.5M",
+          "ValueNum": 9500000.0,
+          "Age": 27
         },
         {
           "Nome": "S. Lichtsteiner",
           "Ruolo": "ED, TD",
-          "Overall": 77
+          "Overall": 77,
+          "Value": "€6.0M",
+          "ValueNum": 5950000.0,
+          "Age": 29
         },
         {
           "Nome": "A. Ogbonna",
           "Ruolo": "DC",
-          "Overall": 77
+          "Overall": 77,
+          "Value": "€6.6M",
+          "ValueNum": 6649999.999999999,
+          "Age": 27
         },
         {
           "Nome": "R. Pereyra",
           "Ruolo": "CC, COC, AT",
-          "Overall": 77
+          "Overall": 77,
+          "Value": "€8.0M",
+          "ValueNum": 7980000.0,
+          "Age": 24
         },
         {
           "Nome": "Morata",
           "Ruolo": "ATT",
-          "Overall": 77
+          "Overall": 77,
+          "Value": "€8.5M",
+          "ValueNum": 8484000.0,
+          "Age": 23
         },
         {
           "Nome": "S. Giovinco",
           "Ruolo": "AT",
-          "Overall": 76
+          "Overall": 76,
+          "Value": "€5.3M",
+          "ValueNum": 5279999.999999999,
+          "Age": 28
         },
         {
           "Nome": "Rômulo",
           "Ruolo": "CC, TD",
-          "Overall": 76
+          "Overall": 76,
+          "Value": "€8.9M",
+          "ValueNum": 8888000.000000002,
+          "Age": 19
         },
         {
           "Nome": "S. Pepe",
           "Ruolo": "ED, ES",
-          "Overall": 75
+          "Overall": 75,
+          "Value": "€3.5M",
+          "ValueNum": 3468000.0,
+          "Age": 30
         },
         {
           "Nome": "M. Storari",
           "Ruolo": "POR",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€3.3M",
+          "ValueNum": 3324999.9999999995,
+          "Age": 28
         },
         {
           "Nome": "S. Padoin",
           "Ruolo": "ED, CC",
-          "Overall": 73
+          "Overall": 73,
+          "Value": "€3.1M",
+          "ValueNum": 3120000.0,
+          "Age": 25
         },
         {
           "Nome": "M. Motta",
           "Ruolo": "ED, TD",
-          "Overall": 71
+          "Overall": 71,
+          "Value": "€2.1M",
+          "ValueNum": 2060000.0,
+          "Age": 25
         },
         {
           "Nome": "L. Marrone",
           "Ruolo": "CDC, DC",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€1.4M",
+          "ValueNum": 1424999.9999999998,
+          "Age": 25
         },
         {
           "Nome": "Rubinho",
           "Ruolo": "POR",
-          "Overall": 68
+          "Overall": 68,
+          "Value": "€1.3M",
+          "ValueNum": 1346400.0,
+          "Age": 22
         },
         {
           "Nome": "K. Coman",
           "Ruolo": "AS, ATT",
-          "Overall": 67
+          "Overall": 67,
+          "Value": "€1.5M",
+          "ValueNum": 1483200.0000000002,
+          "Age": 19
         },
         {
           "Nome": "Y. Bnou-Marzuk",
           "Ruolo": "ATT",
-          "Overall": 63
+          "Overall": 63,
+          "Value": "€198K",
+          "ValueNum": 198000.0,
+          "Age": 26
         },
         {
           "Nome": "Carlos Blanco",
           "Ruolo": "DC",
-          "Overall": 62
+          "Overall": 62,
+          "Value": "€314K",
+          "ValueNum": 313600.00000000006,
+          "Age": 19
         },
         {
           "Nome": "Sergio Buenacasa",
           "Ruolo": "ATT",
-          "Overall": 62
+          "Overall": 62,
+          "Value": "€323K",
+          "ValueNum": 323200.00000000006,
+          "Age": 19
         },
         {
           "Nome": "J. Cevallos",
           "Ruolo": "COC",
-          "Overall": 60
+          "Overall": 60,
+          "Value": "€307K",
+          "ValueNum": 307200.0,
+          "Age": 20
         },
         {
           "Nome": "F. Mattiello",
           "Ruolo": "ED",
-          "Overall": 60
+          "Overall": 60,
+          "Value": "€310K",
+          "ValueNum": 310400.00000000006,
+          "Age": 20
         },
         {
           "Nome": "L. Citti",
           "Ruolo": "POR",
-          "Overall": 58
+          "Overall": 58,
+          "Value": "€206K",
+          "ValueNum": 206000.00000000003,
+          "Age": 25
         },
         {
           "Nome": "E. Ceria",
           "Ruolo": "ES",
-          "Overall": 57
+          "Overall": 57,
+          "Value": "€206K",
+          "ValueNum": 206000.00000000003,
+          "Age": 25
         }
       ]
     },
@@ -194,167 +293,266 @@
         {
           "Nome": "D. De Rossi",
           "Ruolo": "CDC",
-          "Overall": 84
+          "Overall": 84,
+          "Value": "€12.7M",
+          "ValueNum": 12671999.999999998,
+          "Age": 32
         },
         {
           "Nome": "M. Pjanić",
           "Ruolo": "CC",
-          "Overall": 83
+          "Overall": 83,
+          "Value": "€20.3M",
+          "ValueNum": 20280000.0,
+          "Age": 25
         },
         {
           "Nome": "A. Cole",
           "Ruolo": "TS",
-          "Overall": 81
+          "Overall": 81,
+          "Value": "€14.8M",
+          "ValueNum": 14790000.0,
+          "Age": 25
         },
         {
           "Nome": "Gervinho",
           "Ruolo": "AS, AD",
-          "Overall": 81
+          "Overall": 81,
+          "Value": "€14.9M",
+          "ValueNum": 14935000.0,
+          "Age": 28
         },
         {
           "Nome": "Leandro Castán",
           "Ruolo": "DC",
-          "Overall": 81
+          "Overall": 81,
+          "Value": "€23.0M",
+          "ValueNum": 22968000.000000004,
+          "Age": 21
         },
         {
           "Nome": "K. Strootman",
           "Ruolo": "CC",
-          "Overall": 81
+          "Overall": 81,
+          "Value": "€14.1M",
+          "ValueNum": 14065000.0,
+          "Age": 25
         },
         {
           "Nome": "F. Totti",
           "Ruolo": "AT, ATT",
-          "Overall": 80
+          "Overall": 80,
+          "Value": "€12.4M",
+          "ValueNum": 12360000.0,
+          "Age": 27
         },
         {
           "Nome": "M. De Sanctis",
           "Ruolo": "POR",
-          "Overall": 79
+          "Overall": 79,
+          "Value": "€15.7M",
+          "ValueNum": 15680000.0,
+          "Age": 20
         },
         {
           "Nome": "Maicon",
           "Ruolo": "TD",
-          "Overall": 79
+          "Overall": 79,
+          "Value": "€10.1M",
+          "ValueNum": 10100000.0,
+          "Age": 27
         },
         {
           "Nome": "R. Nainggolan",
           "Ruolo": "CC",
-          "Overall": 79
+          "Overall": 79,
+          "Value": "€9.8M",
+          "ValueNum": 9800000.0,
+          "Age": 27
         },
         {
           "Nome": "D. Astori",
           "Ruolo": "DC",
-          "Overall": 78
+          "Overall": 78,
+          "Value": "€8.8M",
+          "ValueNum": 8840000.0,
+          "Age": 26
         },
         {
           "Nome": "S. Keita",
           "Ruolo": "CDC, CC",
-          "Overall": 77
+          "Overall": 77,
+          "Value": "€2.9M",
+          "ValueNum": 2884000.0000000005,
+          "Age": 35
         },
         {
           "Nome": "M. Destro",
           "Ruolo": "ATT",
-          "Overall": 77
+          "Overall": 77,
+          "Value": "€8.7M",
+          "ValueNum": 8736000.0,
+          "Age": 24
         },
         {
           "Nome": "J. Iturbe",
           "Ruolo": "AD",
-          "Overall": 77
+          "Overall": 77,
+          "Value": "€8.7M",
+          "ValueNum": 8736000.0,
+          "Age": 22
         },
         {
           "Nome": "M. Yanga-M'Biwa",
           "Ruolo": "DC, TD",
-          "Overall": 76
+          "Overall": 76,
+          "Value": "€5.5M",
+          "ValueNum": 5500000.0,
+          "Age": 27
         },
         {
           "Nome": "A. Ljajić",
           "Ruolo": "AS, AD, AT",
-          "Overall": 76
+          "Overall": 76,
+          "Value": "€6.9M",
+          "ValueNum": 6864000.0,
+          "Age": 24
         },
         {
           "Nome": "K. Manolas",
           "Ruolo": "DC",
-          "Overall": 76
+          "Overall": 76,
+          "Value": "€6.3M",
+          "ValueNum": 6270000.0,
+          "Age": 24
         },
         {
           "Nome": "A. Florenzi",
           "Ruolo": "AD, AS, CC",
-          "Overall": 76
+          "Overall": 76,
+          "Value": "€6.3M",
+          "ValueNum": 6335999.999999999,
+          "Age": 24
         },
         {
           "Nome": "M. Borriello",
           "Ruolo": "ATT",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€2.9M",
+          "ValueNum": 2885750.0,
+          "Age": 30
         },
         {
           "Nome": "V. Torosidis",
           "Ruolo": "TD, TS",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€2.9M",
+          "ValueNum": 2885750.0,
+          "Age": 30
         },
         {
           "Nome": "U. Emanuelson",
           "Ruolo": "TS",
-          "Overall": 73
+          "Overall": 73,
+          "Value": "€2.5M",
+          "ValueNum": 2498999.9999999995,
+          "Age": 29
         },
         {
           "Nome": "G. Curci",
           "Ruolo": "POR",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€2.2M",
+          "ValueNum": 2188750.0,
+          "Age": 29
         },
         {
           "Nome": "J. Holebas",
           "Ruolo": "TS, ES, AS",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€2.0M",
+          "ValueNum": 2018749.9999999998,
+          "Age": 31
         },
         {
           "Nome": "F. Balzaretti",
           "Ruolo": "TS",
-          "Overall": 71
+          "Overall": 71,
+          "Value": "€1.7M",
+          "ValueNum": 1666000.0,
+          "Age": 30
         },
         {
           "Nome": "L. Paredes",
           "Ruolo": "COC",
-          "Overall": 71
+          "Overall": 71,
+          "Value": "€3.0M",
+          "ValueNum": 3040000.0,
+          "Age": 21
         },
         {
           "Nome": "S. Uçan",
           "Ruolo": "CC, COC",
-          "Overall": 71
+          "Overall": 71,
+          "Value": "€3.3M",
+          "ValueNum": 3264000.0000000005,
+          "Age": 21
         },
         {
           "Nome": "B. Lobonţ",
           "Ruolo": "POR",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€1.6M",
+          "ValueNum": 1560000.0,
+          "Age": 26
         },
         {
           "Nome": "Ł. Skorupski",
           "Ruolo": "POR",
-          "Overall": 69
+          "Overall": 69,
+          "Value": "€1.1M",
+          "ValueNum": 1071850.0,
+          "Age": 29
         },
         {
           "Nome": "A. Sanabria",
           "Ruolo": "ATT",
-          "Overall": 64
+          "Overall": 64,
+          "Value": "€307K",
+          "ValueNum": 307200.0,
+          "Age": 19
         },
         {
           "Nome": "M. Somma",
           "Ruolo": "DC, TD",
-          "Overall": 60
+          "Overall": 60,
+          "Value": "€330K",
+          "ValueNum": 329600.00000000006,
+          "Age": 20
         },
         {
           "Nome": "T. Svedkauskas",
           "Ruolo": "POR",
-          "Overall": 58
+          "Overall": 58,
+          "Value": "€198K",
+          "ValueNum": 198000.0,
+          "Age": 28
         },
         {
           "Nome": "F. Di Mariano",
           "Ruolo": "COC",
-          "Overall": 55
+          "Overall": 55,
+          "Value": "€314K",
+          "ValueNum": 313600.00000000006,
+          "Age": 19
         },
         {
           "Nome": "E. Capradossi",
           "Ruolo": "DC",
-          "Overall": 49
+          "Overall": 49,
+          "Value": "€314K",
+          "ValueNum": 313600.00000000006,
+          "Age": 19
         }
       ]
     },
@@ -372,162 +570,258 @@
         {
           "Nome": "G. Higuaín",
           "Ruolo": "ATT",
-          "Overall": 84
+          "Overall": 84,
+          "Value": "€20.9M",
+          "ValueNum": 20900000.0,
+          "Age": 28
         },
         {
           "Nome": "M. Hamšik",
           "Ruolo": "COC",
-          "Overall": 82
+          "Overall": 82,
+          "Value": "€21.2M",
+          "ValueNum": 21215999.999999996,
+          "Age": 23
         },
         {
           "Nome": "D. Mertens",
           "Ruolo": "COC",
-          "Overall": 82
+          "Overall": 82,
+          "Value": "€16.1M",
+          "ValueNum": 16149999.999999998,
+          "Age": 28
         },
         {
           "Nome": "Raúl Albiol",
           "Ruolo": "DC",
-          "Overall": 80
+          "Overall": 80,
+          "Value": "€9.8M",
+          "ValueNum": 9792000.0,
+          "Age": 30
         },
         {
           "Nome": "José Callejón",
           "Ruolo": "COC, ED",
-          "Overall": 80
+          "Overall": 80,
+          "Value": "€11.8M",
+          "ValueNum": 11760000.0,
+          "Age": 28
         },
         {
           "Nome": "G. Inler",
           "Ruolo": "CDC, CC",
-          "Overall": 79
+          "Overall": 79,
+          "Value": "€16.5M",
+          "ValueNum": 16480000.0,
+          "Age": 20
         },
         {
           "Nome": "L. Insigne",
           "Ruolo": "COC, AT, AS",
-          "Overall": 79
+          "Overall": 79,
+          "Value": "€11.4M",
+          "ValueNum": 11399999.999999998,
+          "Age": 24
         },
         {
           "Nome": "Michu",
           "Ruolo": "ATT, COC",
-          "Overall": 78
+          "Overall": 78,
+          "Value": "€8.5M",
+          "ValueNum": 8500000.0,
+          "Age": 25
         },
         {
           "Nome": "C. Maggio",
           "Ruolo": "TD, ED",
-          "Overall": 76
+          "Overall": 76,
+          "Value": "€3.4M",
+          "ValueNum": 3432000.0,
+          "Age": 33
         },
         {
           "Nome": "J. De Guzmán",
           "Ruolo": "COC, CC",
-          "Overall": 76
+          "Overall": 76,
+          "Value": "€5.3M",
+          "ValueNum": 5335000.0,
+          "Age": 28
         },
         {
           "Nome": "Henrique",
           "Ruolo": "DC, CDC, TD",
-          "Overall": 76
+          "Overall": 76,
+          "Value": "€9.1M",
+          "ValueNum": 9064000.000000002,
+          "Age": 20
         },
         {
           "Nome": "Jorginho",
           "Ruolo": "CDC, CC",
-          "Overall": 76
+          "Overall": 76,
+          "Value": "€6.8M",
+          "ValueNum": 6798000.0,
+          "Age": 24
         },
         {
           "Nome": "M. Britos",
           "Ruolo": "DC",
-          "Overall": 75
+          "Overall": 75,
+          "Value": "€5.0M",
+          "ValueNum": 4992000.0,
+          "Age": 24
         },
         {
           "Nome": "F. Ghoulam",
           "Ruolo": "TS",
-          "Overall": 75
+          "Overall": 75,
+          "Value": "€4.6M",
+          "ValueNum": 4560000.0,
+          "Age": 24
         },
         {
           "Nome": "J. Zúñiga",
           "Ruolo": "TS, ES",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€3.6M",
+          "ValueNum": 3640000.0,
+          "Age": 28
         },
         {
           "Nome": "Rafael",
           "Ruolo": "POR",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€3.5M",
+          "ValueNum": 3535000.0,
+          "Age": 25
         },
         {
           "Nome": "David López",
           "Ruolo": "CDC, CC",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€3.4M",
+          "ValueNum": 3360000.0,
+          "Age": 26
         },
         {
           "Nome": "D. Zapata",
           "Ruolo": "ATT",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€4.4M",
+          "ValueNum": 4368000.0,
+          "Age": 24
         },
         {
           "Nome": "W. Gargano",
           "Ruolo": "CC, CDC",
-          "Overall": 73
+          "Overall": 73,
+          "Value": "€3.4M",
+          "ValueNum": 3419999.9999999995,
+          "Age": 24
         },
         {
           "Nome": "K. Koulibaly",
           "Ruolo": "DC",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€2.9M",
+          "ValueNum": 2910000.0,
+          "Age": 24
         },
         {
           "Nome": "M. Andújar",
           "Ruolo": "POR",
-          "Overall": 71
+          "Overall": 71,
+          "Value": "€1.1M",
+          "ValueNum": 1140000.0,
+          "Age": 32
         },
         {
           "Nome": "G. Mesto",
           "Ruolo": "TD, ED",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€1.9M",
+          "ValueNum": 1853999.9999999998,
+          "Age": 24
         },
         {
           "Nome": "A. Rosati",
           "Ruolo": "POR",
-          "Overall": 67
+          "Overall": 67,
+          "Value": "€562K",
+          "ValueNum": 561600.0000000001,
+          "Age": 32
         },
         {
           "Nome": "R. Colombo",
           "Ruolo": "POR",
-          "Overall": 64
+          "Overall": 64,
+          "Value": "€190K",
+          "ValueNum": 190000.0,
+          "Age": 25
         },
         {
           "Nome": "J. Radošević",
           "Ruolo": "CDC, CC",
-          "Overall": 64
+          "Overall": 64,
+          "Value": "€310K",
+          "ValueNum": 310400.00000000006,
+          "Age": 21
         },
         {
           "Nome": "F. Gaetano",
           "Ruolo": "COC",
-          "Overall": 57
+          "Overall": 57,
+          "Value": "€190K",
+          "ValueNum": 190000.0,
+          "Age": 25
         },
         {
           "Nome": "N. Contini",
           "Ruolo": "POR",
-          "Overall": 55
+          "Overall": 55,
+          "Value": "€304K",
+          "ValueNum": 304000.00000000006,
+          "Age": 19
         },
         {
           "Nome": "F. Liivak",
           "Ruolo": "ATT",
-          "Overall": 55
+          "Overall": 55,
+          "Value": "€250K",
+          "ValueNum": 249600.0,
+          "Age": 23
         },
         {
           "Nome": "L. Palmiero",
           "Ruolo": "CC",
-          "Overall": 54
+          "Overall": 54,
+          "Value": "€307K",
+          "ValueNum": 307200.0,
+          "Age": 19
         },
         {
           "Nome": "V. Guardiglio",
           "Ruolo": "TD",
-          "Overall": 54
+          "Overall": 54,
+          "Value": "€196K",
+          "ValueNum": 196000.0,
+          "Age": 27
         },
         {
           "Nome": "A. Romano",
           "Ruolo": "CC",
-          "Overall": 54
+          "Overall": 54,
+          "Value": "€333K",
+          "ValueNum": 332800.0000000001,
+          "Age": 19
         },
         {
           "Nome": "S. Luperto",
           "Ruolo": "TS",
-          "Overall": 52
+          "Overall": 52,
+          "Value": "€304K",
+          "ValueNum": 304000.00000000006,
+          "Age": 19
         }
       ]
     },
@@ -545,167 +839,266 @@
         {
           "Nome": "N. Vidić",
           "Ruolo": "DC",
-          "Overall": 83
+          "Overall": 83,
+          "Value": "€17.1M",
+          "ValueNum": 17072250.0,
+          "Age": 29
         },
         {
           "Nome": "S. Handanovič",
           "Ruolo": "POR",
-          "Overall": 83
+          "Overall": 83,
+          "Value": "€16.2M",
+          "ValueNum": 16243499.999999998,
+          "Age": 31
         },
         {
           "Nome": "R. Palacio",
           "Ruolo": "ATT",
-          "Overall": 82
+          "Overall": 82,
+          "Value": "€9.7M",
+          "ValueNum": 9690000.0,
+          "Age": 33
         },
         {
           "Nome": "Hernanes",
           "Ruolo": "CC, COC",
-          "Overall": 82
+          "Overall": 82,
+          "Value": "€14.9M",
+          "ValueNum": 14883500.0,
+          "Age": 29
         },
         {
           "Nome": "F. Guarín",
           "Ruolo": "CC, COC",
-          "Overall": 79
+          "Overall": 79,
+          "Value": "€10.4M",
+          "ValueNum": 10400000.0,
+          "Age": 27
         },
         {
           "Nome": "Y. M'Vila",
           "Ruolo": "CDC, CC",
-          "Overall": 78
+          "Overall": 78,
+          "Value": "€8.8M",
+          "ValueNum": 8840000.0,
+          "Age": 25
         },
         {
           "Nome": "Juan Jesus",
           "Ruolo": "DC",
-          "Overall": 78
+          "Overall": 78,
+          "Value": "€9.7M",
+          "ValueNum": 9690000.0,
+          "Age": 24
         },
         {
           "Nome": "H. Campagnaro",
           "Ruolo": "DC",
-          "Overall": 77
+          "Overall": 77,
+          "Value": "€2.7M",
+          "ValueNum": 2744000.0,
+          "Age": 35
         },
         {
           "Nome": "Jonathan",
           "Ruolo": "ED",
-          "Overall": 77
+          "Overall": 77,
+          "Value": "€8.7M",
+          "ValueNum": 8652000.000000002,
+          "Age": 23
         },
         {
           "Nome": "P. Osvaldo",
           "Ruolo": "ATT",
-          "Overall": 77
+          "Overall": 77,
+          "Value": "€8.0M",
+          "ValueNum": 7980000.0,
+          "Age": 24
         },
         {
           "Nome": "A. Ranocchia",
           "Ruolo": "DC",
-          "Overall": 77
+          "Overall": 77,
+          "Value": "€6.8M",
+          "ValueNum": 6790000.0,
+          "Age": 27
         },
         {
           "Nome": "G. Medel",
           "Ruolo": "CDC, CC",
-          "Overall": 76
+          "Overall": 76,
+          "Value": "€5.7M",
+          "ValueNum": 5665000.0,
+          "Age": 28
         },
         {
           "Nome": "Y. Nagatomo",
           "Ruolo": "ES",
-          "Overall": 76
+          "Overall": 76,
+          "Value": "€4.5M",
+          "ValueNum": 4488000.0,
+          "Age": 29
         },
         {
           "Nome": "M. Icardi",
           "Ruolo": "ATT",
-          "Overall": 76
+          "Overall": 76,
+          "Value": "€6.9M",
+          "ValueNum": 6864000.0,
+          "Age": 22
         },
         {
           "Nome": "Z. Kuzmanović",
           "Ruolo": "CDC, CC",
-          "Overall": 75
+          "Overall": 75,
+          "Value": "€3.9M",
+          "ValueNum": 3920000.0,
+          "Age": 28
         },
         {
           "Nome": "M. Kovačić",
           "Ruolo": "CC",
-          "Overall": 75
+          "Overall": 75,
+          "Value": "€6.1M",
+          "ValueNum": 6080000.0,
+          "Age": 21
         },
         {
           "Nome": "J. Carrizo",
           "Ruolo": "POR",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€3.3M",
+          "ValueNum": 3324999.9999999995,
+          "Age": 28
         },
         {
           "Nome": "M. Andreolli",
           "Ruolo": "DC",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€2.9M",
+          "ValueNum": 2885750.0,
+          "Age": 29
         },
         {
           "Nome": "R. Krhin",
           "Ruolo": "CDC, CC",
-          "Overall": 71
+          "Overall": 71,
+          "Value": "€2.1M",
+          "ValueNum": 2060000.0,
+          "Age": 25
         },
         {
           "Nome": "J. Obi",
           "Ruolo": "CC",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€1.8M",
+          "ValueNum": 1817999.9999999998,
+          "Age": 24
         },
         {
           "Nome": "Dodô",
           "Ruolo": "TS, ES",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€2.4M",
+          "ValueNum": 2376000.0000000005,
+          "Age": 17
         },
         {
           "Nome": "D. D'Ambrosio",
           "Ruolo": "ES, ED, TS",
-          "Overall": 68
+          "Overall": 68,
+          "Value": "€1.1M",
+          "ValueNum": 1078000.0,
+          "Age": 27
         },
         {
           "Nome": "I. Mbaye",
           "Ruolo": "ES, ED",
-          "Overall": 65
+          "Overall": 65,
+          "Value": "€824K",
+          "ValueNum": 824000.0000000001,
+          "Age": 21
         },
         {
           "Nome": "T. Berni",
           "Ruolo": "POR",
-          "Overall": 63
+          "Overall": 63,
+          "Value": "€124K",
+          "ValueNum": 123600.0,
+          "Age": 32
         },
         {
           "Nome": "F. Bonazzoli",
           "Ruolo": "ATT",
-          "Overall": 60
+          "Overall": 60,
+          "Value": "€310K",
+          "ValueNum": 310400.00000000006,
+          "Age": 18
         },
         {
           "Nome": "A. Guidiala",
           "Ruolo": "ATT",
-          "Overall": 59
+          "Overall": 59,
+          "Value": "€163K",
+          "ValueNum": 163200.0,
+          "Age": 29
         },
         {
           "Nome": "G. Sciacca",
           "Ruolo": "DC",
-          "Overall": 58
+          "Overall": 58,
+          "Value": "€190K",
+          "ValueNum": 190000.0,
+          "Age": 27
         },
         {
           "Nome": "A. Palazzi",
           "Ruolo": "CDC",
-          "Overall": 57
+          "Overall": 57,
+          "Value": "€190K",
+          "ValueNum": 190000.0,
+          "Age": 26
         },
         {
           "Nome": "R. Alborno",
           "Ruolo": "TS, ES",
-          "Overall": 56
+          "Overall": 56,
+          "Value": "€304K",
+          "ValueNum": 304000.00000000006,
+          "Age": 20
         },
         {
           "Nome": "D. Costa",
           "Ruolo": "POR",
-          "Overall": 56
+          "Overall": 56,
+          "Value": "€206K",
+          "ValueNum": 206000.00000000003,
+          "Age": 26
         },
         {
           "Nome": "M. Casale",
           "Ruolo": "ATT",
-          "Overall": 55
+          "Overall": 55,
+          "Value": "€177K",
+          "ValueNum": 176800.0,
+          "Age": 29
         },
         {
           "Nome": "I. Donkor",
           "Ruolo": "TD",
-          "Overall": 53
+          "Overall": 53,
+          "Value": "€333K",
+          "ValueNum": 332800.0000000001,
+          "Age": 21
         },
         {
           "Nome": "M. Rocca",
           "Ruolo": "CC",
-          "Overall": 46
+          "Overall": 46,
+          "Value": "€330K",
+          "ValueNum": 329600.00000000006,
+          "Age": 19
         }
       ]
     },
@@ -723,137 +1116,218 @@
         {
           "Nome": "Diego López",
           "Ruolo": "POR",
-          "Overall": 83
+          "Overall": 83,
+          "Value": "€11.2M",
+          "ValueNum": 11232000.0,
+          "Age": 34
         },
         {
           "Nome": "Alex",
           "Ruolo": "DC",
-          "Overall": 82
+          "Overall": 82,
+          "Value": "€20.2M",
+          "ValueNum": 20195999.999999996,
+          "Age": 24
         },
         {
           "Nome": "Fernando Torres",
           "Ruolo": "ATT",
-          "Overall": 81
+          "Overall": 81,
+          "Value": "€14.5M",
+          "ValueNum": 14500000.0,
+          "Age": 25
         },
         {
           "Nome": "N. de Jong",
           "Ruolo": "CDC, CC",
-          "Overall": 81
+          "Overall": 81,
+          "Value": "€13.8M",
+          "ValueNum": 13774999.999999998,
+          "Age": 28
         },
         {
           "Nome": "R. Montolivo",
           "Ruolo": "CC, CDC",
-          "Overall": 81
+          "Overall": 81,
+          "Value": "€14.1M",
+          "ValueNum": 14065000.0,
+          "Age": 25
         },
         {
           "Nome": "S. El Shaarawy",
           "Ruolo": "AS",
-          "Overall": 80
+          "Overall": 80,
+          "Value": "€14.3M",
+          "ValueNum": 14255999.999999998,
+          "Age": 23
         },
         {
           "Nome": "K. Honda",
           "Ruolo": "COC, ED",
-          "Overall": 79
+          "Overall": 79,
+          "Value": "€16.5M",
+          "ValueNum": 16480000.0,
+          "Age": 21
         },
         {
           "Nome": "G. Bonaventura",
           "Ruolo": "ES",
-          "Overall": 79
+          "Overall": 79,
+          "Value": "€9.9M",
+          "ValueNum": 9900000.0,
+          "Age": 26
         },
         {
           "Nome": "J. Ménez",
           "Ruolo": "AD, AS, AT",
-          "Overall": 78
+          "Overall": 78,
+          "Value": "€8.8M",
+          "ValueNum": 8755000.0,
+          "Age": 28
         },
         {
           "Nome": "A. Rami",
           "Ruolo": "DC",
-          "Overall": 78
+          "Overall": 78,
+          "Value": "€13.9M",
+          "ValueNum": 13872000.000000002,
+          "Age": 20
         },
         {
           "Nome": "A. Poli",
           "Ruolo": "CC, COC",
-          "Overall": 78
+          "Overall": 78,
+          "Value": "€8.7M",
+          "ValueNum": 8670000.0,
+          "Age": 26
         },
         {
           "Nome": "P. Mexès",
           "Ruolo": "DC",
-          "Overall": 77
+          "Overall": 77,
+          "Value": "€7.2M",
+          "ValueNum": 7210000.0,
+          "Age": 27
         },
         {
           "Nome": "C. Zapata",
           "Ruolo": "DC",
-          "Overall": 77
+          "Overall": 77,
+          "Value": "€6.2M",
+          "ValueNum": 6188000.000000001,
+          "Age": 29
         },
         {
           "Nome": "S. Muntari",
           "Ruolo": "CDC, CC",
-          "Overall": 76
+          "Overall": 76,
+          "Value": "€5.2M",
+          "ValueNum": 5225000.0,
+          "Age": 25
         },
         {
           "Nome": "G. Pazzini",
           "Ruolo": "ATT",
-          "Overall": 76
+          "Overall": 76,
+          "Value": "€4.4M",
+          "ValueNum": 4441249.999999999,
+          "Age": 31
         },
         {
           "Nome": "M. van Ginkel",
           "Ruolo": "CC",
-          "Overall": 76
+          "Overall": 76,
+          "Value": "€6.5M",
+          "ValueNum": 6468000.0,
+          "Age": 23
         },
         {
           "Nome": "M. De Sciglio",
           "Ruolo": "TD, TS",
-          "Overall": 76
+          "Overall": 76,
+          "Value": "€6.5M",
+          "ValueNum": 6468000.0,
+          "Age": 23
         },
         {
           "Nome": "C. Abbiati",
           "Ruolo": "POR",
-          "Overall": 75
+          "Overall": 75,
+          "Value": "€6.1M",
+          "ValueNum": 6080000.0,
+          "Age": 20
         },
         {
           "Nome": "D. Bonera",
           "Ruolo": "DC, TD",
-          "Overall": 75
+          "Overall": 75,
+          "Value": "€3.5M",
+          "ValueNum": 3536000.0,
+          "Age": 29
         },
         {
           "Nome": "M. Essien",
           "Ruolo": "CDC",
-          "Overall": 75
+          "Overall": 75,
+          "Value": "€3.5M",
+          "ValueNum": 3536000.0,
+          "Age": 30
         },
         {
           "Nome": "M. Agazzi",
           "Ruolo": "POR",
-          "Overall": 75
+          "Overall": 75,
+          "Value": "€3.5M",
+          "ValueNum": 3536000.0,
+          "Age": 31
         },
         {
           "Nome": "I. Abate",
           "Ruolo": "TD, ED",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€5.8M",
+          "ValueNum": 5768000.000000001,
+          "Age": 20
         },
         {
           "Nome": "M. Niang",
           "Ruolo": "AD, ATT",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€5.8M",
+          "ValueNum": 5768000.000000001,
+          "Age": 21
         },
         {
           "Nome": "C. Zaccardo",
           "Ruolo": "DC, TD",
-          "Overall": 73
+          "Overall": 73,
+          "Value": "€2.9M",
+          "ValueNum": 2880000.0,
+          "Age": 26
         },
         {
           "Nome": "P. Armero",
           "Ruolo": "TS, ES",
-          "Overall": 73
+          "Overall": 73,
+          "Value": "€5.0M",
+          "ValueNum": 4992000.000000001,
+          "Age": 21
         },
         {
           "Nome": "R. Saponara",
           "Ruolo": "COC",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€2.9M",
+          "ValueNum": 2880000.0,
+          "Age": 24
         },
         {
           "Nome": "M. Albertazzi",
           "Ruolo": "TS",
-          "Overall": 66
+          "Overall": 66,
+          "Value": "€823K",
+          "ValueNum": 823199.9999999999,
+          "Age": 24
         }
       ]
     },
@@ -871,167 +1345,266 @@
         {
           "Nome": "A. Candreva",
           "Ruolo": "AD",
-          "Overall": 83
+          "Overall": 83,
+          "Value": "€18.7M",
+          "ValueNum": 18720000.0,
+          "Age": 28
         },
         {
           "Nome": "M. Klose",
           "Ruolo": "ATT",
-          "Overall": 81
+          "Overall": 81,
+          "Value": "€14.9M",
+          "ValueNum": 14935000.0,
+          "Age": 27
         },
         {
           "Nome": "F. Marchetti",
           "Ruolo": "POR",
-          "Overall": 79
+          "Overall": 79,
+          "Value": "€5.8M",
+          "ValueNum": 5820000.0,
+          "Age": 32
         },
         {
           "Nome": "S. Lulić",
           "Ruolo": "ES, CC, TS",
-          "Overall": 78
+          "Overall": 78,
+          "Value": "€7.4M",
+          "ValueNum": 7441750.0,
+          "Age": 29
         },
         {
           "Nome": "S. de Vrij",
           "Ruolo": "DC",
-          "Overall": 78
+          "Overall": 78,
+          "Value": "€9.7M",
+          "ValueNum": 9690000.0,
+          "Age": 23
         },
         {
           "Nome": "S. Mauri",
           "Ruolo": "COC, ES, ED, CC",
-          "Overall": 77
+          "Overall": 77,
+          "Value": "€6.1M",
+          "ValueNum": 6128500.000000001,
+          "Age": 29
         },
         {
           "Nome": "L. Cana",
           "Ruolo": "DC",
-          "Overall": 77
+          "Overall": 77,
+          "Value": "€7.1M",
+          "ValueNum": 7140000.000000001,
+          "Age": 25
         },
         {
           "Nome": "L. Biglia",
           "Ruolo": "CC",
-          "Overall": 77
+          "Overall": 77,
+          "Value": "€6.2M",
+          "ValueNum": 6188000.000000001,
+          "Age": 29
         },
         {
           "Nome": "S. Radu",
           "Ruolo": "TS",
-          "Overall": 77
+          "Overall": 77,
+          "Value": "€6.1M",
+          "ValueNum": 6069000.0,
+          "Age": 29
         },
         {
           "Nome": "M. Parolo",
           "Ruolo": "CC, CDC",
-          "Overall": 77
+          "Overall": 77,
+          "Value": "€6.2M",
+          "ValueNum": 6188000.000000001,
+          "Age": 30
         },
         {
           "Nome": "C. Ledesma",
           "Ruolo": "CDC, CC",
-          "Overall": 76
+          "Overall": 76,
+          "Value": "€6.3M",
+          "ValueNum": 6270000.0,
+          "Age": 23
         },
         {
           "Nome": "B. Keita",
           "Ruolo": "AS, AD",
-          "Overall": 76
+          "Overall": 76,
+          "Value": "€5.7M",
+          "ValueNum": 5665000.0,
+          "Age": 26
         },
         {
           "Nome": "M. Ciani",
           "Ruolo": "DC",
-          "Overall": 75
+          "Overall": 75,
+          "Value": "€4.1M",
+          "ValueNum": 4120000.0,
+          "Age": 25
         },
         {
           "Nome": "Ederson",
           "Ruolo": "COC, CC",
-          "Overall": 75
+          "Overall": 75,
+          "Value": "€4.9M",
+          "ValueNum": 4896000.0,
+          "Age": 22
         },
         {
           "Nome": "A. Konko",
           "Ruolo": "TD",
-          "Overall": 75
+          "Overall": 75,
+          "Value": "€4.9M",
+          "ValueNum": 4944000.0,
+          "Age": 22
         },
         {
           "Nome": "D. Basta",
           "Ruolo": "TD, ED, ES, TS",
-          "Overall": 75
+          "Overall": 75,
+          "Value": "€3.5M",
+          "ValueNum": 3502000.0,
+          "Age": 31
         },
         {
           "Nome": "F. Djordjevic",
           "Ruolo": "ATT",
-          "Overall": 75
+          "Overall": 75,
+          "Value": "€3.9M",
+          "ValueNum": 3920000.0,
+          "Age": 26
         },
         {
           "Nome": "O. Onazi",
           "Ruolo": "CC",
-          "Overall": 75
+          "Overall": 75,
+          "Value": "€4.9M",
+          "ValueNum": 4944000.0,
+          "Age": 23
         },
         {
           "Nome": "Á. González",
           "Ruolo": "CC, ED",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€4.0M",
+          "ValueNum": 4032000.0,
+          "Age": 22
         },
         {
           "Nome": "Felipe Anderson",
           "Ruolo": "AS, COC",
-          "Overall": 73
+          "Overall": 73,
+          "Value": "€3.6M",
+          "ValueNum": 3599999.9999999995,
+          "Age": 22
         },
         {
           "Nome": "G. Sculli",
           "Ruolo": "AS, ATT",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€3.1M",
+          "ValueNum": 3120000.0,
+          "Age": 23
         },
         {
           "Nome": "E. Berisha",
           "Ruolo": "POR",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€2.4M",
+          "ValueNum": 2375000.0,
+          "Age": 26
         },
         {
           "Nome": "L. Cavanda",
           "Ruolo": "TD",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€2.8M",
+          "ValueNum": 2849999.9999999995,
+          "Age": 24
         },
         {
           "Nome": "S. Gentiletti",
           "Ruolo": "DC",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€1.2M",
+          "ValueNum": 1249499.9999999998,
+          "Age": 30
         },
         {
           "Nome": "E. Braafheid",
           "Ruolo": "TS",
-          "Overall": 69
+          "Overall": 69,
+          "Value": "€1.3M",
+          "ValueNum": 1261000.0,
+          "Age": 28
         },
         {
           "Nome": "Pereirinha",
           "Ruolo": "TD",
-          "Overall": 69
+          "Overall": 69,
+          "Value": "€1.0M",
+          "ValueNum": 1049750.0,
+          "Age": 30
         },
         {
           "Nome": "D. Novaretti",
           "Ruolo": "DC",
-          "Overall": 69
+          "Overall": 69,
+          "Value": "€1.1M",
+          "ValueNum": 1071850.0,
+          "Age": 30
         },
         {
           "Nome": "D. Cataldi",
           "Ruolo": "CC, COC",
-          "Overall": 67
+          "Overall": 67,
+          "Value": "€1.4M",
+          "ValueNum": 1368000.0,
+          "Age": 21
         },
         {
           "Nome": "T. Strakosha",
           "Ruolo": "POR",
-          "Overall": 64
+          "Overall": 64,
+          "Value": "€310K",
+          "ValueNum": 310400.00000000006,
+          "Age": 20
         },
         {
           "Nome": "M. Tounkara",
           "Ruolo": "ATT",
-          "Overall": 61
+          "Overall": 61,
+          "Value": "€192K",
+          "ValueNum": 192000.0,
+          "Age": 25
         },
         {
           "Nome": "R. Serpieri",
           "Ruolo": "DC",
-          "Overall": 61
+          "Overall": 61,
+          "Value": "€192K",
+          "ValueNum": 192000.0,
+          "Age": 28
         },
         {
           "Nome": "G. Pollace",
           "Ruolo": "TD",
-          "Overall": 59
+          "Overall": 59,
+          "Value": "€228K",
+          "ValueNum": 227999.99999999997,
+          "Age": 24
         },
         {
           "Nome": "M. Antic",
           "Ruolo": "CC",
-          "Overall": 59
+          "Overall": 59,
+          "Value": "€206K",
+          "ValueNum": 206000.00000000003,
+          "Age": 27
         }
       ]
     },
@@ -1049,167 +1622,266 @@
         {
           "Nome": "J. Cuadrado",
           "Ruolo": "ED, ES",
-          "Overall": 83
+          "Overall": 83,
+          "Value": "€15.9M",
+          "ValueNum": 15911999.999999998,
+          "Age": 30
         },
         {
           "Nome": "M. Gomez",
           "Ruolo": "ATT",
-          "Overall": 82
+          "Overall": 82,
+          "Value": "€14.9M",
+          "ValueNum": 14883500.0,
+          "Age": 29
         },
         {
           "Nome": "Borja Valero",
           "Ruolo": "CC",
-          "Overall": 82
+          "Overall": 82,
+          "Value": "€14.0M",
+          "ValueNum": 14016499.999999998,
+          "Age": 30
         },
         {
           "Nome": "G. Rossi",
           "Ruolo": "ATT",
-          "Overall": 82
+          "Overall": 82,
+          "Value": "€17.5M",
+          "ValueNum": 17510000.0,
+          "Age": 27
         },
         {
           "Nome": "A. Aquilani",
           "Ruolo": "CC, CDC",
-          "Overall": 79
+          "Overall": 79,
+          "Value": "€11.5M",
+          "ValueNum": 11520000.0,
+          "Age": 24
         },
         {
           "Nome": "G. Rodríguez",
           "Ruolo": "DC",
-          "Overall": 79
+          "Overall": 79,
+          "Value": "€15.5M",
+          "ValueNum": 15520000.0,
+          "Age": 21
         },
         {
           "Nome": "Joaquín",
           "Ruolo": "AD, AS",
-          "Overall": 78
+          "Overall": 78,
+          "Value": "€5.2M",
+          "ValueNum": 5202000.0,
+          "Age": 34
         },
         {
           "Nome": "M. Fernández",
           "Ruolo": "COC, CC, AT",
-          "Overall": 78
+          "Overall": 78,
+          "Value": "€8.2M",
+          "ValueNum": 8244999.999999999,
+          "Age": 26
         },
         {
           "Nome": "S. Savić",
           "Ruolo": "DC",
-          "Overall": 78
+          "Overall": 78,
+          "Value": "€10.5M",
+          "ValueNum": 10506000.0,
+          "Age": 24
         },
         {
           "Nome": "M. Richards",
           "Ruolo": "TD",
-          "Overall": 77
+          "Overall": 77,
+          "Value": "€4.0M",
+          "ValueNum": 4032000.0,
+          "Age": 33
         },
         {
           "Nome": "M. Marin",
           "Ruolo": "COC, ES",
-          "Overall": 77
+          "Overall": 77,
+          "Value": "€7.2M",
+          "ValueNum": 7210000.0,
+          "Age": 26
         },
         {
           "Nome": "J. Vargas",
           "Ruolo": "ES, TS",
-          "Overall": 76
+          "Overall": 76,
+          "Value": "€9.2M",
+          "ValueNum": 9152000.000000002,
+          "Age": 16
         },
         {
           "Nome": "Neto",
           "Ruolo": "POR",
-          "Overall": 76
+          "Overall": 76,
+          "Value": "€6.5M",
+          "ValueNum": 6534000.0,
+          "Age": 23
         },
         {
           "Nome": "J. Iličić",
           "Ruolo": "AT, COC, AD",
-          "Overall": 76
+          "Overall": 76,
+          "Value": "€5.7M",
+          "ValueNum": 5720000.000000001,
+          "Age": 27
         },
         {
           "Nome": "M. Badelj",
           "Ruolo": "CC, CDC",
-          "Overall": 76
+          "Overall": 76,
+          "Value": "€5.7M",
+          "ValueNum": 5720000.000000001,
+          "Age": 26
         },
         {
           "Nome": "D. Pizarro",
           "Ruolo": "CDC, CC",
-          "Overall": 75
+          "Overall": 75,
+          "Value": "€3.2M",
+          "ValueNum": 3230000.0,
+          "Age": 30
         },
         {
           "Nome": "M. Pasqual",
           "Ruolo": "TS, ES",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€3.3M",
+          "ValueNum": 3324999.9999999995,
+          "Age": 28
         },
         {
           "Nome": "C. Tătăruşanu",
           "Ruolo": "POR",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€3.4M",
+          "ValueNum": 3429999.9999999995,
+          "Age": 27
         },
         {
           "Nome": "M. El Hamdaoui",
           "Ruolo": "ATT",
-          "Overall": 73
+          "Overall": 73,
+          "Value": "€3.0M",
+          "ValueNum": 2969999.9999999995,
+          "Age": 27
         },
         {
           "Nome": "N. Tomović",
           "Ruolo": "TD",
-          "Overall": 73
+          "Overall": 73,
+          "Value": "€2.8M",
+          "ValueNum": 2849999.9999999995,
+          "Age": 28
         },
         {
           "Nome": "A. Lazzari",
           "Ruolo": "CDC, CC",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€2.0M",
+          "ValueNum": 2018749.9999999998,
+          "Age": 30
         },
         {
           "Nome": "K. Babacar",
           "Ruolo": "ATT",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€2.8M",
+          "ValueNum": 2849999.9999999995,
+          "Age": 22
         },
         {
           "Nome": "J. Kurtić",
           "Ruolo": "CDC, CC",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€2.6M",
+          "ValueNum": 2600000.0,
+          "Age": 26
         },
         {
           "Nome": "J. Basanta",
           "Ruolo": "DC",
-          "Overall": 69
+          "Overall": 69,
+          "Value": "€1.0M",
+          "ValueNum": 1049750.0,
+          "Age": 31
         },
         {
           "Nome": "C. Lupatelli",
           "Ruolo": "POR",
-          "Overall": 68
+          "Overall": 68,
+          "Value": "€907K",
+          "ValueNum": 906950.0,
+          "Age": 30
         },
         {
           "Nome": "O. Iakovenko",
           "Ruolo": "ED, ES",
-          "Overall": 68
+          "Overall": 68,
+          "Value": "€1.7M",
+          "ValueNum": 1707200.0000000002,
+          "Age": 20
         },
         {
           "Nome": "F. Bernardeschi",
           "Ruolo": "AD, AS",
-          "Overall": 68
+          "Overall": 68,
+          "Value": "€1.8M",
+          "ValueNum": 1760000.0000000002,
+          "Age": 21
         },
         {
           "Nome": "Marcos Alonso",
           "Ruolo": "TS",
-          "Overall": 65
+          "Overall": 65,
+          "Value": "€490K",
+          "ValueNum": 490000.0,
+          "Age": 25
         },
         {
           "Nome": "A. Hegazy",
           "Ruolo": "DC",
-          "Overall": 65
+          "Overall": 65,
+          "Value": "€442K",
+          "ValueNum": 442000.0,
+          "Age": 29
         },
         {
           "Nome": "Octávio",
           "Ruolo": "COC",
-          "Overall": 63
+          "Overall": 63,
+          "Value": "€245K",
+          "ValueNum": 244800.0,
+          "Age": 24
         },
         {
           "Nome": "J. Brillante",
           "Ruolo": "CC, TD, COC",
-          "Overall": 62
+          "Overall": 62,
+          "Value": "€233K",
+          "ValueNum": 232799.99999999997,
+          "Age": 22
         },
         {
           "Nome": "L. Lezzerini",
           "Ruolo": "POR",
-          "Overall": 61
+          "Overall": 61,
+          "Value": "€310K",
+          "ValueNum": 310400.00000000006,
+          "Age": 20
         },
         {
           "Nome": "J. Petriccione",
           "Ruolo": "CDC",
-          "Overall": 56
+          "Overall": 56,
+          "Value": "€317K",
+          "ValueNum": 316800.00000000006,
+          "Age": 20
         }
       ]
     },
@@ -1227,167 +1899,266 @@
         {
           "Nome": "A. Cassano",
           "Ruolo": "AT",
-          "Overall": 80
+          "Overall": 80,
+          "Value": "€13.7M",
+          "ValueNum": 13679999.999999998,
+          "Age": 22
         },
         {
           "Nome": "J. Biabiany",
           "Ruolo": "AD, AS",
-          "Overall": 79
+          "Overall": 79,
+          "Value": "€9.6M",
+          "ValueNum": 9600000.0,
+          "Age": 27
         },
         {
           "Nome": "A. Mirante",
           "Ruolo": "POR",
-          "Overall": 78
+          "Overall": 78,
+          "Value": "€4.8M",
+          "ValueNum": 4845000.0,
+          "Age": 32
         },
         {
           "Nome": "G. Paletta",
           "Ruolo": "DC",
-          "Overall": 78
+          "Overall": 78,
+          "Value": "€6.9M",
+          "ValueNum": 6863750.0,
+          "Age": 30
         },
         {
           "Nome": "M. Cassani",
           "Ruolo": "TD, DC",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€3.3M",
+          "ValueNum": 3324999.9999999995,
+          "Age": 25
         },
         {
           "Nome": "A. Lucarelli",
           "Ruolo": "DC",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€4.1M",
+          "ValueNum": 4074000.0,
+          "Age": 23
         },
         {
           "Nome": "F. Lodi",
           "Ruolo": "CDC, CC",
-          "Overall": 73
+          "Overall": 73,
+          "Value": "€3.1M",
+          "ValueNum": 3060000.0,
+          "Age": 27
         },
         {
           "Nome": "I. Belfodil",
           "Ruolo": "ATT, AS",
-          "Overall": 73
+          "Overall": 73,
+          "Value": "€3.5M",
+          "ValueNum": 3455999.9999999995,
+          "Age": 23
         },
         {
           "Nome": "R. Palladino",
           "Ruolo": "AT, AS",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€2.4M",
+          "ValueNum": 2425000.0,
+          "Age": 26
         },
         {
           "Nome": "A. Costa",
           "Ruolo": "DC, TS",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€2.2M",
+          "ValueNum": 2188750.0,
+          "Age": 30
         },
         {
           "Nome": "C. Jorquera",
           "Ruolo": "COC",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€2.4M",
+          "ValueNum": 2400000.0,
+          "Age": 27
         },
         {
           "Nome": "M. Gobbi",
           "Ruolo": "TS, ES",
-          "Overall": 71
+          "Overall": 71,
+          "Value": "€2.1M",
+          "ValueNum": 2060000.0,
+          "Age": 27
         },
         {
           "Nome": "D. Galloppa",
           "Ruolo": "CC, CDC",
-          "Overall": 71
+          "Overall": 71,
+          "Value": "€1.9M",
+          "ValueNum": 1920000.0,
+          "Age": 25
         },
         {
           "Nome": "A. Acquah",
           "Ruolo": "CC, CDC",
-          "Overall": 71
+          "Overall": 71,
+          "Value": "€2.1M",
+          "ValueNum": 2080000.0,
+          "Age": 27
         },
         {
           "Nome": "Felipe",
           "Ruolo": "DC",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€1.5M",
+          "ValueNum": 1515000.0000000002,
+          "Age": 25
         },
         {
           "Nome": "N. Pozzi",
           "Ruolo": "ATT",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€1.9M",
+          "ValueNum": 1853999.9999999998,
+          "Age": 22
         },
         {
           "Nome": "Pedro Mendes",
           "Ruolo": "DC",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€1.5M",
+          "ValueNum": 1455000.0,
+          "Age": 25
         },
         {
           "Nome": "P. De Ceglie",
           "Ruolo": "ES, CC",
-          "Overall": 69
+          "Overall": 69,
+          "Value": "€1.3M",
+          "ValueNum": 1261000.0,
+          "Age": 25
         },
         {
           "Nome": "A. Ghezzal",
           "Ruolo": "AT, AS, AD",
-          "Overall": 66
+          "Overall": 66,
+          "Value": "€665K",
+          "ValueNum": 664999.9999999999,
+          "Age": 27
         },
         {
           "Nome": "A. Iacobucci",
           "Ruolo": "POR",
-          "Overall": 66
+          "Overall": 66,
+          "Value": "€815K",
+          "ValueNum": 814800.0,
+          "Age": 24
         },
         {
           "Nome": "F. Santacroce",
           "Ruolo": "DC, TD",
-          "Overall": 65
+          "Overall": 65,
+          "Value": "€490K",
+          "ValueNum": 490000.0,
+          "Age": 25
         },
         {
           "Nome": "A. Cordaz",
           "Ruolo": "POR",
-          "Overall": 64
+          "Overall": 64,
+          "Value": "€125K",
+          "ValueNum": 124800.0,
+          "Age": 32
         },
         {
           "Nome": "A. Rispoli",
           "Ruolo": "TD",
-          "Overall": 64
+          "Overall": 64,
+          "Value": "€190K",
+          "ValueNum": 190000.0,
+          "Age": 27
         },
         {
           "Nome": "T. Danilevičius",
           "Ruolo": "ATT",
-          "Overall": 63
+          "Overall": 63,
+          "Value": "€170K",
+          "ValueNum": 170000.0,
+          "Age": 30
         },
         {
           "Nome": "M. Velardi",
           "Ruolo": "ED, ADA, TD",
-          "Overall": 63
+          "Overall": 63,
+          "Value": "€228K",
+          "ValueNum": 227999.99999999997,
+          "Age": 23
         },
         {
           "Nome": "S. Bidaoui",
           "Ruolo": "AS, AD",
-          "Overall": 63
+          "Overall": 63,
+          "Value": "€190K",
+          "ValueNum": 190000.0,
+          "Age": 25
         },
         {
           "Nome": "Lucas Souza",
           "Ruolo": "CDC, CC",
-          "Overall": 63
+          "Overall": 63,
+          "Value": "€230K",
+          "ValueNum": 230400.0,
+          "Age": 22
         },
         {
           "Nome": "B. Vicente",
           "Ruolo": "CDC, CC",
-          "Overall": 62
+          "Overall": 62,
+          "Value": "€162K",
+          "ValueNum": 161500.0,
+          "Age": 30
         },
         {
           "Nome": "R. Stillo",
           "Ruolo": "POR",
-          "Overall": 60
+          "Overall": 60,
+          "Value": "€208K",
+          "ValueNum": 208000.00000000003,
+          "Age": 28
         },
         {
           "Nome": "A. Ampuero",
           "Ruolo": "ES, CC",
-          "Overall": 60
+          "Overall": 60,
+          "Value": "€190K",
+          "ValueNum": 190000.0,
+          "Age": 28
         },
         {
           "Nome": "M. Širok",
           "Ruolo": "TD",
-          "Overall": 60
+          "Overall": 60,
+          "Value": "€330K",
+          "ValueNum": 329600.00000000006,
+          "Age": 21
         },
         {
           "Nome": "M. Coda",
           "Ruolo": "ATT, AT",
-          "Overall": 59
+          "Overall": 59,
+          "Value": "€204K",
+          "ValueNum": 204000.00000000003,
+          "Age": 27
         },
         {
           "Nome": "S. Ristovski",
           "Ruolo": "ED, TD",
-          "Overall": 58
+          "Overall": 58,
+          "Value": "€233K",
+          "ValueNum": 232799.99999999997,
+          "Age": 23
         }
       ]
     },
@@ -1405,167 +2176,266 @@
         {
           "Nome": "K. Glik",
           "Ruolo": "DC",
-          "Overall": 79
+          "Overall": 79,
+          "Value": "€10.2M",
+          "ValueNum": 10200000.0,
+          "Age": 27
         },
         {
           "Nome": "F. Quagliarella",
           "Ruolo": "ATT",
-          "Overall": 77
+          "Overall": 77,
+          "Value": "€4.2M",
+          "ValueNum": 4200000.0,
+          "Age": 32
         },
         {
           "Nome": "N. Maksimović",
           "Ruolo": "DC, ED",
-          "Overall": 76
+          "Overall": 76,
+          "Value": "€6.5M",
+          "ValueNum": 6468000.0,
+          "Age": 24
         },
         {
           "Nome": "E. Moretti",
           "Ruolo": "DC",
-          "Overall": 75
+          "Overall": 75,
+          "Value": "€4.6M",
+          "ValueNum": 4560000.0,
+          "Age": 22
         },
         {
           "Nome": "A. Nocerino",
           "Ruolo": "CC, CDC",
-          "Overall": 75
+          "Overall": 75,
+          "Value": "€4.6M",
+          "ValueNum": 4608000.0,
+          "Age": 23
         },
         {
           "Nome": "J. Gillet",
           "Ruolo": "POR",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€1.5M",
+          "ValueNum": 1456000.0000000002,
+          "Age": 36
         },
         {
           "Nome": "C. Bovo",
           "Ruolo": "DC",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€5.7M",
+          "ValueNum": 5712000.000000001,
+          "Age": 20
         },
         {
           "Nome": "Amauri",
           "Ruolo": "ATT",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€5.7M",
+          "ValueNum": 5656000.000000001,
+          "Age": 21
         },
         {
           "Nome": "D. Padelli",
           "Ruolo": "POR",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€2.8M",
+          "ValueNum": 2826250.0,
+          "Age": 30
         },
         {
           "Nome": "G. Vives",
           "Ruolo": "CDC, CC",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€4.3M",
+          "ValueNum": 4326000.000000001,
+          "Age": 22
         },
         {
           "Nome": "M. Darmian",
           "Ruolo": "ED, TD",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€3.3M",
+          "ValueNum": 3324999.9999999995,
+          "Age": 26
         },
         {
           "Nome": "O. El Kaddouri",
           "Ruolo": "CC, COC",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€3.5M",
+          "ValueNum": 3465000.0,
+          "Age": 25
         },
         {
           "Nome": "Rubén Pérez",
           "Ruolo": "CDC, CC",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€3.4M",
+          "ValueNum": 3360000.0,
+          "Age": 26
         },
         {
           "Nome": "J. Sánchez Miño",
           "Ruolo": "ES",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€3.5M",
+          "ValueNum": 3500000.0,
+          "Age": 25
         },
         {
           "Nome": "L. Castellazzi",
           "Ruolo": "POR",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€2.1M",
+          "ValueNum": 2103750.0,
+          "Age": 30
         },
         {
           "Nome": "A. Farnerud",
           "Ruolo": "CC, CDC",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€2.0M",
+          "ValueNum": 2040000.0,
+          "Age": 31
         },
         {
           "Nome": "A. Gazzi",
           "Ruolo": "CDC, CC",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€2.6M",
+          "ValueNum": 2575000.0,
+          "Age": 25
         },
         {
           "Nome": "C. Molinaro",
           "Ruolo": "TS, ES",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€2.0M",
+          "ValueNum": 2040000.0,
+          "Age": 30
         },
         {
           "Nome": "Barreto",
           "Ruolo": "AT",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€2.5M",
+          "ValueNum": 2550000.0,
+          "Age": 26
         },
         {
           "Nome": "M. Basha",
           "Ruolo": "CC, CDC",
-          "Overall": 71
+          "Overall": 71,
+          "Value": "€3.3M",
+          "ValueNum": 3296000.0000000005,
+          "Age": 21
         },
         {
           "Nome": "Bruno Peres",
           "Ruolo": "TD",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€1.4M",
+          "ValueNum": 1440000.0,
+          "Age": 26
         },
         {
           "Nome": "M. Larrondo",
           "Ruolo": "ATT",
-          "Overall": 69
+          "Overall": 69,
+          "Value": "€1.2M",
+          "ValueNum": 1248000.0,
+          "Age": 27
         },
         {
           "Nome": "P. Jansson",
           "Ruolo": "DC",
-          "Overall": 68
+          "Overall": 68,
+          "Value": "€1.3M",
+          "ValueNum": 1254000.0,
+          "Age": 24
         },
         {
           "Nome": "M. Benassi",
           "Ruolo": "CC",
-          "Overall": 68
+          "Overall": 68,
+          "Value": "€1.7M",
+          "ValueNum": 1672000.0000000002,
+          "Age": 21
         },
         {
           "Nome": "J. Martínez",
           "Ruolo": "ES, ED",
-          "Overall": 66
+          "Overall": 66,
+          "Value": "€1.1M",
+          "ValueNum": 1075200.0,
+          "Age": 21
         },
         {
           "Nome": "G. Silva",
           "Ruolo": "TS, DC",
-          "Overall": 66
+          "Overall": 66,
+          "Value": "€1.2M",
+          "ValueNum": 1153600.0,
+          "Age": 21
         },
         {
           "Nome": "S. Masiello",
           "Ruolo": "ES, TS",
-          "Overall": 63
+          "Overall": 63,
+          "Value": "€230K",
+          "ValueNum": 230400.0,
+          "Age": 22
         },
         {
           "Nome": "I. Zeytulaev",
           "Ruolo": "AS, AD",
-          "Overall": 62
+          "Overall": 62,
+          "Value": "€310K",
+          "ValueNum": 310400.00000000006,
+          "Age": 20
         },
         {
           "Nome": "A. Barusso",
           "Ruolo": "CDC, CC",
-          "Overall": 62
+          "Overall": 62,
+          "Value": "€190K",
+          "ValueNum": 190000.0,
+          "Age": 25
         },
         {
           "Nome": "D. Cinaglia",
           "Ruolo": "DC",
-          "Overall": 60
+          "Overall": 60,
+          "Value": "€230K",
+          "ValueNum": 230400.0,
+          "Age": 23
         },
         {
           "Nome": "L. Cargnino",
           "Ruolo": "DC",
-          "Overall": 56
+          "Overall": 56,
+          "Value": "€192K",
+          "ValueNum": 192000.0,
+          "Age": 25
         },
         {
           "Nome": "S. Monni",
           "Ruolo": "AS",
-          "Overall": 53
+          "Overall": 53,
+          "Value": "€175K",
+          "ValueNum": 175100.0,
+          "Age": 30
         },
         {
           "Nome": "G. Graziano",
           "Ruolo": "CDC",
-          "Overall": 53
+          "Overall": 53,
+          "Value": "€307K",
+          "ValueNum": 307200.0,
+          "Age": 20
         }
       ]
     },
@@ -1583,162 +2453,258 @@
         {
           "Nome": "A. Di Natale",
           "Ruolo": "ATT",
-          "Overall": 78
+          "Overall": 78,
+          "Value": "€7.0M",
+          "ValueNum": 7008249.999999999,
+          "Age": 30
         },
         {
           "Nome": "T. Heurtaux",
           "Ruolo": "DC, TD",
-          "Overall": 76
+          "Overall": 76,
+          "Value": "€4.5M",
+          "ValueNum": 4488000.0,
+          "Age": 30
         },
         {
           "Nome": "Bruno Fernandes",
           "Ruolo": "COC, CC, AT, AS",
-          "Overall": 76
+          "Overall": 76,
+          "Value": "€8.8M",
+          "ValueNum": 8800000.0,
+          "Age": 21
         },
         {
           "Nome": "M. Domizzi",
           "Ruolo": "DC",
-          "Overall": 75
+          "Overall": 75,
+          "Value": "€6.1M",
+          "ValueNum": 6080000.0,
+          "Age": 20
         },
         {
           "Nome": "Danilo",
           "Ruolo": "DC",
-          "Overall": 75
+          "Overall": 75,
+          "Value": "€4.8M",
+          "ValueNum": 4848000.0,
+          "Age": 24
         },
         {
           "Nome": "Ž. Brkić",
           "Ruolo": "POR",
-          "Overall": 75
+          "Overall": 75,
+          "Value": "€4.1M",
+          "ValueNum": 4120000.0,
+          "Age": 27
         },
         {
           "Nome": "G. Pinzi",
           "Ruolo": "CDC, CC",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€3.1M",
+          "ValueNum": 3064250.0000000005,
+          "Age": 29
         },
         {
           "Nome": "C. Théréau",
           "Ruolo": "ATT",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€2.0M",
+          "ValueNum": 1995000.0,
+          "Age": 32
         },
         {
           "Nome": "P. Kone",
           "Ruolo": "COC, CC, AT",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€3.6M",
+          "ValueNum": 3570000.0000000005,
+          "Age": 28
         },
         {
           "Nome": "O. Karnezis",
           "Ruolo": "POR",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€2.9M",
+          "ValueNum": 2856000.0,
+          "Age": 30
         },
         {
           "Nome": "Allan",
           "Ruolo": "CDC, CC",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€4.2M",
+          "ValueNum": 4200000.0,
+          "Age": 24
         },
         {
           "Nome": "Albert Riera",
           "Ruolo": "TS, ES, AS",
-          "Overall": 73
+          "Overall": 73,
+          "Value": "€2.9M",
+          "ValueNum": 2910000.0,
+          "Age": 25
         },
         {
           "Nome": "L. Muriel",
           "Ruolo": "ATT",
-          "Overall": 73
+          "Overall": 73,
+          "Value": "€3.7M",
+          "ValueNum": 3744000.0,
+          "Age": 24
         },
         {
           "Nome": "Guilherme",
           "Ruolo": "CDC, CC",
-          "Overall": 73
+          "Overall": 73,
+          "Value": "€3.7M",
+          "ValueNum": 3744000.0,
+          "Age": 24
         },
         {
           "Nome": "A. Coda",
           "Ruolo": "DC",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€2.5M",
+          "ValueNum": 2550000.0,
+          "Age": 27
         },
         {
           "Nome": "E. Badu",
           "Ruolo": "CDC, CC",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€2.5M",
+          "ValueNum": 2550000.0,
+          "Age": 25
         },
         {
           "Nome": "S. Widmer",
           "Ruolo": "ED, TD",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€3.1M",
+          "ValueNum": 3120000.0,
+          "Age": 22
         },
         {
           "Nome": "Gabriel Silva",
           "Ruolo": "ES, TS",
-          "Overall": 71
+          "Overall": 71,
+          "Value": "€2.4M",
+          "ValueNum": 2352000.0,
+          "Age": 24
         },
         {
           "Nome": "S. Scuffet",
           "Ruolo": "POR",
-          "Overall": 71
+          "Overall": 71,
+          "Value": "€3.0M",
+          "ValueNum": 3040000.0,
+          "Age": 19
         },
         {
           "Nome": "I. Bubnjić",
           "Ruolo": "DC",
-          "Overall": 71
+          "Overall": 71,
+          "Value": "€1.6M",
+          "ValueNum": 1615000.0,
+          "Age": 30
         },
         {
           "Nome": "M. Faraoni",
           "Ruolo": "ED, TD",
-          "Overall": 69
+          "Overall": 69,
+          "Value": "€1.5M",
+          "ValueNum": 1482000.0,
+          "Age": 24
         },
         {
           "Nome": "I. Piris",
           "Ruolo": "TD, TS",
-          "Overall": 69
+          "Overall": 69,
+          "Value": "€1.3M",
+          "ValueNum": 1339000.0000000002,
+          "Age": 26
         },
         {
           "Nome": "G. Pasquale",
           "Ruolo": "ES",
-          "Overall": 68
+          "Overall": 68,
+          "Value": "€1.7M",
+          "ValueNum": 1689600.0000000002,
+          "Age": 20
         },
         {
           "Nome": "A. Geijo",
           "Ruolo": "ATT, AT",
-          "Overall": 68
+          "Overall": 68,
+          "Value": "€963K",
+          "ValueNum": 963050.0000000001,
+          "Age": 30
         },
         {
           "Nome": "Jadson",
           "Ruolo": "CDC",
-          "Overall": 67
+          "Overall": 67,
+          "Value": "€1.1M",
+          "ValueNum": 1090800.0,
+          "Age": 24
         },
         {
           "Nome": "M. Wagué",
           "Ruolo": "DC",
-          "Overall": 66
+          "Overall": 66,
+          "Value": "€1.2M",
+          "ValueNum": 1153600.0,
+          "Age": 17
         },
         {
           "Nome": "A. Zapata",
           "Ruolo": "COC",
-          "Overall": 66
+          "Overall": 66,
+          "Value": "€1.2M",
+          "ValueNum": 1164799.9999999998,
+          "Age": 20
         },
         {
           "Nome": "N. Belmonte",
           "Ruolo": "DC",
-          "Overall": 65
+          "Overall": 65,
+          "Value": "€768K",
+          "ValueNum": 768000.0,
+          "Age": 21
         },
         {
           "Nome": "M. Hallberg",
           "Ruolo": "CC, CDC, ED",
-          "Overall": 64
+          "Overall": 64,
+          "Value": "€163K",
+          "ValueNum": 163200.0,
+          "Age": 29
         },
         {
           "Nome": "Lucas Evangelista",
           "Ruolo": "COC",
-          "Overall": 63
+          "Overall": 63,
+          "Value": "€326K",
+          "ValueNum": 326400.00000000006,
+          "Age": 20
         },
         {
           "Nome": "M. Alhassan",
           "Ruolo": "ES, TS",
-          "Overall": 60
+          "Overall": 60,
+          "Value": "€163K",
+          "ValueNum": 163200.0,
+          "Age": 29
         },
         {
           "Nome": "A. Meret",
           "Ruolo": "POR",
-          "Overall": 60
+          "Overall": 60,
+          "Value": "€330K",
+          "ValueNum": 329600.00000000006,
+          "Age": 18
         }
       ]
     },
@@ -1756,152 +2722,242 @@
         {
           "Nome": "A. Consigli",
           "Ruolo": "POR",
-          "Overall": 78
+          "Overall": 78,
+          "Value": "€8.2M",
+          "ValueNum": 8160000.0,
+          "Age": 28
         },
         {
           "Nome": "D. Berardi",
           "Ruolo": "AD, ATT",
-          "Overall": 76
+          "Overall": 76,
+          "Value": "€8.4M",
+          "ValueNum": 8359999.999999999,
+          "Age": 21
         },
         {
           "Nome": "S. Taïder",
           "Ruolo": "CC, CDC",
-          "Overall": 75
+          "Overall": 75,
+          "Value": "€5.0M",
+          "ValueNum": 4992000.0,
+          "Age": 23
         },
         {
           "Nome": "S. Zaza",
           "Ruolo": "ATT",
-          "Overall": 75
+          "Overall": 75,
+          "Value": "€4.9M",
+          "ValueNum": 4896000.0,
+          "Age": 24
         },
         {
           "Nome": "P. Cannavaro",
           "Ruolo": "DC",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€3.4M",
+          "ValueNum": 3395000.0,
+          "Age": 25
         },
         {
           "Nome": "N. Sansone",
           "Ruolo": "AS, AD",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€4.0M",
+          "ValueNum": 3990000.0,
+          "Age": 24
         },
         {
           "Nome": "A. Floro Flores",
           "Ruolo": "ATT, AS",
-          "Overall": 73
+          "Overall": 73,
+          "Value": "€2.5M",
+          "ValueNum": 2550000.0,
+          "Age": 29
         },
         {
           "Nome": "T. Manfredini",
           "Ruolo": "DC",
-          "Overall": 73
+          "Overall": 73,
+          "Value": "€2.5M",
+          "ValueNum": 2498999.9999999995,
+          "Age": 30
         },
         {
           "Nome": "F. Acerbi",
           "Ruolo": "DC",
-          "Overall": 73
+          "Overall": 73,
+          "Value": "€3.1M",
+          "ValueNum": 3120000.0,
+          "Age": 27
         },
         {
           "Nome": "S. Floccari",
           "Ruolo": "ATT",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€1.4M",
+          "ValueNum": 1440000.0,
+          "Age": 34
         },
         {
           "Nome": "Š. Vrsaljko",
           "Ruolo": "ED, TD",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€2.9M",
+          "ValueNum": 2880000.0,
+          "Age": 23
         },
         {
           "Nome": "G. Pegolo",
           "Ruolo": "POR",
-          "Overall": 71
+          "Overall": 71,
+          "Value": "€1.2M",
+          "ValueNum": 1248000.0,
+          "Age": 34
         },
         {
           "Nome": "M. Brighi",
           "Ruolo": "CC",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€1.6M",
+          "ValueNum": 1560000.0,
+          "Age": 26
         },
         {
           "Nome": "F. Magnanelli",
           "Ruolo": "CDC, CC",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€1.2M",
+          "ValueNum": 1249499.9999999998,
+          "Age": 31
         },
         {
           "Nome": "F. Peluso",
           "Ruolo": "TS, ES, DC",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€1.3M",
+          "ValueNum": 1325999.9999999998,
+          "Age": 31
         },
         {
           "Nome": "L. Ariaudo",
           "Ruolo": "DC",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€1.4M",
+          "ValueNum": 1424999.9999999998,
+          "Age": 26
         },
         {
           "Nome": "L. Pavoletti",
           "Ruolo": "ATT",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€1.5M",
+          "ValueNum": 1455000.0,
+          "Age": 27
         },
         {
           "Nome": "D. Biondini",
           "Ruolo": "CC, CDC",
-          "Overall": 69
+          "Overall": 69,
+          "Value": "€2.0M",
+          "ValueNum": 1996800.0,
+          "Age": 20
         },
         {
           "Nome": "L. Antei",
           "Ruolo": "DC",
-          "Overall": 69
+          "Overall": 69,
+          "Value": "€1.6M",
+          "ValueNum": 1606800.0,
+          "Age": 23
         },
         {
           "Nome": "P. Bianco",
           "Ruolo": "DC",
-          "Overall": 68
+          "Overall": 68,
+          "Value": "€1.1M",
+          "ValueNum": 1144000.0000000002,
+          "Age": 28
         },
         {
           "Nome": "S. Missiroli",
           "Ruolo": "CC",
-          "Overall": 68
+          "Overall": 68,
+          "Value": "€907K",
+          "ValueNum": 906950.0,
+          "Age": 29
         },
         {
           "Nome": "E. Terranova",
           "Ruolo": "DC",
-          "Overall": 68
+          "Overall": 68,
+          "Value": "€1.1M",
+          "ValueNum": 1067000.0,
+          "Age": 28
         },
         {
           "Nome": "R. Chibsah",
           "Ruolo": "CDC, CC",
-          "Overall": 67
+          "Overall": 67,
+          "Value": "€1.0M",
+          "ValueNum": 1026000.0,
+          "Age": 23
         },
         {
           "Nome": "A. Longhi",
           "Ruolo": "TS, ES",
-          "Overall": 66
+          "Overall": 66,
+          "Value": "€874K",
+          "ValueNum": 873600.0,
+          "Age": 24
         },
         {
           "Nome": "C. Polito",
           "Ruolo": "POR",
-          "Overall": 64
+          "Overall": 64,
+          "Value": "€250K",
+          "ValueNum": 249600.0,
+          "Age": 22
         },
         {
           "Nome": "M. Gazzola",
           "Ruolo": "TD, ED",
-          "Overall": 64
+          "Overall": 64,
+          "Value": "€162K",
+          "ValueNum": 161500.0,
+          "Age": 30
         },
         {
           "Nome": "A. Pomini",
           "Ruolo": "POR",
-          "Overall": 64
+          "Overall": 64,
+          "Value": "€125K",
+          "ValueNum": 124800.0,
+          "Age": 34
         },
         {
           "Nome": "D. Lodesani",
           "Ruolo": "AD",
-          "Overall": 57
+          "Overall": 57,
+          "Value": "€230K",
+          "ValueNum": 230400.0,
+          "Age": 24
         },
         {
           "Nome": "E. Gliozzi",
           "Ruolo": "ATT",
-          "Overall": 56
+          "Overall": 56,
+          "Value": "€304K",
+          "ValueNum": 304000.00000000006,
+          "Age": 21
         },
         {
           "Nome": "D. Vacondio",
           "Ruolo": "TD",
-          "Overall": 56
+          "Overall": 56,
+          "Value": "€163K",
+          "ValueNum": 163200.0,
+          "Age": 29
         }
       ]
     },
@@ -1919,147 +2975,234 @@
         {
           "Nome": "G. Denis",
           "Ruolo": "ATT",
-          "Overall": 77
+          "Overall": 77,
+          "Value": "€8.7M",
+          "ValueNum": 8652000.000000002,
+          "Age": 22
         },
         {
           "Nome": "L. Cigarini",
           "Ruolo": "CC",
-          "Overall": 77
+          "Overall": 77,
+          "Value": "€5.7M",
+          "ValueNum": 5712000.0,
+          "Age": 29
         },
         {
           "Nome": "A. Gómez",
           "Ruolo": "ES",
-          "Overall": 76
+          "Overall": 76,
+          "Value": "€5.7M",
+          "ValueNum": 5665000.0,
+          "Age": 27
         },
         {
           "Nome": "G. Stendardo",
           "Ruolo": "DC",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€5.4M",
+          "ValueNum": 5432000.0,
+          "Age": 21
         },
         {
           "Nome": "M. Moralez",
           "Ruolo": "AT, COC",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€3.3M",
+          "ValueNum": 3324999.9999999995,
+          "Age": 28
         },
         {
           "Nome": "C. Carmona",
           "Ruolo": "CC, CDC",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€3.3M",
+          "ValueNum": 3324999.9999999995,
+          "Age": 28
         },
         {
           "Nome": "M. Estigarribia",
           "Ruolo": "ES, ED",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€3.5M",
+          "ValueNum": 3500000.0,
+          "Age": 28
         },
         {
           "Nome": "G. Biava",
           "Ruolo": "DC",
-          "Overall": 73
+          "Overall": 73,
+          "Value": "€3.7M",
+          "ValueNum": 3707999.9999999995,
+          "Age": 24
         },
         {
           "Nome": "B. Dramé",
           "Ruolo": "TS, ES",
-          "Overall": 73
+          "Overall": 73,
+          "Value": "€3.1M",
+          "ValueNum": 3090000.0,
+          "Age": 27
         },
         {
           "Nome": "D. Baselli",
           "Ruolo": "CC, CDC",
-          "Overall": 73
+          "Overall": 73,
+          "Value": "€3.4M",
+          "ValueNum": 3419999.9999999995,
+          "Age": 23
         },
         {
           "Nome": "R. Bianchi",
           "Ruolo": "ATT",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€2.0M",
+          "ValueNum": 2018749.9999999998,
+          "Age": 29
         },
         {
           "Nome": "V. Avramov",
           "Ruolo": "POR",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€2.8M",
+          "ValueNum": 2849999.9999999995,
+          "Age": 23
         },
         {
           "Nome": "G. Migliaccio",
           "Ruolo": "CC, DC, CDC",
-          "Overall": 71
+          "Overall": 71,
+          "Value": "€1.7M",
+          "ValueNum": 1666000.0,
+          "Age": 29
         },
         {
           "Nome": "Y. Benalouane",
           "Ruolo": "TD, DC",
-          "Overall": 71
+          "Overall": 71,
+          "Value": "€2.0M",
+          "ValueNum": 1960000.0,
+          "Age": 28
         },
         {
           "Nome": "R. Boakye",
           "Ruolo": "ATT, AS",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€2.5M",
+          "ValueNum": 2496000.0000000005,
+          "Age": 20
         },
         {
           "Nome": "M. D'Alessandro",
           "Ruolo": "AD, AS",
-          "Overall": 69
+          "Overall": 69,
+          "Value": "€1.6M",
+          "ValueNum": 1560000.0,
+          "Age": 24
         },
         {
           "Nome": "G. Bellini",
           "Ruolo": "TD, TS",
-          "Overall": 68
+          "Overall": 68,
+          "Value": "€1.3M",
+          "ValueNum": 1254000.0,
+          "Age": 22
         },
         {
           "Nome": "N. Cherubin",
           "Ruolo": "DC",
-          "Overall": 68
+          "Overall": 68,
+          "Value": "€1.1M",
+          "ValueNum": 1056000.0,
+          "Age": 27
         },
         {
           "Nome": "D. Zappacosta",
           "Ruolo": "ED, TD",
-          "Overall": 68
+          "Overall": 68,
+          "Value": "€1.3M",
+          "ValueNum": 1293600.0,
+          "Age": 23
         },
         {
           "Nome": "C. Del Grosso",
           "Ruolo": "TS, ES",
-          "Overall": 67
+          "Overall": 67,
+          "Value": "€529K",
+          "ValueNum": 529200.0,
+          "Age": 32
         },
         {
           "Nome": "S. Molina",
           "Ruolo": "ED",
-          "Overall": 67
+          "Overall": 67,
+          "Value": "€1.1M",
+          "ValueNum": 1123200.0000000002,
+          "Age": 23
         },
         {
           "Nome": "L. Scaloni",
           "Ruolo": "TD",
-          "Overall": 66
+          "Overall": 66,
+          "Value": "€665K",
+          "ValueNum": 664999.9999999999,
+          "Age": 26
         },
         {
           "Nome": "V. Rosseti",
           "Ruolo": "ATT, AS",
-          "Overall": 66
+          "Overall": 66,
+          "Value": "€665K",
+          "ValueNum": 664999.9999999999,
+          "Age": 25
         },
         {
           "Nome": "L. Spinazzola",
           "Ruolo": "ES, ED",
-          "Overall": 63
+          "Overall": 63,
+          "Value": "€235K",
+          "ValueNum": 235200.0,
+          "Age": 22
         },
         {
           "Nome": "G. Frezzolini",
           "Ruolo": "POR",
-          "Overall": 62
+          "Overall": 62,
+          "Value": "€167K",
+          "ValueNum": 166600.0,
+          "Age": 30
         },
         {
           "Nome": "C. Raimondi",
           "Ruolo": "ED, TD",
-          "Overall": 62
+          "Overall": 62,
+          "Value": "€307K",
+          "ValueNum": 307200.0,
+          "Age": 21
         },
         {
           "Nome": "M. Sportiello",
           "Ruolo": "POR",
-          "Overall": 60
+          "Overall": 60,
+          "Value": "€235K",
+          "ValueNum": 235200.0,
+          "Age": 23
         },
         {
           "Nome": "A. Grassi",
           "Ruolo": "CC",
-          "Overall": 58
+          "Overall": 58,
+          "Value": "€333K",
+          "ValueNum": 332800.0000000001,
+          "Age": 20
         },
         {
           "Nome": "J. Olausson",
           "Ruolo": "CC",
-          "Overall": 58
+          "Overall": 58,
+          "Value": "€230K",
+          "ValueNum": 230400.0,
+          "Age": 23
         }
       ]
     },
@@ -2077,142 +3220,226 @@
         {
           "Nome": "E. Viviano",
           "Ruolo": "POR",
-          "Overall": 77
+          "Overall": 77,
+          "Value": "€5.7M",
+          "ValueNum": 5652500.0,
+          "Age": 30
         },
         {
           "Nome": "Eder",
           "Ruolo": "AT, COC",
-          "Overall": 75
+          "Overall": 75,
+          "Value": "€4.0M",
+          "ValueNum": 3960000.0,
+          "Age": 28
         },
         {
           "Nome": "M. Gabbiadini",
           "Ruolo": "COC, AT",
-          "Overall": 75
+          "Overall": 75,
+          "Value": "€4.7M",
+          "ValueNum": 4704000.0,
+          "Age": 24
         },
         {
           "Nome": "D. Gastaldello",
           "Ruolo": "DC",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€2.1M",
+          "ValueNum": 2079000.0000000002,
+          "Age": 32
         },
         {
           "Nome": "L. De Silvestri",
           "Ruolo": "TD, ED",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€3.5M",
+          "ValueNum": 3500000.0,
+          "Age": 27
         },
         {
           "Nome": "M. Marchionni",
           "Ruolo": "CC, CDC",
-          "Overall": 73
+          "Overall": 73,
+          "Value": "€2.9M",
+          "ValueNum": 2940000.0,
+          "Age": 28
         },
         {
           "Nome": "S. Romero",
           "Ruolo": "POR",
-          "Overall": 73
+          "Overall": 73,
+          "Value": "€3.1M",
+          "ValueNum": 3120000.0,
+          "Age": 27
         },
         {
           "Nome": "S. Okaka Chuka",
           "Ruolo": "ATT",
-          "Overall": 73
+          "Overall": 73,
+          "Value": "€3.0M",
+          "ValueNum": 2969999.9999999995,
+          "Age": 26
         },
         {
           "Nome": "Pedro Obiang",
           "Ruolo": "CC, CDC",
-          "Overall": 73
+          "Overall": 73,
+          "Value": "€3.5M",
+          "ValueNum": 3491999.9999999995,
+          "Age": 23
         },
         {
           "Nome": "G. Sansone",
           "Ruolo": "COC, AT, AS",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€2.4M",
+          "ValueNum": 2375000.0,
+          "Age": 28
         },
         {
           "Nome": "N. Krstičić",
           "Ruolo": "CC, CDC, COC",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€2.4M",
+          "ValueNum": 2400000.0,
+          "Age": 25
         },
         {
           "Nome": "A. Palombo",
           "Ruolo": "CDC",
-          "Overall": 71
+          "Overall": 71,
+          "Value": "€2.3M",
+          "ValueNum": 2280000.0,
+          "Age": 23
         },
         {
           "Nome": "M. Silvestre",
           "Ruolo": "DC",
-          "Overall": 71
+          "Overall": 71,
+          "Value": "€1.6M",
+          "ValueNum": 1649000.0,
+          "Age": 30
         },
         {
           "Nome": "D. Mesbah",
           "Ruolo": "TS, ES",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€1.6M",
+          "ValueNum": 1560000.0,
+          "Age": 25
         },
         {
           "Nome": "G. Bergessio",
           "Ruolo": "ATT",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€1.5M",
+          "ValueNum": 1455000.0,
+          "Age": 26
         },
         {
           "Nome": "F. Cacciatore",
           "Ruolo": "TD",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€1.2M",
+          "ValueNum": 1249499.9999999998,
+          "Age": 29
         },
         {
           "Nome": "Da Costa",
           "Ruolo": "POR",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€927K",
+          "ValueNum": 926999.9999999999,
+          "Age": 32
         },
         {
           "Nome": "R. Soriano",
           "Ruolo": "CC, COC",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€1.7M",
+          "ValueNum": 1709999.9999999998,
+          "Age": 24
         },
         {
           "Nome": "V. Regini",
           "Ruolo": "TS, DC",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€1.6M",
+          "ValueNum": 1560000.0,
+          "Age": 25
         },
         {
           "Nome": "A. Romagnoli",
           "Ruolo": "DC, TS",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€2.3M",
+          "ValueNum": 2328000.0000000005,
+          "Age": 20
         },
         {
           "Nome": "P. Wszołek",
           "Ruolo": "COC, ES",
-          "Overall": 68
+          "Overall": 68,
+          "Value": "€888K",
+          "ValueNum": 888250.0,
+          "Age": 29
         },
         {
           "Nome": "L. Đorđević",
           "Ruolo": "ATT, AS, AD",
-          "Overall": 68
+          "Overall": 68,
+          "Value": "€1.7M",
+          "ValueNum": 1689600.0000000002,
+          "Age": 21
         },
         {
           "Nome": "F. Fedato",
           "Ruolo": "AS",
-          "Overall": 66
+          "Overall": 66,
+          "Value": "€874K",
+          "ValueNum": 873600.0,
+          "Age": 22
         },
         {
           "Nome": "A. Duncan",
           "Ruolo": "CC",
-          "Overall": 65
+          "Overall": 65,
+          "Value": "€624K",
+          "ValueNum": 624000.0,
+          "Age": 22
         },
         {
           "Nome": "L. Rizzo",
           "Ruolo": "CC, ES",
-          "Overall": 64
+          "Overall": 64,
+          "Value": "€247K",
+          "ValueNum": 247200.0,
+          "Age": 23
         },
         {
           "Nome": "Z. Laczkó",
           "Ruolo": "TS",
-          "Overall": 63
+          "Overall": 63,
+          "Value": "€250K",
+          "ValueNum": 249600.0,
+          "Age": 22
         },
         {
           "Nome": "A. De Vitis",
           "Ruolo": "CC",
-          "Overall": 60
+          "Overall": 60,
+          "Value": "€230K",
+          "ValueNum": 230400.0,
+          "Age": 23
         },
         {
           "Nome": "M. Fornasier",
           "Ruolo": "DC",
-          "Overall": 54
+          "Overall": 54,
+          "Value": "€233K",
+          "ValueNum": 232799.99999999997,
+          "Age": 22
         }
       ]
     },
@@ -2230,157 +3457,250 @@
         {
           "Nome": "R. Márquez",
           "Ruolo": "DC",
-          "Overall": 76
+          "Overall": 76,
+          "Value": "€8.4M",
+          "ValueNum": 8359999.999999999,
+          "Age": 18
         },
         {
           "Nome": "Rafael",
           "Ruolo": "POR",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€3.5M",
+          "ValueNum": 3535000.0,
+          "Age": 25
         },
         {
           "Nome": "N. López",
           "Ruolo": "AS, AD, AT",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€5.8M",
+          "ValueNum": 5768000.000000001,
+          "Age": 20
         },
         {
           "Nome": "J. Saviola",
           "Ruolo": "ATT, COC",
-          "Overall": 73
+          "Overall": 73,
+          "Value": "€2.8M",
+          "ValueNum": 2849999.9999999995,
+          "Age": 28
         },
         {
           "Nome": "L. Toni",
           "Ruolo": "ATT",
-          "Overall": 73
+          "Overall": 73,
+          "Value": "€4.9M",
+          "ValueNum": 4896000.000000001,
+          "Age": 20
         },
         {
           "Nome": "M. Obbadi",
           "Ruolo": "CC, CDC",
-          "Overall": 73
+          "Overall": 73,
+          "Value": "€3.1M",
+          "ValueNum": 3120000.0,
+          "Age": 26
         },
         {
           "Nome": "B. Janković",
           "Ruolo": "AS, AD",
-          "Overall": 73
+          "Overall": 73,
+          "Value": "€2.9M",
+          "ValueNum": 2880000.0,
+          "Age": 25
         },
         {
           "Nome": "D. Brivio",
           "Ruolo": "TS, ES",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€2.2M",
+          "ValueNum": 2210000.0,
+          "Age": 30
         },
         {
           "Nome": "E. Hallfreðsson",
           "Ruolo": "CC",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€2.1M",
+          "ValueNum": 2125000.0,
+          "Age": 31
         },
         {
           "Nome": "V. Moras",
           "Ruolo": "DC",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€3.1M",
+          "ValueNum": 3090000.0,
+          "Age": 23
         },
         {
           "Nome": "Rafael Marques",
           "Ruolo": "DC",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€4.0M",
+          "ValueNum": 3960000.0,
+          "Age": 21
         },
         {
           "Nome": "G. Rodríguez",
           "Ruolo": "DC",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€3.9M",
+          "ValueNum": 3880000.0,
+          "Age": 21
         },
         {
           "Nome": "L. Christodoulopoulos",
           "Ruolo": "CC, COC, AT, ES",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€2.0M",
+          "ValueNum": 2040000.0,
+          "Age": 29
         },
         {
           "Nome": "Nenê",
           "Ruolo": "ATT",
-          "Overall": 71
+          "Overall": 71,
+          "Value": "€1.2M",
+          "ValueNum": 1188000.0,
+          "Age": 32
         },
         {
           "Nome": "Luna",
           "Ruolo": "TS",
-          "Overall": 71
+          "Overall": 71,
+          "Value": "€2.4M",
+          "ValueNum": 2376000.0,
+          "Age": 24
         },
         {
           "Nome": "F. Sørensen",
           "Ruolo": "DC",
-          "Overall": 71
+          "Overall": 71,
+          "Value": "€2.3M",
+          "ValueNum": 2304000.0,
+          "Age": 23
         },
         {
           "Nome": "P. Tachtsidis",
           "Ruolo": "CDC, CC",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€1.8M",
+          "ValueNum": 1763999.9999999998,
+          "Age": 24
         },
         {
           "Nome": "J. Gomez",
           "Ruolo": "AS, AD",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€2.5M",
+          "ValueNum": 2472000.0000000005,
+          "Age": 18
         },
         {
           "Nome": "A. González",
           "Ruolo": "DC, TD",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€2.3M",
+          "ValueNum": 2304000.0000000005,
+          "Age": 21
         },
         {
           "Nome": "A. Agostini",
           "Ruolo": "TS",
-          "Overall": 69
+          "Overall": 69,
+          "Value": "€1.1M",
+          "ValueNum": 1060800.0,
+          "Age": 29
         },
         {
           "Nome": "F. Benussi",
           "Ruolo": "POR",
-          "Overall": 67
+          "Overall": 67,
+          "Value": "€855K",
+          "ValueNum": 855000.0,
+          "Age": 25
         },
         {
           "Nome": "M. Valoti",
           "Ruolo": "COC, ED",
-          "Overall": 67
+          "Overall": 67,
+          "Value": "€1.1M",
+          "ValueNum": 1123200.0000000002,
+          "Age": 22
         },
         {
           "Nome": "J. Sala",
           "Ruolo": "CC, ED",
-          "Overall": 65
+          "Overall": 65,
+          "Value": "€612K",
+          "ValueNum": 612000.0,
+          "Age": 24
         },
         {
           "Nome": "A. Ioniţă",
           "Ruolo": "CDC, CC, COC",
-          "Overall": 63
+          "Overall": 63,
+          "Value": "€177K",
+          "ValueNum": 176800.0,
+          "Age": 29
         },
         {
           "Nome": "G. Campanharo",
           "Ruolo": "CC, CDC",
-          "Overall": 63
+          "Overall": 63,
+          "Value": "€196K",
+          "ValueNum": 196000.0,
+          "Age": 26
         },
         {
           "Nome": "I. Martić",
           "Ruolo": "TD",
-          "Overall": 62
+          "Overall": 62,
+          "Value": "€208K",
+          "ValueNum": 208000.00000000003,
+          "Age": 25
         },
         {
           "Nome": "F. Boni",
           "Ruolo": "DC",
-          "Overall": 57
+          "Overall": 57,
+          "Value": "€204K",
+          "ValueNum": 204000.00000000003,
+          "Age": 28
         },
         {
           "Nome": "O. Arzamendia",
           "Ruolo": "CC, COC",
-          "Overall": 56
+          "Overall": 56,
+          "Value": "€196K",
+          "ValueNum": 196000.0,
+          "Age": 26
         },
         {
           "Nome": "E. Bearzotti",
           "Ruolo": "ATT",
-          "Overall": 55
+          "Overall": 55,
+          "Value": "€194K",
+          "ValueNum": 194000.0,
+          "Age": 26
         },
         {
           "Nome": "P. Gollini",
           "Ruolo": "POR",
-          "Overall": 54
+          "Overall": 54,
+          "Value": "€304K",
+          "ValueNum": 304000.00000000006,
+          "Age": 20
         },
         {
           "Nome": "P. Cappelluzzo",
           "Ruolo": "ATT",
-          "Overall": 53
+          "Overall": 53,
+          "Value": "€317K",
+          "ValueNum": 316800.00000000006,
+          "Age": 19
         }
       ]
     },
@@ -2398,167 +3718,266 @@
         {
           "Nome": "M. Perin",
           "Ruolo": "POR",
-          "Overall": 76
+          "Overall": 76,
+          "Value": "€6.8M",
+          "ValueNum": 6798000.0,
+          "Age": 23
         },
         {
           "Nome": "A. Matri",
           "Ruolo": "ATT",
-          "Overall": 75
+          "Overall": 75,
+          "Value": "€3.5M",
+          "ValueNum": 3502000.0,
+          "Age": 31
         },
         {
           "Nome": "M. Lestienne",
           "Ruolo": "AS",
-          "Overall": 75
+          "Overall": 75,
+          "Value": "€4.7M",
+          "ValueNum": 4656000.0,
+          "Age": 23
         },
         {
           "Nome": "I. Fetfatzidis",
           "Ruolo": "AD, AS, AT",
-          "Overall": 75
+          "Overall": 75,
+          "Value": "€4.8M",
+          "ValueNum": 4752000.0,
+          "Age": 24
         },
         {
           "Nome": "Edenílson",
           "Ruolo": "ED, TD",
-          "Overall": 75
+          "Overall": 75,
+          "Value": "€4.2M",
+          "ValueNum": 4160000.0,
+          "Age": 28
         },
         {
           "Nome": "M. Pinilla",
           "Ruolo": "ATT",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€2.8M",
+          "ValueNum": 2826250.0,
+          "Age": 31
         },
         {
           "Nome": "N. Burdisso",
           "Ruolo": "DC",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€4.0M",
+          "ValueNum": 4032000.0,
+          "Age": 24
         },
         {
           "Nome": "D. Perotti",
           "Ruolo": "ES, ED",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€3.3M",
+          "ValueNum": 3324999.9999999995,
+          "Age": 27
         },
         {
           "Nome": "F. Roncaglia",
           "Ruolo": "DC, TD",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€3.4M",
+          "ValueNum": 3395000.0,
+          "Age": 28
         },
         {
           "Nome": "J. Kucka",
           "Ruolo": "ES, CC, CDC",
-          "Overall": 73
+          "Overall": 73,
+          "Value": "€3.1M",
+          "ValueNum": 3090000.0,
+          "Age": 28
         },
         {
           "Nome": "G. Marchese",
           "Ruolo": "DC, TS",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€2.9M",
+          "ValueNum": 2880000.0,
+          "Age": 24
         },
         {
           "Nome": "L. Antonelli",
           "Ruolo": "ES, TS",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€2.4M",
+          "ValueNum": 2425000.0,
+          "Age": 28
         },
         {
           "Nome": "Iago Falqué",
           "Ruolo": "ES",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€2.4M",
+          "ValueNum": 2400000.0,
+          "Age": 25
         },
         {
           "Nome": "A. Bertolacci",
           "Ruolo": "CC",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€2.9M",
+          "ValueNum": 2940000.0,
+          "Age": 22
         },
         {
           "Nome": "L. Greco",
           "Ruolo": "CC",
-          "Overall": 71
+          "Overall": 71,
+          "Value": "€2.1M",
+          "ValueNum": 2060000.0,
+          "Age": 25
         },
         {
           "Nome": "S. De Maio",
           "Ruolo": "DC",
-          "Overall": 71
+          "Overall": 71,
+          "Value": "€1.9M",
+          "ValueNum": 1900000.0,
+          "Age": 28
         },
         {
           "Nome": "T. Rincón",
           "Ruolo": "CDC, CC, ED",
-          "Overall": 71
+          "Overall": 71,
+          "Value": "€2.1M",
+          "ValueNum": 2080000.0,
+          "Age": 27
         },
         {
           "Nome": "S. Sturaro",
           "Ruolo": "CC, CDC",
-          "Overall": 71
+          "Overall": 71,
+          "Value": "€2.3M",
+          "ValueNum": 2280000.0,
+          "Age": 22
         },
         {
           "Nome": "M. Santana",
           "Ruolo": "ES",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€1.4M",
+          "ValueNum": 1424999.9999999998,
+          "Age": 26
         },
         {
           "Nome": "L. Antonini",
           "Ruolo": "DC, TD",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€1.4M",
+          "ValueNum": 1440000.0,
+          "Age": 26
         },
         {
           "Nome": "A. Rosi",
           "Ruolo": "ED, TD",
-          "Overall": 68
+          "Overall": 68,
+          "Value": "€1.1M",
+          "ValueNum": 1122000.0,
+          "Age": 28
         },
         {
           "Nome": "F. Mussis",
           "Ruolo": "CC",
-          "Overall": 68
+          "Overall": 68,
+          "Value": "€1.4M",
+          "ValueNum": 1372800.0,
+          "Age": 23
         },
         {
           "Nome": "E. Lamanna",
           "Ruolo": "POR",
-          "Overall": 67
+          "Overall": 67,
+          "Value": "€727K",
+          "ValueNum": 726750.0,
+          "Age": 29
         },
         {
           "Nome": "F. Seymour",
           "Ruolo": "CC, CDC",
-          "Overall": 66
+          "Overall": 66,
+          "Value": "€665K",
+          "ValueNum": 664999.9999999999,
+          "Age": 28
         },
         {
           "Nome": "A. Izzo",
           "Ruolo": "DC",
-          "Overall": 65
+          "Overall": 65,
+          "Value": "€612K",
+          "ValueNum": 612000.0,
+          "Age": 23
         },
         {
           "Nome": "R. Strasser",
           "Ruolo": "CC, CDC, DC",
-          "Overall": 60
+          "Overall": 60,
+          "Value": "€192K",
+          "ValueNum": 192000.0,
+          "Age": 27
         },
         {
           "Nome": "D. Jawad",
           "Ruolo": "ED, ES",
-          "Overall": 60
+          "Overall": 60,
+          "Value": "€206K",
+          "ValueNum": 206000.00000000003,
+          "Age": 27
         },
         {
           "Nome": "D. Sommariva",
           "Ruolo": "POR",
-          "Overall": 56
+          "Overall": 56,
+          "Value": "€233K",
+          "ValueNum": 232799.99999999997,
+          "Age": 23
         },
         {
           "Nome": "R. Mandragora",
           "Ruolo": "CC",
-          "Overall": 54
+          "Overall": 54,
+          "Value": "€314K",
+          "ValueNum": 313600.00000000006,
+          "Age": 18
         },
         {
           "Nome": "T. Velocci",
           "Ruolo": "AT",
-          "Overall": 52
+          "Overall": 52,
+          "Value": "€228K",
+          "ValueNum": 227999.99999999997,
+          "Age": 23
         },
         {
           "Nome": "G. Bennati",
           "Ruolo": "CC",
-          "Overall": 51
+          "Overall": 51,
+          "Value": "€190K",
+          "ValueNum": 190000.0,
+          "Age": 28
         },
         {
           "Nome": "L. Gallotti",
           "Ruolo": "TS",
-          "Overall": 51
+          "Overall": 51,
+          "Value": "€163K",
+          "ValueNum": 163200.0,
+          "Age": 29
         },
         {
           "Nome": "M. Fissore",
           "Ruolo": "DC",
-          "Overall": 44
+          "Overall": 44,
+          "Value": "€304K",
+          "ValueNum": 304000.00000000006,
+          "Age": 20
         }
       ]
     },
@@ -2576,162 +3995,258 @@
         {
           "Nome": "P. Hetemaj",
           "Ruolo": "CC, COC",
-          "Overall": 75
+          "Overall": 75,
+          "Value": "€3.2M",
+          "ValueNum": 3230000.0,
+          "Age": 29
         },
         {
           "Nome": "V. Birsa",
           "Ruolo": "AS, AD, COC",
-          "Overall": 75
+          "Overall": 75,
+          "Value": "€3.5M",
+          "ValueNum": 3502000.0,
+          "Age": 29
         },
         {
           "Nome": "A. Paloschi",
           "Ruolo": "ATT",
-          "Overall": 75
+          "Overall": 75,
+          "Value": "€3.8M",
+          "ValueNum": 3840000.0,
+          "Age": 25
         },
         {
           "Nome": "A. Gamberini",
           "Ruolo": "DC",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€4.1M",
+          "ValueNum": 4074000.0,
+          "Age": 24
         },
         {
           "Nome": "F. Bardi",
           "Ruolo": "POR",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€4.3M",
+          "ValueNum": 4326000.000000001,
+          "Age": 23
         },
         {
           "Nome": "M. Izco",
           "Ruolo": "CC, CDC",
-          "Overall": 73
+          "Overall": 73,
+          "Value": "€1.8M",
+          "ValueNum": 1835999.9999999998,
+          "Age": 32
         },
         {
           "Nome": "E. Schelotto",
           "Ruolo": "ED, AD",
-          "Overall": 73
+          "Overall": 73,
+          "Value": "€2.9M",
+          "ValueNum": 2910000.0,
+          "Age": 26
         },
         {
           "Nome": "R. Botta",
           "Ruolo": "COC, AT",
-          "Overall": 73
+          "Overall": 73,
+          "Value": "€3.1M",
+          "ValueNum": 3090000.0,
+          "Age": 25
         },
         {
           "Nome": "D. Dainelli",
           "Ruolo": "DC",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€960K",
+          "ValueNum": 960000.0,
+          "Age": 36
         },
         {
           "Nome": "A. Bizzarri",
           "Ruolo": "POR",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€2.0M",
+          "ValueNum": 2040000.0,
+          "Age": 29
         },
         {
           "Nome": "M. López",
           "Ruolo": "ATT",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€4.1M",
+          "ValueNum": 4120000.0,
+          "Age": 18
         },
         {
           "Nome": "B. Cesar",
           "Ruolo": "DC",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€1.5M",
+          "ValueNum": 1545000.0,
+          "Age": 33
         },
         {
           "Nome": "R. Meggiorini",
           "Ruolo": "ATT",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€2.1M",
+          "ValueNum": 2082500.0,
+          "Age": 30
         },
         {
           "Nome": "I. Radovanovic",
           "Ruolo": "CC, CDC",
-          "Overall": 71
+          "Overall": 71,
+          "Value": "€2.4M",
+          "ValueNum": 2376000.0,
+          "Age": 23
         },
         {
           "Nome": "E. Zukanović",
           "Ruolo": "DC",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€1.5M",
+          "ValueNum": 1455000.0,
+          "Age": 28
         },
         {
           "Nome": "D. Lazarević",
           "Ruolo": "ED, ES, AD, AS",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€1.5M",
+          "ValueNum": 1455000.0,
+          "Age": 28
         },
         {
           "Nome": "I. Cofie",
           "Ruolo": "CC, CDC",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€1.9M",
+          "ValueNum": 1853999.9999999998,
+          "Age": 24
         },
         {
           "Nome": "N. Bellomo",
           "Ruolo": "COC, CC",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€1.2M",
+          "ValueNum": 1211250.0,
+          "Age": 29
         },
         {
           "Nome": "S. Pellissier",
           "Ruolo": "ATT",
-          "Overall": 69
+          "Overall": 69,
+          "Value": "€1.3M",
+          "ValueNum": 1274000.0,
+          "Age": 28
         },
         {
           "Nome": "G. Sardo",
           "Ruolo": "TD, ED",
-          "Overall": 69
+          "Overall": 69,
+          "Value": "€1.1M",
+          "ValueNum": 1138150.0,
+          "Age": 30
         },
         {
           "Nome": "C. Puggioni",
           "Ruolo": "POR",
-          "Overall": 69
+          "Overall": 69,
+          "Value": "€1.5M",
+          "ValueNum": 1497600.0,
+          "Age": 23
         },
         {
           "Nome": "T. Mangani",
           "Ruolo": "CC, CDC",
-          "Overall": 69
+          "Overall": 69,
+          "Value": "€1.2M",
+          "ValueNum": 1234999.9999999998,
+          "Age": 28
         },
         {
           "Nome": "N. Frey",
           "Ruolo": "TD, DC, TS",
-          "Overall": 69
+          "Overall": 69,
+          "Value": "€1.1M",
+          "ValueNum": 1127100.0,
+          "Age": 31
         },
         {
           "Nome": "T. Kupisz",
           "Ruolo": "ED",
-          "Overall": 69
+          "Overall": 69,
+          "Value": "€1.1M",
+          "ValueNum": 1149200.0,
+          "Age": 30
         },
         {
           "Nome": "Edimar",
           "Ruolo": "TS",
-          "Overall": 69
+          "Overall": 69,
+          "Value": "€1.1M",
+          "ValueNum": 1116050.0,
+          "Age": 30
         },
         {
           "Nome": "C. Biraghi",
           "Ruolo": "TS, ES",
-          "Overall": 69
+          "Overall": 69,
+          "Value": "€1.5M",
+          "ValueNum": 1482000.0,
+          "Age": 23
         },
         {
           "Nome": "M. Pamić",
           "Ruolo": "TS",
-          "Overall": 66
+          "Overall": 66,
+          "Value": "€1.2M",
+          "ValueNum": 1153600.0,
+          "Age": 20
         },
         {
           "Nome": "A. Seculin",
           "Ruolo": "POR",
-          "Overall": 66
+          "Overall": 66,
+          "Value": "€665K",
+          "ValueNum": 664999.9999999999,
+          "Age": 25
         },
         {
           "Nome": "Miranda",
           "Ruolo": "POR",
-          "Overall": 63
+          "Overall": 63,
+          "Value": "€173K",
+          "ValueNum": 173400.00000000003,
+          "Age": 31
         },
         {
           "Nome": "L. Finazzi",
           "Ruolo": "CC, CDC",
-          "Overall": 62
+          "Overall": 62,
+          "Value": "€190K",
+          "ValueNum": 190000.0,
+          "Age": 27
         },
         {
           "Nome": "G. Sorcan",
           "Ruolo": "POR",
-          "Overall": 60
+          "Overall": 60,
+          "Value": "€333K",
+          "ValueNum": 332800.0000000001,
+          "Age": 21
         },
         {
           "Nome": "I. Toskic",
           "Ruolo": "CC",
-          "Overall": 52
+          "Overall": 52,
+          "Value": "€177K",
+          "ValueNum": 176800.0,
+          "Age": 29
         }
       ]
     },
@@ -2749,162 +4264,258 @@
         {
           "Nome": "M. Sau",
           "Ruolo": "AT, ATT, AS",
-          "Overall": 75
+          "Overall": 75,
+          "Value": "€4.0M",
+          "ValueNum": 4040000.0,
+          "Age": 28
         },
         {
           "Nome": "V. Ibarbo",
           "Ruolo": "ATT, AD",
-          "Overall": 75
+          "Overall": 75,
+          "Value": "€4.2M",
+          "ValueNum": 4160000.0,
+          "Age": 26
         },
         {
           "Nome": "D. Conti",
           "Ruolo": "CDC, CC",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€4.3M",
+          "ValueNum": 4326000.000000001,
+          "Age": 23
         },
         {
           "Nome": "A. Ekdal",
           "Ruolo": "CC",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€3.6M",
+          "ValueNum": 3605000.0,
+          "Age": 26
         },
         {
           "Nome": "L. Rossettini",
           "Ruolo": "DC",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€2.9M",
+          "ValueNum": 2915500.0,
+          "Age": 30
         },
         {
           "Nome": "A. Cossu",
           "Ruolo": "COC, AS",
-          "Overall": 73
+          "Overall": 73,
+          "Value": "€4.9M",
+          "ValueNum": 4944000.000000001,
+          "Age": 20
         },
         {
           "Nome": "João Pedro Galvão",
           "Ruolo": "AS, CC",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€3.1M",
+          "ValueNum": 3060000.0,
+          "Age": 24
         },
         {
           "Nome": "Danilo Avelar",
           "Ruolo": "TS",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€2.9M",
+          "ValueNum": 2940000.0,
+          "Age": 23
         },
         {
           "Nome": "F. Pisano",
           "Ruolo": "TD",
-          "Overall": 71
+          "Overall": 71,
+          "Value": "€2.1M",
+          "ValueNum": 2080000.0,
+          "Age": 26
         },
         {
           "Nome": "D. Dessena",
           "Ruolo": "CC, TD",
-          "Overall": 71
+          "Overall": 71,
+          "Value": "€1.9M",
+          "ValueNum": 1900000.0,
+          "Age": 28
         },
         {
           "Nome": "Diego Farías",
           "Ruolo": "AD, AS",
-          "Overall": 71
+          "Overall": 71,
+          "Value": "€1.9M",
+          "ValueNum": 1940000.0,
+          "Age": 25
         },
         {
           "Nome": "M. Capuano",
           "Ruolo": "DC",
-          "Overall": 71
+          "Overall": 71,
+          "Value": "€2.3M",
+          "ValueNum": 2280000.0,
+          "Age": 24
         },
         {
           "Nome": "S. Eriksson",
           "Ruolo": "CC",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€1.4M",
+          "ValueNum": 1440000.0,
+          "Age": 26
         },
         {
           "Nome": "L. Crisetig",
           "Ruolo": "CDC, CC",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€1.7M",
+          "ValueNum": 1727999.9999999998,
+          "Age": 22
         },
         {
           "Nome": "S. Benedetti",
           "Ruolo": "DC",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€1.7M",
+          "ValueNum": 1745999.9999999998,
+          "Age": 23
         },
         {
           "Nome": "L. Ceppitelli",
           "Ruolo": "DC",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€1.5M",
+          "ValueNum": 1470000.0,
+          "Age": 26
         },
         {
           "Nome": "N. Murru",
           "Ruolo": "TS",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€2.5M",
+          "ValueNum": 2472000.0000000005,
+          "Age": 21
         },
         {
           "Nome": "A. Balzano",
           "Ruolo": "TD, ED",
-          "Overall": 68
+          "Overall": 68,
+          "Value": "€888K",
+          "ValueNum": 888250.0,
+          "Age": 29
         },
         {
           "Nome": "S. Longo",
           "Ruolo": "ATT",
-          "Overall": 68
+          "Overall": 68,
+          "Value": "€1.4M",
+          "ValueNum": 1359600.0000000002,
+          "Age": 23
         },
         {
           "Nome": "S. Colombi",
           "Ruolo": "POR",
-          "Overall": 67
+          "Overall": 67,
+          "Value": "€1.0M",
+          "ValueNum": 1026000.0,
+          "Age": 24
         },
         {
           "Nome": "A. Cragno",
           "Ruolo": "POR",
-          "Overall": 67
+          "Overall": 67,
+          "Value": "€1.5M",
+          "ValueNum": 1497600.0000000002,
+          "Age": 21
         },
         {
           "Nome": "Caio Rangel",
           "Ruolo": "AD",
-          "Overall": 63
+          "Overall": 63,
+          "Value": "€163K",
+          "ValueNum": 163200.0,
+          "Age": 30
         },
         {
           "Nome": "W. Carboni",
           "Ruolo": "POR",
-          "Overall": 62
+          "Overall": 62,
+          "Value": "€190K",
+          "ValueNum": 190000.0,
+          "Age": 27
         },
         {
           "Nome": "S. Solinas",
           "Ruolo": "AT",
-          "Overall": 61
+          "Overall": 61,
+          "Value": "€228K",
+          "ValueNum": 227999.99999999997,
+          "Age": 23
         },
         {
           "Nome": "G. Donsah",
           "Ruolo": "CC",
-          "Overall": 61
+          "Overall": 61,
+          "Value": "€333K",
+          "ValueNum": 332800.0000000001,
+          "Age": 19
         },
         {
           "Nome": "N. Barella",
           "Ruolo": "CC",
-          "Overall": 60
+          "Overall": 60,
+          "Value": "€304K",
+          "ValueNum": 304000.00000000006,
+          "Age": 18
         },
         {
           "Nome": "A. Loi",
           "Ruolo": "COC",
-          "Overall": 59
+          "Overall": 59,
+          "Value": "€202K",
+          "ValueNum": 202000.0,
+          "Age": 25
         },
         {
           "Nome": "A. Capello",
           "Ruolo": "CC, AD",
-          "Overall": 59
+          "Overall": 59,
+          "Value": "€304K",
+          "ValueNum": 304000.00000000006,
+          "Age": 20
         },
         {
           "Nome": "M. Suella",
           "Ruolo": "AD",
-          "Overall": 58
+          "Overall": 58,
+          "Value": "€208K",
+          "ValueNum": 208000.00000000003,
+          "Age": 28
         },
         {
           "Nome": "M. Muroni",
           "Ruolo": "CC",
-          "Overall": 56
+          "Overall": 56,
+          "Value": "€208K",
+          "ValueNum": 208000.00000000003,
+          "Age": 27
         },
         {
           "Nome": "A. Atzori",
           "Ruolo": "CC",
-          "Overall": 54
+          "Overall": 54,
+          "Value": "€250K",
+          "ValueNum": 249600.0,
+          "Age": 24
         },
         {
           "Nome": "M. Saias",
           "Ruolo": "TD",
-          "Overall": 52
+          "Overall": 52,
+          "Value": "€247K",
+          "ValueNum": 247200.0,
+          "Age": 24
         }
       ]
     },
@@ -2922,152 +4533,242 @@
         {
           "Nome": "S. Sorrentino",
           "Ruolo": "POR",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€4.1M",
+          "ValueNum": 4115999.9999999995,
+          "Age": 23
         },
         {
           "Nome": "L. Rigoni",
           "Ruolo": "CC, CDC",
-          "Overall": 73
+          "Overall": 73,
+          "Value": "€2.7M",
+          "ValueNum": 2651999.9999999995,
+          "Age": 31
         },
         {
           "Nome": "S. Bamba",
           "Ruolo": "DC",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€2.2M",
+          "ValueNum": 2188750.0,
+          "Age": 30
         },
         {
           "Nome": "G. González",
           "Ruolo": "DC",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€2.4M",
+          "ValueNum": 2400000.0,
+          "Age": 27
         },
         {
           "Nome": "E. Barreto",
           "Ruolo": "CC, CDC",
-          "Overall": 71
+          "Overall": 71,
+          "Value": "€1.6M",
+          "ValueNum": 1615000.0,
+          "Age": 31
         },
         {
           "Nome": "E. Muñoz",
           "Ruolo": "DC",
-          "Overall": 71
+          "Overall": 71,
+          "Value": "€2.1M",
+          "ValueNum": 2060000.0,
+          "Age": 25
         },
         {
           "Nome": "S. Makienok",
           "Ruolo": "ATT",
-          "Overall": 71
+          "Overall": 71,
+          "Value": "€1.9M",
+          "ValueNum": 1920000.0,
+          "Age": 25
         },
         {
           "Nome": "C. Terzi",
           "Ruolo": "DC",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€1.3M",
+          "ValueNum": 1313250.0,
+          "Age": 31
         },
         {
           "Nome": "P. Dybala",
           "Ruolo": "AT",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€1.9M",
+          "ValueNum": 1872000.0,
+          "Age": 22
         },
         {
           "Nome": "S. Ujkani",
           "Ruolo": "POR",
-          "Overall": 69
+          "Overall": 69,
+          "Value": "€1.4M",
+          "ValueNum": 1352000.0,
+          "Age": 26
         },
         {
           "Nome": "E. Pisano",
           "Ruolo": "TD, ED",
-          "Overall": 69
+          "Overall": 69,
+          "Value": "€1.4M",
+          "ValueNum": 1352000.0,
+          "Age": 26
         },
         {
           "Nome": "E. Maresca",
           "Ruolo": "CC, CDC",
-          "Overall": 68
+          "Overall": 68,
+          "Value": "€1.0M",
+          "ValueNum": 1044999.9999999999,
+          "Age": 28
         },
         {
           "Nome": "F. Della Rocca",
           "Ruolo": "CC",
-          "Overall": 68
+          "Overall": 68,
+          "Value": "€1.7M",
+          "ValueNum": 1742400.0000000002,
+          "Age": 20
         },
         {
           "Nome": "G. Ngoyi",
           "Ruolo": "CDC",
-          "Overall": 68
+          "Overall": 68,
+          "Value": "€1.4M",
+          "ValueNum": 1359600.0000000002,
+          "Age": 22
         },
         {
           "Nome": "A. Belotti",
           "Ruolo": "ATT",
-          "Overall": 68
+          "Overall": 68,
+          "Value": "€1.3M",
+          "ValueNum": 1254000.0,
+          "Age": 22
         },
         {
           "Nome": "João Silva",
           "Ruolo": "ATT",
-          "Overall": 68
+          "Overall": 68,
+          "Value": "€1.0M",
+          "ValueNum": 1044999.9999999999,
+          "Age": 25
         },
         {
           "Nome": "R. Vitiello",
           "Ruolo": "TD, DC",
-          "Overall": 67
+          "Overall": 67,
+          "Value": "€518K",
+          "ValueNum": 518400.0,
+          "Age": 32
         },
         {
           "Nome": "M. Morganella",
           "Ruolo": "ED, TD",
-          "Overall": 67
+          "Overall": 67,
+          "Value": "€882K",
+          "ValueNum": 882000.0,
+          "Age": 26
         },
         {
           "Nome": "F. Bolzoni",
           "Ruolo": "CC, CDC",
-          "Overall": 67
+          "Overall": 67,
+          "Value": "€1.4M",
+          "ValueNum": 1368000.0,
+          "Age": 21
         },
         {
           "Nome": "F. Vázquez",
           "Ruolo": "COC, AT",
-          "Overall": 67
+          "Overall": 67,
+          "Value": "€855K",
+          "ValueNum": 855000.0,
+          "Age": 26
         },
         {
           "Nome": "S. Aronica",
           "Ruolo": "DC",
-          "Overall": 66
+          "Overall": 66,
+          "Value": "€798K",
+          "ValueNum": 797999.9999999999,
+          "Age": 23
         },
         {
           "Nome": "F. Daprelà",
           "Ruolo": "ES, TS",
-          "Overall": 66
+          "Overall": 66,
+          "Value": "€798K",
+          "ValueNum": 797999.9999999999,
+          "Age": 24
         },
         {
           "Nome": "S. Anđelković",
           "Ruolo": "DC",
-          "Overall": 66
+          "Overall": 66,
+          "Value": "€1.1M",
+          "ValueNum": 1097600.0,
+          "Age": 21
         },
         {
           "Nome": "I. Chochev",
           "Ruolo": "CC, COC",
-          "Overall": 66
+          "Overall": 66,
+          "Value": "€798K",
+          "ValueNum": 797999.9999999999,
+          "Age": 22
         },
         {
           "Nome": "R. Quaison",
           "Ruolo": "CC",
-          "Overall": 65
+          "Overall": 65,
+          "Value": "€570K",
+          "ValueNum": 570000.0,
+          "Age": 22
         },
         {
           "Nome": "M. Milanović",
           "Ruolo": "DC",
-          "Overall": 64
+          "Overall": 64,
+          "Value": "€165K",
+          "ValueNum": 164900.00000000003,
+          "Age": 30
         },
         {
           "Nome": "Emerson",
           "Ruolo": "TS",
-          "Overall": 64
+          "Overall": 64,
+          "Value": "€326K",
+          "ValueNum": 326400.00000000006,
+          "Age": 16
         },
         {
           "Nome": "A. Lazaar",
           "Ruolo": "ES, TS",
-          "Overall": 62
+          "Overall": 62,
+          "Value": "€250K",
+          "ValueNum": 249600.0,
+          "Age": 23
         },
         {
           "Nome": "Z. Feddal",
           "Ruolo": "DC, ES",
-          "Overall": 61
+          "Overall": 61,
+          "Value": "€208K",
+          "ValueNum": 208000.00000000003,
+          "Age": 26
         },
         {
           "Nome": "A. Fulignati",
           "Ruolo": "POR",
-          "Overall": 49
+          "Overall": 49,
+          "Value": "€310K",
+          "ValueNum": 310400.00000000006,
+          "Age": 21
         }
       ]
     },
@@ -3085,162 +4786,258 @@
         {
           "Nome": "S. Lucchini",
           "Ruolo": "DC",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€2.9M",
+          "ValueNum": 2856000.0,
+          "Age": 29
         },
         {
           "Nome": "C. Carbonero",
           "Ruolo": "ED",
-          "Overall": 74
+          "Overall": 74,
+          "Value": "€5.4M",
+          "ValueNum": 5432000.0,
+          "Age": 20
         },
         {
           "Nome": "F. Brienza",
           "Ruolo": "AT, ED",
-          "Overall": 71
+          "Overall": 71,
+          "Value": "€2.3M",
+          "ValueNum": 2280000.0,
+          "Age": 24
         },
         {
           "Nome": "N. Leali",
           "Ruolo": "POR",
-          "Overall": 71
+          "Overall": 71,
+          "Value": "€2.5M",
+          "ValueNum": 2472000.0,
+          "Age": 22
         },
         {
           "Nome": "E. Cascione",
           "Ruolo": "CDC, CC",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€1.2M",
+          "ValueNum": 1224000.0,
+          "Age": 29
         },
         {
           "Nome": "G. Marilungo",
           "Ruolo": "ATT, AS",
-          "Overall": 69
+          "Overall": 69,
+          "Value": "€1.3M",
+          "ValueNum": 1261000.0,
+          "Age": 28
         },
         {
           "Nome": "F. Agliardi",
           "Ruolo": "POR",
-          "Overall": 68
+          "Overall": 68,
+          "Value": "€1.1M",
+          "ValueNum": 1056000.0,
+          "Age": 26
         },
         {
           "Nome": "D. Succi",
           "Ruolo": "ATT",
-          "Overall": 68
+          "Overall": 68,
+          "Value": "€1.8M",
+          "ValueNum": 1812800.0000000002,
+          "Age": 20
         },
         {
           "Nome": "R. Cazzola",
           "Ruolo": "CC",
-          "Overall": 68
+          "Overall": 68,
+          "Value": "€1.3M",
+          "ValueNum": 1254000.0,
+          "Age": 22
         },
         {
           "Nome": "D. Capelli",
           "Ruolo": "DC",
-          "Overall": 68
+          "Overall": 68,
+          "Value": "€1.7M",
+          "ValueNum": 1672000.0000000002,
+          "Age": 21
         },
         {
           "Nome": "G. Perico",
           "Ruolo": "TD",
-          "Overall": 68
+          "Overall": 68,
+          "Value": "€1.1M",
+          "ValueNum": 1144000.0000000002,
+          "Age": 27
         },
         {
           "Nome": "L. Giorgi",
           "Ruolo": "ED",
-          "Overall": 68
+          "Overall": 68,
+          "Value": "€1.4M",
+          "ValueNum": 1372800.0,
+          "Age": 24
         },
         {
           "Nome": "N. Pulzetti",
           "Ruolo": "CC",
-          "Overall": 67
+          "Overall": 67,
+          "Value": "€864K",
+          "ValueNum": 864000.0,
+          "Age": 26
         },
         {
           "Nome": "M. Volta",
           "Ruolo": "DC",
-          "Overall": 67
+          "Overall": 67,
+          "Value": "€927K",
+          "ValueNum": 927000.0,
+          "Age": 28
         },
         {
           "Nome": "G. De Feudis",
           "Ruolo": "CC, CDC",
-          "Overall": 66
+          "Overall": 66,
+          "Value": "€1.1M",
+          "ValueNum": 1086399.9999999998,
+          "Age": 20
         },
         {
           "Nome": "F. Renzetti",
           "Ruolo": "TS, ES",
-          "Overall": 66
+          "Overall": 66,
+          "Value": "€672K",
+          "ValueNum": 671999.9999999999,
+          "Age": 27
         },
         {
           "Nome": "A. Tabanelli",
           "Ruolo": "CC, COC",
-          "Overall": 66
+          "Overall": 66,
+          "Value": "€679K",
+          "ValueNum": 678999.9999999999,
+          "Age": 25
         },
         {
           "Nome": "A. Mazzotta",
           "Ruolo": "TS",
-          "Overall": 65
+          "Overall": 65,
+          "Value": "€480K",
+          "ValueNum": 480000.0,
+          "Age": 27
         },
         {
           "Nome": "W. Bressan",
           "Ruolo": "POR",
-          "Overall": 64
+          "Overall": 64,
+          "Value": "€190K",
+          "ValueNum": 190000.0,
+          "Age": 27
         },
         {
           "Nome": "M. Djuric",
           "Ruolo": "ATT",
-          "Overall": 64
+          "Overall": 64,
+          "Value": "€208K",
+          "ValueNum": 208000.00000000003,
+          "Age": 27
         },
         {
           "Nome": "A. Rodríguez",
           "Ruolo": "ATT",
-          "Overall": 64
+          "Overall": 64,
+          "Value": "€310K",
+          "ValueNum": 310400.00000000006,
+          "Age": 19
         },
         {
           "Nome": "G. Defrel",
           "Ruolo": "AT, AS, AD",
-          "Overall": 64
+          "Overall": 64,
+          "Value": "€250K",
+          "ValueNum": 249600.0,
+          "Age": 24
         },
         {
           "Nome": "H. Magnússon",
           "Ruolo": "DC, TS",
-          "Overall": 64
+          "Overall": 64,
+          "Value": "€233K",
+          "ValueNum": 232799.99999999997,
+          "Age": 22
         },
         {
           "Nome": "M. Coppola",
           "Ruolo": "CC, CDC",
-          "Overall": 63
+          "Overall": 63,
+          "Value": "€162K",
+          "ValueNum": 161500.0,
+          "Age": 29
         },
         {
           "Nome": "Zé Eduardo",
           "Ruolo": "COC, CC",
-          "Overall": 63
+          "Overall": 63,
+          "Value": "€190K",
+          "ValueNum": 190000.0,
+          "Age": 27
         },
         {
           "Nome": "L. Krajnc",
           "Ruolo": "DC",
-          "Overall": 63
+          "Overall": 63,
+          "Value": "€333K",
+          "ValueNum": 332800.0000000001,
+          "Age": 21
         },
         {
           "Nome": "C. Nica",
           "Ruolo": "TD, TS",
-          "Overall": 62
+          "Overall": 62,
+          "Value": "€245K",
+          "ValueNum": 244800.0,
+          "Age": 22
         },
         {
           "Nome": "L. Garritano",
           "Ruolo": "AT, AS",
-          "Overall": 60
+          "Overall": 60,
+          "Value": "€310K",
+          "ValueNum": 310400.00000000006,
+          "Age": 21
         },
         {
           "Nome": "A. Yabrè",
           "Ruolo": "CC",
-          "Overall": 50
+          "Overall": 50,
+          "Value": "€330K",
+          "ValueNum": 329600.00000000006,
+          "Age": 20
         },
         {
           "Nome": "G. Moncini",
           "Ruolo": "ATT",
-          "Overall": 49
+          "Overall": 49,
+          "Value": "€304K",
+          "ValueNum": 304000.00000000006,
+          "Age": 19
         },
         {
           "Nome": "L. Valzania",
           "Ruolo": "ED, CC",
-          "Overall": 48
+          "Overall": 48,
+          "Value": "€307K",
+          "ValueNum": 307200.0,
+          "Age": 19
         },
         {
           "Nome": "A. Iglio",
           "Ruolo": "POR",
-          "Overall": 46
+          "Overall": 46,
+          "Value": "€175K",
+          "ValueNum": 175100.0,
+          "Age": 29
         }
       ]
     },
@@ -3258,152 +5055,242 @@
         {
           "Nome": "M. Maccarone",
           "Ruolo": "ATT",
-          "Overall": 72
+          "Overall": 72,
+          "Value": "€2.4M",
+          "ValueNum": 2425000.0,
+          "Age": 28
         },
         {
           "Nome": "F. Tavano",
           "Ruolo": "ATT",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€1.9M",
+          "ValueNum": 1872000.0,
+          "Age": 23
         },
         {
           "Nome": "T. Guarente",
           "Ruolo": "CC, CDC",
-          "Overall": 70
+          "Overall": 70,
+          "Value": "€2.3M",
+          "ValueNum": 2304000.0000000005,
+          "Age": 20
         },
         {
           "Nome": "D. Bassi",
           "Ruolo": "POR",
-          "Overall": 69
+          "Overall": 69,
+          "Value": "€1.1M",
+          "ValueNum": 1138150.0,
+          "Age": 30
         },
         {
           "Nome": "L. Tonelli",
           "Ruolo": "DC",
-          "Overall": 69
+          "Overall": 69,
+          "Value": "€1.2M",
+          "ValueNum": 1234999.9999999998,
+          "Age": 25
         },
         {
           "Nome": "M. Vecino",
           "Ruolo": "CC",
-          "Overall": 69
+          "Overall": 69,
+          "Value": "€1.6M",
+          "ValueNum": 1622400.0,
+          "Age": 24
         },
         {
           "Nome": "M. Valdifiori",
           "Ruolo": "CC, CDC",
-          "Overall": 68
+          "Overall": 68,
+          "Value": "€916K",
+          "ValueNum": 916300.0,
+          "Age": 29
         },
         {
           "Nome": "P. Zieliński",
           "Ruolo": "COC, AT",
-          "Overall": 68
+          "Overall": 68,
+          "Value": "€1.7M",
+          "ValueNum": 1707200.0000000002,
+          "Age": 21
         },
         {
           "Nome": "D. Laxalt",
           "Ruolo": "CC, COC",
-          "Overall": 68
+          "Overall": 68,
+          "Value": "€1.4M",
+          "ValueNum": 1372800.0,
+          "Age": 22
         },
         {
           "Nome": "L. Mchedlidze",
           "Ruolo": "ATT",
-          "Overall": 67
+          "Overall": 67,
+          "Value": "€1.4M",
+          "ValueNum": 1411200.0000000002,
+          "Age": 21
         },
         {
           "Nome": "L. Sepe",
           "Ruolo": "POR",
-          "Overall": 67
+          "Overall": 67,
+          "Value": "€1.1M",
+          "ValueNum": 1101600.0000000002,
+          "Age": 24
         },
         {
           "Nome": "M. Pucciarelli",
           "Ruolo": "COC",
-          "Overall": 67
+          "Overall": 67,
+          "Value": "€1.1M",
+          "ValueNum": 1069200.0000000002,
+          "Age": 24
         },
         {
           "Nome": "V. Laurini",
           "Ruolo": "TD",
-          "Overall": 67
+          "Overall": 67,
+          "Value": "€855K",
+          "ValueNum": 855000.0,
+          "Age": 26
         },
         {
           "Nome": "E. Hysaj",
           "Ruolo": "TS, TD",
-          "Overall": 67
+          "Overall": 67,
+          "Value": "€1.5M",
+          "ValueNum": 1483200.0000000002,
+          "Age": 21
         },
         {
           "Nome": "D. Rugani",
           "Ruolo": "DC",
-          "Overall": 67
+          "Overall": 67,
+          "Value": "€1.5M",
+          "ValueNum": 1497600.0000000002,
+          "Age": 21
         },
         {
           "Nome": "D. Croce",
           "Ruolo": "CC",
-          "Overall": 66
+          "Overall": 66,
+          "Value": "€433K",
+          "ValueNum": 432600.0,
+          "Age": 33
         },
         {
           "Nome": "S. Verdi",
           "Ruolo": "COC",
-          "Overall": 66
+          "Overall": 66,
+          "Value": "€865K",
+          "ValueNum": 865200.0,
+          "Age": 23
         },
         {
           "Nome": "Mário Rui",
           "Ruolo": "TS",
-          "Overall": 66
+          "Overall": 66,
+          "Value": "€874K",
+          "ValueNum": 873600.0,
+          "Age": 24
         },
         {
           "Nome": "M. Bianchetti",
           "Ruolo": "DC",
-          "Overall": 66
+          "Overall": 66,
+          "Value": "€823K",
+          "ValueNum": 823199.9999999999,
+          "Age": 22
         },
         {
           "Nome": "F. Barba",
           "Ruolo": "DC",
-          "Overall": 66
+          "Overall": 66,
+          "Value": "€865K",
+          "ValueNum": 865200.0,
+          "Age": 22
         },
         {
           "Nome": "D. Moro",
           "Ruolo": "CC",
-          "Overall": 65
+          "Overall": 65,
+          "Value": "€510K",
+          "ValueNum": 510000.0,
+          "Age": 25
         },
         {
           "Nome": "F. Signorelli",
           "Ruolo": "CC",
-          "Overall": 65
+          "Overall": 65,
+          "Value": "€588K",
+          "ValueNum": 588000.0,
+          "Age": 24
         },
         {
           "Nome": "R. Aguirre",
           "Ruolo": "ATT, AT",
-          "Overall": 65
+          "Overall": 65,
+          "Value": "€570K",
+          "ValueNum": 570000.0,
+          "Age": 24
         },
         {
           "Nome": "R. Perticone",
           "Ruolo": "DC, TD",
-          "Overall": 64
+          "Overall": 64,
+          "Value": "€165K",
+          "ValueNum": 164900.00000000003,
+          "Age": 29
         },
         {
           "Nome": "L. Martinelli",
           "Ruolo": "DC",
-          "Overall": 63
+          "Overall": 63,
+          "Value": "€314K",
+          "ValueNum": 313600.00000000006,
+          "Age": 20
         },
         {
           "Nome": "I. Shekiladze",
           "Ruolo": "ATT",
-          "Overall": 61
+          "Overall": 61,
+          "Value": "€235K",
+          "ValueNum": 235200.0,
+          "Age": 22
         },
         {
           "Nome": "M. Bachini",
           "Ruolo": "DC",
-          "Overall": 55
+          "Overall": 55,
+          "Value": "€304K",
+          "ValueNum": 304000.00000000006,
+          "Age": 20
         },
         {
           "Nome": "D. Konate",
           "Ruolo": "DC",
-          "Overall": 54
+          "Overall": 54,
+          "Value": "€250K",
+          "ValueNum": 249600.0,
+          "Age": 22
         },
         {
           "Nome": "F. Pacini",
           "Ruolo": "POR",
-          "Overall": 53
+          "Overall": 53,
+          "Value": "€333K",
+          "ValueNum": 332800.0000000001,
+          "Age": 20
         },
         {
           "Nome": "E. Rovini",
           "Ruolo": "AT, COC",
-          "Overall": 51
+          "Overall": 51,
+          "Value": "€208K",
+          "ValueNum": 208000.00000000003,
+          "Age": 25
         }
       ]
     }

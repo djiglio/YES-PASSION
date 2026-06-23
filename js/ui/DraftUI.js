@@ -22,28 +22,34 @@ export class DraftUI {
             '3-5-2': [
                 ['POR'],
                 ['DC', 'DC', 'DC'],
-                ['ES', 'CC', 'CDC', 'CC', 'ED'],
+                ['ES', 'CC', 'CC', 'ED'],
+                ['COC'],
                 ['ATT', 'ATT']
             ],
-            '5-3-2': [
+            '3-4-3': [
                 ['POR'],
-                ['ASA', 'DC', 'DC', 'DC', 'ADA'],
-                ['CC', 'CDC', 'CC'],
-                ['ATT', 'ATT']
+                ['DC', 'DC', 'DC'],
+                ['ES', 'CC', 'CC', 'ED'],
+                ['AT', 'ATT', 'AT']
             ],
             '4-2-3-1': [
                 ['POR'],
                 ['TS', 'DC', 'DC', 'TD'],
                 ['CDC', 'CDC'],
-                ['ES', 'COC', 'ED'],
+                ['AS', 'COC', 'AD'],
                 ['ATT']
             ],
-            '3-4-2-1': [
+            '5-3-2': [
                 ['POR'],
-                ['DC', 'DC', 'DC'],
-                ['ES', 'CC', 'CC', 'ED'],
-                ['AT', 'AT'],
-                ['ATT']
+                ['TS', 'DC', 'DC', 'DC', 'TD'],
+                ['CC', 'CDC', 'CC'],
+                ['ATT', 'ATT']
+            ],
+            '4-2-4': [
+                ['POR'],
+                ['TS', 'DC', 'DC', 'TD'],
+                ['CDC', 'CDC'],
+                ['AS', 'ATT', 'ATT', 'AD']
             ]
         };
 
@@ -54,6 +60,10 @@ export class DraftUI {
         this.picksRemaining = 11;
         this.selectedPlayer = null;
         this.blindDraft = false;
+        
+        this.budgetMode = false;
+        this.budgetMax = 150000000; // 150M default
+        this.budgetSpent = 0;
     }
 
     async init() {
@@ -66,11 +76,15 @@ export class DraftUI {
                 <h2>Impostazioni Draft</h2>
                 
                 <div class="settings-panel" style="background: rgba(0,0,0,0.3); padding: 1rem; border-radius: 8px; margin-bottom: 1.5rem;">
-                    <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer; font-size: 1.1rem; font-weight: 600;">
+                    <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer; font-size: 1.1rem; font-weight: 600; margin-bottom: 0.5rem;">
                         <input type="checkbox" id="blind-draft-toggle" style="width: 20px; height: 20px; accent-color: var(--accent);">
                         Draft al buio (Nascondi Overall)
                     </label>
-                    <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.5rem;">Gli Overall saranno rivelati solo al completamento della squadra.</p>
+                    <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer; font-size: 1.1rem; font-weight: 600;">
+                        <input type="checkbox" id="budget-draft-toggle" style="width: 20px; height: 20px; accent-color: var(--accent);" checked>
+                        Modalità Budget (Tetto Salariale)
+                    </label>
+                    <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.8rem;">Nella modalità Budget dovrai formare gli 11 titolari senza superare i €150M disponibili!</p>
                 </div>
 
                 <h3>Seleziona il Modulo</h3>
@@ -84,6 +98,8 @@ export class DraftUI {
         this.container.querySelectorAll('.formation-btn').forEach(btn => {
             btn.addEventListener('click', (e) => {
                 this.blindDraft = document.getElementById('blind-draft-toggle').checked;
+                this.budgetMode = document.getElementById('budget-draft-toggle').checked;
+                this.budgetSpent = 0;
                 this.startDraft(e.target.getAttribute('data-form'));
             });
         });
@@ -169,12 +185,14 @@ export class DraftUI {
                 const isFilled = slot.player !== null;
                 const isGold = isFilled && slot.player.Overall >= 85 && !this.blindDraft;
                 const displayOvr = isFilled ? (this.blindDraft ? '?' : slot.player.Overall) : '';
+                const p = slot.player;
                 
                 pitchHtml += `
                     <div class="slot ${isFilled ? 'filled' : ''} ${isGold ? 'gold-card' : ''}" data-slot-id="${slot.id}">
                         ${isFilled ? `
                             <div class="card-ovr">${displayOvr}</div>
-                            <div class="card-role">${slot.requiredRole}</div>
+                            <div class="card-role" style="background: ${this.getRoleColor(p.Ruolo.split(',')[0])}">${p.Ruolo.split(',')[0]}</div>
+                            ${!this.blindDraft ? `<div class="card-value" style="font-size: 0.8rem; font-weight: bold; background: rgba(0,0,0,0.6); padding: 0.2rem 0.5rem; border-radius: 4px; margin-top: 0.5rem; border: 1px solid var(--accent); color: var(--accent);">${p.Value || ''}</div>` : ''}
                             <div class="card-img-placeholder"></div>
                             <div class="card-name">${slot.player.Nome}</div>
                         ` : `
@@ -187,16 +205,11 @@ export class DraftUI {
         });
         pitchHtml += `</div></div>`;
 
-        // Team selection section
         let teamHtml = '';
         if (isLoading) {
             teamHtml = `<div class="loader-container"><div class="loader">Ricerca prossima squadra...</div></div>`;
         } else if (this.currentTeam) {
-            
-            // Get already drafted player names
             const draftedNames = new Set(this.slots.filter(s => s.player !== null).map(s => s.player.Nome));
-
-            // Calculate remaining required roles
             const remainingRoles = new Set();
             this.slots.forEach(slot => {
                 if (slot.player === null) {
@@ -204,7 +217,6 @@ export class DraftUI {
                 }
             });
 
-            // Filter players that have at least one role matching remainingRoles AND are not already drafted
             const filteredPlayers = this.currentTeam.players
                 .map((p, idx) => ({ player: p, originalIdx: idx }))
                 .filter(item => {
@@ -213,7 +225,6 @@ export class DraftUI {
                     return pRoles.some(r => remainingRoles.has(r));
                 });
             
-            // Sorting
             if (this.blindDraft) {
                 filteredPlayers.sort((a, b) => a.player.Nome.localeCompare(b.player.Nome));
             } else {
@@ -234,6 +245,7 @@ export class DraftUI {
                             <div class="p-left">
                                 <span class="p-ovr ${isGold ? 'text-gold' : ''}">${displayOvr}</span>
                                 <span class="p-name">${p.Nome}</span>
+                                ${!this.blindDraft && p.Value ? `<span style="font-size:0.75rem; color: #10b981; background: rgba(16,185,129,0.1); padding: 0.2rem 0.4rem; border-radius:4px; margin-left: 8px; font-family:monospace;">${p.Value}</span>` : ''}
                             </div>
                             <div class="p-right">
                                 <span class="p-role">${p.Ruolo}</span>
@@ -254,8 +266,18 @@ export class DraftUI {
             <div class="draft-container">
                 <div class="draft-left">
                     <div class="draft-header-info">
-                        <h2>Scegli il tuo 11</h2>
-                        <span class="picks-badge">Scelte rimanenti: ${this.picksRemaining}</span>
+                        <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+                            <h2>Scegli il tuo 11</h2>
+                            <span class="picks-badge">Scelte rimanenti: ${this.picksRemaining}</span>
+                        </div>
+                        ${this.budgetMode ? `
+                        <div class="budget-bar-container" style="width: 100%; margin-top: 15px; background: rgba(0,0,0,0.5); border: 1px solid var(--border-color); border-radius: 8px; overflow: hidden; position: relative; height: 28px;">
+                            <div class="budget-fill" style="width: ${Math.min((this.budgetSpent / this.budgetMax) * 100, 100)}%; height: 100%; background: ${this.budgetSpent > this.budgetMax ? 'red' : 'var(--accent)'}; transition: width 0.3s ease;"></div>
+                            <div class="budget-text" style="position: absolute; width: 100%; text-align: center; top: 0; line-height: 28px; font-size: 0.95rem; font-weight: bold; color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.8);">
+                                Budget: €${(this.budgetSpent/1000000).toFixed(1)}M / €${(this.budgetMax/1000000).toFixed(1)}M
+                            </div>
+                        </div>
+                        ` : ''}
                     </div>
                     ${pitchHtml}
                 </div>
@@ -271,7 +293,6 @@ export class DraftUI {
     attachDraftEvents() {
         if (!this.currentTeam) return;
 
-        // Player selection
         const players = this.container.querySelectorAll('.roster-player');
         players.forEach(p => {
             p.addEventListener('click', (e) => {
@@ -280,12 +301,10 @@ export class DraftUI {
                 el.classList.add('selected');
                 this.selectedPlayer = this.currentTeam.players[el.getAttribute('data-idx')];
                 
-                // Highlight compatible empty slots
                 this.highlightCompatibleSlots();
             });
         });
 
-        // Skip Team button logic
         const btnSkip = this.container.querySelector('#btn-skip-team');
         if (btnSkip) {
             btnSkip.addEventListener('click', () => {
@@ -293,7 +312,6 @@ export class DraftUI {
             });
         }
 
-        // Slot assignment
         const slots = this.container.querySelectorAll('.slot:not(.filled)');
         slots.forEach(s => {
             s.addEventListener('click', (e) => {
@@ -316,7 +334,6 @@ export class DraftUI {
             const slotId = parseInt(el.getAttribute('data-slot-id'));
             const requiredRole = this.slots[slotId].requiredRole;
             
-            // Allow exact match or if player can play that role
             if (playerRoles.includes(requiredRole)) {
                 el.classList.add('compatible');
             }
@@ -329,28 +346,33 @@ export class DraftUI {
 
         if (!playerRoles.includes(slot.requiredRole)) {
             alert(`Azione non consentita! ${this.selectedPlayer.Nome} è un ${this.selectedPlayer.Ruolo}, non può giocare come ${slot.requiredRole}. Scegli uno slot compatibile o un altro giocatore.`);
-            return; // Blocca l'assegnazione
+            return;
         }
 
-        // Assign
+        if (this.budgetMode) {
+            const playerCost = this.selectedPlayer.ValueNum;
+            if (this.budgetSpent + playerCost > this.budgetMax) {
+                alert(`Fondi insufficienti! Acquistando ${this.selectedPlayer.Nome} sforeresti il budget di €${((this.budgetSpent + playerCost - this.budgetMax)/1000000).toFixed(1)}M.`);
+                return;
+            }
+            this.budgetSpent += playerCost;
+        }
+
         slot.player = this.selectedPlayer;
         this.picksRemaining--;
         this.rollNextTeam();
     }
 
     finishDraft() {
-        // Reveal OVRs if they were hidden
         this.blindDraft = false;
 
         const draftedPlayers = this.slots.map(s => s.player);
         this.state.completeDraft(draftedPlayers);
         
-        // Render the board one last time to show the real OVRs before transitioning
         this.renderDraftBoard();
 
         const stats = this.calculateTeamStats();
 
-        // Replace the right column content with the final stats
         const rightContainer = this.container.querySelector('.draft-right');
         if (rightContainer) {
             rightContainer.innerHTML = `
