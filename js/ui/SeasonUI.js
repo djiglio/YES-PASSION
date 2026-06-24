@@ -335,59 +335,59 @@ export class SeasonUI {
                 <button class="btn" onclick="window.location.reload()" style="font-size: 1.2rem; padding: 1rem 3rem;">Gioca Nuova Stagione</button>
             </div>
             
-            <div class="stats-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; max-width: 1200px; margin: 0 auto 3rem; padding: 0 1rem;">
-                <div class="stats-card" style="background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 12px; padding: 1.5rem;">
-                    <h3 style="color: var(--accent); border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 0.5rem; margin-bottom: 1rem;">La Tua Squadra</h3>
-                    <div style="margin-bottom: 1rem;">
-                        <span style="color: var(--text-muted); font-size: 0.9rem;">Miglior Marcatore</span><br>
-                        <strong style="font-size: 1.2rem;">${topStats.userStats.topScorer.name}</strong> <span style="color: var(--accent);">(${topStats.userStats.topScorer.goals} Gol)</span>
+            <div class="stats-grid">
+                <div class="stats-card user-stats-card">
+                    <h3 class="stats-card-title">La Tua Squadra</h3>
+                    <div class="stat-item">
+                        <span class="stat-label">Miglior Marcatore</span><br>
+                        <strong class="stat-value">${topStats.userStats.topScorer.name}</strong> <span class="stat-highlight">(${topStats.userStats.topScorer.goals} Gol)</span>
                     </div>
-                    <div style="margin-bottom: 1rem;">
-                        <span style="color: var(--text-muted); font-size: 0.9rem;">Miglior Assistman</span><br>
-                        <strong style="font-size: 1.2rem;">${topStats.userStats.topAssist.name}</strong> <span style="color: var(--accent);">(${topStats.userStats.topAssist.assists} Assist)</span>
+                    <div class="stat-item">
+                        <span class="stat-label">Miglior Assistman</span><br>
+                        <strong class="stat-value">${topStats.userStats.topAssist.name}</strong> <span class="stat-highlight">(${topStats.userStats.topAssist.assists} Assist)</span>
                     </div>
-                    <div style="margin-bottom: 1rem;">
-                        <span style="color: var(--text-muted); font-size: 0.9rem;">Clean Sheets (Portiere/Difesa)</span><br>
-                        <strong style="font-size: 1.2rem;">${topStats.userStats.cleanSheets}</strong>
+                    <div class="stat-item">
+                        <span class="stat-label">Clean Sheets (Portiere/Difesa)</span><br>
+                        <strong class="stat-value">${topStats.userStats.cleanSheets}</strong>
                     </div>
                 </div>
 
-                <div class="stats-card" style="background: linear-gradient(135deg, rgba(255,215,0,0.1) 0%, rgba(218,165,32,0.2) 100%); border: 1px solid gold; border-radius: 12px; padding: 1.5rem; text-align: center;">
-                    <h3 style="color: gold; text-shadow: 0 0 10px rgba(255,215,0,0.5); margin-bottom: 1rem;">Miglior Giocatore (MVP)</h3>
-                    <div style="font-size: 4rem; margin-bottom: 1rem;">🏆</div>
-                    <strong style="font-size: 1.8rem; display: block; margin-bottom: 0.5rem;">${topStats.mvp ? topStats.mvp.name : '-'}</strong>
-                    <span style="color: var(--text-muted);">${topStats.mvp ? topStats.mvp.team : '-'}</span>
-                    <div style="margin-top: 1rem; font-size: 1.1rem;">
+                <div class="stats-card mvp-card">
+                    <h3 class="mvp-title">Miglior Giocatore (MVP)</h3>
+                    <div class="mvp-icon">🏆</div>
+                    <strong class="mvp-name">${topStats.mvp ? topStats.mvp.name : '-'}</strong>
+                    <span class="mvp-team">${topStats.mvp ? topStats.mvp.team : '-'}</span>
+                    <div class="mvp-stats">
                         <strong>${topStats.mvp ? topStats.mvp.goals : 0}</strong> Gol | <strong>${topStats.mvp ? topStats.mvp.assists : 0}</strong> Assist
                     </div>
                 </div>
             </div>
 
-            <div class="tables-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; max-width: 1200px; margin: 0 auto; padding: 0 1rem;">
-                <div style="background: var(--card-bg); padding: 1.5rem; border-radius: 12px; border: 1px solid var(--border-color);">
-                    <h3 style="color: var(--accent); margin-bottom: 1rem;">Classifica Finale</h3>
-                    <div class="standings-table inner-table"></div>
+            <div class="tables-grid">
+                <div class="stats-table-wrapper">
+                    <h3 class="table-title">Classifica Finale</h3>
+                    <div class="standings-table inner-table" style="overflow-x: auto;"></div>
                 </div>
 
-                <div class="stats-table" style="background: var(--card-bg); padding: 1.5rem; border-radius: 12px; border: 1px solid var(--border-color);">
-                    <h3 style="color: var(--accent); margin-bottom: 1rem;">Capocannoniere (Top 10)</h3>
-                    <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                <div class="stats-table-wrapper">
+                    <h3 class="table-title">Capocannoniere (Top 10)</h3>
+                    <div class="stats-list">
                         ${topStats.topScorers.map((p, idx) => `
-                            <div style="display: flex; justify-content: space-between; align-items: center; padding: 0.5rem; background: rgba(255,255,255,0.05); border-radius: 6px; ${p.isUser ? 'border-left: 3px solid var(--accent);' : ''}">
-                                <div><span style="color: var(--text-muted); width: 20px; display: inline-block;">${idx + 1}.</span> <strong>${p.name}</strong> <span style="font-size: 0.8rem; color: var(--text-muted);">(${p.team})</span></div>
-                                <strong style="color: var(--accent);">${p.goals}</strong>
+                            <div class="stats-list-item ${p.isUser ? 'is-user' : ''}">
+                                <div><span class="rank-num">${idx + 1}.</span> <strong>${p.name}</strong> <span class="team-name">(${p.team})</span></div>
+                                <strong class="stat-highlight">${p.goals}</strong>
                             </div>
                         `).join('')}
                     </div>
                 </div>
 
-                <div class="stats-table" style="background: var(--card-bg); padding: 1.5rem; border-radius: 12px; border: 1px solid var(--border-color);">
-                    <h3 style="color: var(--accent); margin-bottom: 1rem;">Miglior Assistman (Top 10)</h3>
-                    <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                <div class="stats-table-wrapper">
+                    <h3 class="table-title">Miglior Assistman (Top 10)</h3>
+                    <div class="stats-list">
                         ${topStats.topAssists.map((p, idx) => `
-                            <div style="display: flex; justify-content: space-between; align-items: center; padding: 0.5rem; background: rgba(255,255,255,0.05); border-radius: 6px; ${p.isUser ? 'border-left: 3px solid var(--accent);' : ''}">
-                                <div><span style="color: var(--text-muted); width: 20px; display: inline-block;">${idx + 1}.</span> <strong>${p.name}</strong> <span style="font-size: 0.8rem; color: var(--text-muted);">(${p.team})</span></div>
-                                <strong style="color: var(--accent);">${p.assists}</strong>
+                            <div class="stats-list-item ${p.isUser ? 'is-user' : ''}">
+                                <div><span class="rank-num">${idx + 1}.</span> <strong>${p.name}</strong> <span class="team-name">(${p.team})</span></div>
+                                <strong class="stat-highlight">${p.assists}</strong>
                             </div>
                         `).join('')}
                     </div>
