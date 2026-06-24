@@ -30,6 +30,8 @@ export class MatchEngine {
             awayTeam: awayTeam.name,
             homeScore: homeGoals,
             awayScore: awayGoals,
+            homeCleanSheet: awayGoals === 0,
+            awayCleanSheet: homeGoals === 0,
             events: events
         };
     }
@@ -63,6 +65,7 @@ export class MatchEngine {
             for (let i = 0; i < goals; i++) {
                 const minute = Math.floor(Math.random() * 90) + 1;
                 let scorer = "Sconosciuto";
+                let assistman = null;
                 let isPenalty = Math.random() < 0.1; // 10% chance for a penalty
 
                 if (teamObj.squad && teamObj.squad.length > 0) {
@@ -78,12 +81,31 @@ export class MatchEngine {
                     } else {
                         scorer = teamObj.squad[Math.floor(Math.random() * teamObj.squad.length)].Nome;
                     }
+
+                    // Generate assistman (70% chance if not penalty)
+                    if (!isPenalty && Math.random() > 0.3) {
+                        const assistRand = Math.random();
+                        let assistRole = 'CC'; // Midfielders primarily
+                        if (assistRand > 0.6) assistRole = 'ATT'; // Attackers
+                        if (assistRand > 0.85) assistRole = 'DC'; // Defenders / Fullbacks
+
+                        const assistCandidates = teamObj.squad.filter(p => p.Ruolo && p.Ruolo.includes(assistRole) && p.Nome !== scorer);
+                        if (assistCandidates.length > 0) {
+                            assistman = assistCandidates[Math.floor(Math.random() * assistCandidates.length)].Nome;
+                        } else {
+                            const remaining = teamObj.squad.filter(p => p.Nome !== scorer && !p.Ruolo.includes('POR'));
+                            if (remaining.length > 0) {
+                                assistman = remaining[Math.floor(Math.random() * remaining.length)].Nome;
+                            }
+                        }
+                    }
                 }
 
                 events.push({
                     minute: minute,
                     team: teamObj.name,
                     scorer: scorer,
+                    assistman: assistman,
                     isHome: isHome,
                     isPenalty: isPenalty
                 });

@@ -116,7 +116,10 @@ export class SeasonUI {
                 homeId: match.home,
                 awayId: match.away,
                 homeScore: result.homeScore,
-                awayScore: result.awayScore
+                awayScore: result.awayScore,
+                homeCleanSheet: result.homeCleanSheet,
+                awayCleanSheet: result.awayCleanSheet,
+                events: result.events
             });
 
             if (match.home === 'user_team' || match.away === 'user_team') {
@@ -291,7 +294,10 @@ export class SeasonUI {
                     homeId: match.home,
                     awayId: match.away,
                     homeScore: result.homeScore,
-                    awayScore: result.awayScore
+                    awayScore: result.awayScore,
+                    homeCleanSheet: result.homeCleanSheet,
+                    awayCleanSheet: result.awayCleanSheet,
+                    events: result.events
                 });
             });
             this.state.updateStandings(matchResults);
@@ -303,21 +309,101 @@ export class SeasonUI {
     renderEndSeason() {
         const userTeam = this.state.standings.find(t => t.isUser);
         const finalPosition = this.state.standings.findIndex(t => t.isUser) + 1;
+        const topStats = this.state.getTopStats();
         
         this.container.innerHTML = `
-            <div class="end-season" style="display:flex; flex-direction:column; align-items:center; text-align:center;">
-                <h2 style="font-size: 3rem; color: var(--accent); margin-bottom: 1rem; text-shadow: 0 0 15px rgba(0,230,255,0.5);">Stagione Conclusa!</h2>
+            <div class="end-season-header" style="text-align:center; padding: 2rem 1rem;">
+                <h2 style="font-size: 3rem; color: var(--accent); margin-bottom: 0.5rem; text-shadow: 0 0 15px rgba(0,230,255,0.5);">Stagione ${this.state.currentSeason.season_name} Conclusa!</h2>
                 <p style="font-size: 1.5rem; margin-bottom: 0.5rem;">Hai terminato il campionato al <strong>${finalPosition}° posto</strong>.</p>
                 <p style="font-size: 1.2rem; color: var(--text-muted); margin-bottom: 2rem;">Punti Totali: <strong style="color: #fff;">${userTeam.points}</strong> (V: ${userTeam.won} | N: ${userTeam.drawn} | P: ${userTeam.lost})</p>
-                <button class="btn" onclick="window.location.reload()" style="font-size: 1.2rem; padding: 1rem 3rem;">Rigioca</button>
+                <button class="btn" onclick="window.location.reload()" style="font-size: 1.2rem; padding: 1rem 3rem;">Gioca Nuova Stagione</button>
             </div>
-            <div class="standings-table" style="width: 100%; max-width: 800px; margin: 3rem auto; background: var(--card-bg); padding: 2rem; border-radius: 12px; border: 1px solid var(--border-color);">
-                <!-- Final standings here -->
+            
+            <div class="stats-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; max-width: 1200px; margin: 0 auto 3rem; padding: 0 1rem;">
+                <div class="stats-card" style="background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 12px; padding: 1.5rem;">
+                    <h3 style="color: var(--accent); border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 0.5rem; margin-bottom: 1rem;">La Tua Squadra</h3>
+                    <div style="margin-bottom: 1rem;">
+                        <span style="color: var(--text-muted); font-size: 0.9rem;">Miglior Marcatore</span><br>
+                        <strong style="font-size: 1.2rem;">${topStats.userStats.topScorer.name}</strong> <span style="color: var(--accent);">(${topStats.userStats.topScorer.goals} Gol)</span>
+                    </div>
+                    <div style="margin-bottom: 1rem;">
+                        <span style="color: var(--text-muted); font-size: 0.9rem;">Miglior Assistman</span><br>
+                        <strong style="font-size: 1.2rem;">${topStats.userStats.topAssist.name}</strong> <span style="color: var(--accent);">(${topStats.userStats.topAssist.assists} Assist)</span>
+                    </div>
+                    <div style="margin-bottom: 1rem;">
+                        <span style="color: var(--text-muted); font-size: 0.9rem;">Clean Sheets (Portiere/Difesa)</span><br>
+                        <strong style="font-size: 1.2rem;">${topStats.userStats.cleanSheets}</strong>
+                    </div>
+                </div>
+
+                <div class="stats-card" style="background: linear-gradient(135deg, rgba(255,215,0,0.1) 0%, rgba(218,165,32,0.2) 100%); border: 1px solid gold; border-radius: 12px; padding: 1.5rem; text-align: center;">
+                    <h3 style="color: gold; text-shadow: 0 0 10px rgba(255,215,0,0.5); margin-bottom: 1rem;">Miglior Giocatore (MVP)</h3>
+                    <div style="font-size: 4rem; margin-bottom: 1rem;">🏆</div>
+                    <strong style="font-size: 1.8rem; display: block; margin-bottom: 0.5rem;">${topStats.mvp ? topStats.mvp.name : '-'}</strong>
+                    <span style="color: var(--text-muted);">${topStats.mvp ? topStats.mvp.team : '-'}</span>
+                    <div style="margin-top: 1rem; font-size: 1.1rem;">
+                        <strong>${topStats.mvp ? topStats.mvp.goals : 0}</strong> Gol | <strong>${topStats.mvp ? topStats.mvp.assists : 0}</strong> Assist
+                    </div>
+                </div>
             </div>
+
+            <div class="tables-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; max-width: 1200px; margin: 0 auto; padding: 0 1rem;">
+                <div style="background: var(--card-bg); padding: 1.5rem; border-radius: 12px; border: 1px solid var(--border-color);">
+                    <h3 style="color: var(--accent); margin-bottom: 1rem;">Classifica Finale</h3>
+                    <div class="standings-table inner-table"></div>
+                </div>
+
+                <div class="stats-table" style="background: var(--card-bg); padding: 1.5rem; border-radius: 12px; border: 1px solid var(--border-color);">
+                    <h3 style="color: var(--accent); margin-bottom: 1rem;">Capocannoniere (Top 10)</h3>
+                    <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                        ${topStats.topScorers.map((p, idx) => `
+                            <div style="display: flex; justify-content: space-between; align-items: center; padding: 0.5rem; background: rgba(255,255,255,0.05); border-radius: 6px; ${p.isUser ? 'border-left: 3px solid var(--accent);' : ''}">
+                                <div><span style="color: var(--text-muted); width: 20px; display: inline-block;">${idx + 1}.</span> <strong>${p.name}</strong> <span style="font-size: 0.8rem; color: var(--text-muted);">(${p.team})</span></div>
+                                <strong style="color: var(--accent);">${p.goals}</strong>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+
+                <div class="stats-table" style="background: var(--card-bg); padding: 1.5rem; border-radius: 12px; border: 1px solid var(--border-color);">
+                    <h3 style="color: var(--accent); margin-bottom: 1rem;">Miglior Assistman (Top 10)</h3>
+                    <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                        ${topStats.topAssists.map((p, idx) => `
+                            <div style="display: flex; justify-content: space-between; align-items: center; padding: 0.5rem; background: rgba(255,255,255,0.05); border-radius: 6px; ${p.isUser ? 'border-left: 3px solid var(--accent);' : ''}">
+                                <div><span style="color: var(--text-muted); width: 20px; display: inline-block;">${idx + 1}.</span> <strong>${p.name}</strong> <span style="font-size: 0.8rem; color: var(--text-muted);">(${p.team})</span></div>
+                                <strong style="color: var(--accent);">${p.assists}</strong>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            </div>
+            <br><br>
         `;
         
-        const table = this.container.querySelector('.standings-table');
-        // Re-use updateStandingsUIOnly but point it to this table
-        this.updateStandingsUIOnly.call({ container: this.container, state: this.state });
+        // Re-use updateStandingsUIOnly but point it to the inner table
+        const table = this.container.querySelector('.inner-table');
+        if (table) {
+            let rowsHtml = `
+                <div class="s-row s-header">
+                    <div class="s-pos">#</div>
+                    <div class="s-team">Squadra</div>
+                    <div class="s-pts">PT</div>
+                    <div class="s-stat">V</div>
+                    <div class="s-stat">N</div>
+                    <div class="s-stat">P</div>
+                </div>
+            `;
+            rowsHtml += this.state.standings.map((t, idx) => `
+                <div class="s-row ${t.isUser ? 's-user' : ''}">
+                    <div class="s-pos">${idx + 1}</div>
+                    <div class="s-team">${t.name}</div>
+                    <div class="s-pts">${t.points}</div>
+                    <div class="s-stat">${t.won}</div>
+                    <div class="s-stat">${t.drawn}</div>
+                    <div class="s-stat">${t.lost}</div>
+                </div>
+            `).join('');
+            table.innerHTML = rowsHtml;
+        }
     }
 }
