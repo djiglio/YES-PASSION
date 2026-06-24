@@ -480,9 +480,17 @@ input[type=range] {
 
 .s-user {
     background: rgba(0, 230, 255, 0.1);
-    border-left: 3px solid var(--accent);
     font-weight: 600;
 }
+.s-row.s-user:not(.s-scudetto):not(.s-champions):not(.s-europa):not(.s-conference):not(.s-relegation) {
+    border-left: 3px solid var(--accent);
+}
+
+.s-scudetto { border-left: 3px solid #FFD700; }
+.s-champions { border-left: 3px solid #00529F; }
+.s-europa { border-left: 3px solid #F36C21; }
+.s-conference { border-left: 3px solid #28A745; }
+.s-relegation { border-left: 3px solid #DC3545; }
 
 .s-team {
     white-space: nowrap;

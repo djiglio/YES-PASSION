@@ -42,7 +42,7 @@ export class SeasonUI {
                             <div class="s-stat">DR</div>
                         </div>
                         ${this.state.standings.map((t, idx) => `
-                            <div class="s-row ${t.isUser ? 's-user' : ''}">
+                        <div class="s-row ${t.isUser ? 's-user' : ''} ${this.getZoneClass(idx)}">
                                 <div class="s-pos">${idx + 1}</div>
                                 <div class="s-team">${t.name}</div>
                                 <div class="s-pts">${t.points}</div>
@@ -80,6 +80,15 @@ export class SeasonUI {
 
     getTeamName(id) {
         return this.state.standings.find(t => t.id === id)?.name || id;
+    }
+
+    getZoneClass(idx) {
+        if (idx === 0) return 's-scudetto';
+        if (idx >= 1 && idx <= 3) return 's-champions';
+        if (idx === 4) return 's-europa';
+        if (idx === 5) return 's-conference';
+        if (idx >= 17 && idx <= 19) return 's-relegation';
+        return '';
     }
 
     attachEvents() {
@@ -254,7 +263,7 @@ export class SeasonUI {
         `;
         
         rowsHtml += this.state.standings.map((t, idx) => `
-            <div class="s-row ${t.isUser ? 's-user' : ''}">
+            <div class="s-row ${t.isUser ? 's-user' : ''} ${this.getZoneClass(idx)}">
                 <div class="s-pos">${idx + 1}</div>
                 <div class="s-team">${t.name}</div>
                 <div class="s-pts">${t.points}</div>
@@ -404,7 +413,7 @@ export class SeasonUI {
                 </div>
             `;
             rowsHtml += this.state.standings.map((t, idx) => `
-                <div class="s-row ${t.isUser ? 's-user' : ''}">
+                <div class="s-row ${t.isUser ? 's-user' : ''} ${this.getZoneClass(idx)}">
                     <div class="s-pos">${idx + 1}</div>
                     <div class="s-team">${t.name}</div>
                     <div class="s-pts">${t.points}</div>
