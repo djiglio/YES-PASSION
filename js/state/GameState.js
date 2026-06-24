@@ -121,7 +121,8 @@ export class GameState {
                     def: t.squad_strength.def_ovr,
                     gk: t.squad_strength.gk_ovr
                 },
-                squad: squadToUse
+                squad: squadToUse,
+                fullRoster: t.isUser ? null : t.players
             };
         });
 
