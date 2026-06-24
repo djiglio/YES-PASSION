@@ -414,7 +414,19 @@ export class DraftUI {
                 });
             
             if (this.blindDraft) {
-                filteredPlayers.sort((a, b) => a.player.Nome.localeCompare(b.player.Nome));
+                const roleOrder = ['POR', 'TD', 'TS', 'DC', 'ED', 'ES', 'CC', 'CDC', 'COC', 'AD', 'AS', 'AT', 'ATT'];
+                const getRoleRank = (ruoloString) => {
+                    const primary = ruoloString.split(',')[0].trim();
+                    const index = roleOrder.indexOf(primary);
+                    return index === -1 ? 99 : index;
+                };
+
+                filteredPlayers.sort((a, b) => {
+                    const rankA = getRoleRank(a.player.Ruolo);
+                    const rankB = getRoleRank(b.player.Ruolo);
+                    if (rankA !== rankB) return rankA - rankB;
+                    return a.player.Nome.localeCompare(b.player.Nome);
+                });
             } else {
                 filteredPlayers.sort((a, b) => b.player.Overall - a.player.Overall);
             }
