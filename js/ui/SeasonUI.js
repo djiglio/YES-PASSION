@@ -58,12 +58,6 @@ export class SeasonUI {
                 
                 <div class="season-right">
                     <div class="next-match-card">
-                        <h3>Prossima Partita</h3>
-                        <div class="match-teams" style="flex-direction: column; gap: 0.5rem;">
-                            <span style="font-size: 0.9rem; color: var(--text-muted);">${userMatch.home === 'user_team' ? 'In Casa contro' : 'In Trasferta contro'}</span>
-                            <span class="m-home" style="font-size: 1.8rem; color: var(--accent);">${userMatch.home === 'user_team' ? this.getTeamName(userMatch.away) : this.getTeamName(userMatch.home)}</span>
-                        </div>
-                        
                         <div class="sim-controls">
                             ${!this.isSimulatingFast ? `
                                 <button id="btn-play-day" class="btn">Gioca Giornata</button>
@@ -112,13 +106,6 @@ export class SeasonUI {
         }
 
         const userMatch = currentMatches.find(m => m.home === 'user_team' || m.away === 'user_team');
-        const matchTeamsContainer = this.container.querySelector('.match-teams');
-        if (matchTeamsContainer && userMatch) {
-            matchTeamsContainer.innerHTML = `
-                <span style="font-size: 0.9rem; color: var(--text-muted);">${userMatch.home === 'user_team' ? 'In Casa contro' : 'In Trasferta contro'}</span>
-                <span class="m-home" style="font-size: 1.8rem; color: var(--accent);">${userMatch.home === 'user_team' ? this.getTeamName(userMatch.away) : this.getTeamName(userMatch.home)}</span>
-            `;
-        }
 
         const matchResults = [];
         let userMatchResult = null;
